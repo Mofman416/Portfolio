@@ -22,4 +22,4 @@ sum1 = int(score1) + int(score2) + int(score3)
 avg = sum1 / int(test)
 print(avg)
 input()
-
+#added in Git

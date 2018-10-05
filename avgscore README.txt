@@ -1,0 +1,1 @@
+I created a function to calculate the average score. You input the score across ten tests and it calculates the total score and then divided by 10.

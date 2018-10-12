@@ -1,0 +1,1 @@
+Messed around with the loop program and made something where you can choose to fight or run. Damage output is calculated with a Random Number Generator and has special messages for losing or winning.

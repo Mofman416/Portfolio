@@ -195,7 +195,7 @@ def chapel(name):
             monsterdamage = random.randrange(0,20)
             mhealth = 60
             combat(monsterdamage, mhealth, monster, phealth, poriginal, playerdamage, monsterimage, name)
-            print("The Wraith disappears and " + name + "finds a bookshelf.")
+            print("The Wraith disappears and " + name + " finds a bookshelf.")
             print()
             print("They begin reading.")
             print()
@@ -241,7 +241,86 @@ def chapel(name):
         else:
             print("Invalid Choice. Try Again.")
 
-
+def factory(name):
+    print(name, "walks into an old factory.")
+    print()
+    print("The pipes hang low and metal grates act like walkways.")
+    print()
+    print("The smell of unused chemicals and dead things flood the area.")
+    print()
+    print("Out of the dark, a rat appears!")
+    print()
+    monster = "Rat"
+    monsterdamage = random.randrange(0,20)
+    mhealth = 35
+    monsterimage = """
+                             _______      ________
+                            /       \    /        \
+                            |       |    |        |
+                            \        ----         /
+                             |                   |
+                             |    **       **    |
+                             |    **       **    |
+                             |         %%        |
+                             \         %%        /
+                              -------------------"""
+    combat(monsterdamage, mhealth, monster, phealth, poriginal, playerdamage, monsterimage, name)
+    print(name, "proceeded to navigate the area.")
+    print()
+    print("You finally reach a large pool of water in a room of the factory.")
+    print()
+    print("There's a button on a console from accross the room.")
+    print()
+    print("It looks like it'll go something with the pool.")
+    print()
+    while True:
+        choice = input("Will you push the button (Button) or go home (Home)? ")
+        print()
+        if choice.lower().startswith("b"):
+            print(name, "pushes the button.")
+            print()
+            print("The water beings to stir and makes a big whirlpool.")
+            print()
+            print("You can feel a rumbling...")
+            print()
+            print("A Kraken appears!")
+            monster = "Kraken"
+            monsterdamage = random.randrange(0,20)
+            mhealth = 70
+            monsterimage = """      ^
+                                   / \
+                                  /   \
+                               ----------
+                              |          |
+                              |  []  []  |
+                              |          |
+                              |     0    |
+                              ------------
+                              ____________"""
+            combat(monsterdamage, mhealth, monster, phealth, poriginal, playerdamage, monsterimage, name)
+            print("A falling tentacle hits the computer and boots up a log.")
+            print()
+            print("With the chaos over " + name + " goes over to read the reports.")
+            print()
+            print(name, "begins reading the reports.")
+            print("'Log 4 - We have been happily partnered with the town down river. We're working with them to see what needs to be done and what we can do to help them have a better life.'")
+            print()
+            choice = input("Continue Reading (Y/N)? ")
+            while True:
+                if choice.lower().startswith("Y"):
+                    print()
+                elif choice.lower().startswith("N"):
+                    print()
+                else:
+                    print("Invalid Response. Try Again.")
+            break
+        elif choice.lower().startswith("H"):
+            print(name,  "goes home. That's enough adventuring.")
+            gameover()
+            break
+        else:
+            print("Invalid Response. Try Again.")
+            print()
 print("Welcome to the Great Adventure!")
 print()
 print("To play this game, read the scenarios and pick an option. Options are labeled with a key word in parentheses that help with progression.")

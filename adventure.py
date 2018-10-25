@@ -306,11 +306,19 @@ def factory(name):
             print("'Log 4 - We have been happily partnered with the town down river. We're working with them to see what needs to be done and what we can do to help them have a better life.'")
             print()
             choice = input("Continue Reading (Y/N)? ")
+            print()
             while True:
                 if choice.lower().startswith("Y"):
+                    print("'Log 7 - There was a big accident. We're not sure how it could affect the area, but we decided to keep it a secret to not induce mass hyteria.'")
                     print()
+                    choice = input("Continue Reading (Y/N)? ")
+                    print()
+                    if choice.lower().startswith("Y"):
+                        #You left off here!
                 elif choice.lower().startswith("N"):
-                    print()
+                    print(name, "goes home. No more adventures.")
+                    gameover()
+                    break
                 else:
                     print("Invalid Response. Try Again.")
             break

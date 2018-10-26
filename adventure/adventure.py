@@ -57,6 +57,7 @@ def tut(name):
                     choice = input("Go to the Factory (Factory) or go Home (Home)? ")
                     if choice.lower().startswith("f"):
                         factory(name)
+                        end(name)
                     elif choice.lower().startswith("h"):
                         print(name, "goes home. ")
                         gameover()
@@ -72,6 +73,8 @@ def tut(name):
                     choice = input("Go to the Chapel (Chapel) or go Home (Home)? ")
                     if choice.lower().startswith("c"):
                         chapel(name)
+                        end(name)
+                        break
                     elif choice.lower().startswith("h"):
                         print(name, "goes home. ")
                         gameover()
@@ -308,27 +311,85 @@ def factory(name):
             choice = input("Continue Reading (Y/N)? ")
             print()
             while True:
-                if choice.lower().startswith("Y"):
+                if choice.lower().startswith("y"):
                     print("'Log 7 - There was a big accident. We're not sure how it could affect the area, but we decided to keep it a secret to not induce mass hyteria.'")
                     print()
                     choice = input("Continue Reading (Y/N)? ")
                     print()
-                    if choice.lower().startswith("Y"):
-                        #You left off here!
-                elif choice.lower().startswith("N"):
+                    if choice.lower().startswith("y"):
+                        print("'Log 12 - A rogue employee went and dumped a bunch of hallucinages and pollutants into the river before jumping in himself. He's dead. We will be if we don't fix this soon.'")
+                        print()
+                        choice = input("Continue Reading (Y/N)? ")
+                        print()
+                        if choice.lower().startswith("y"):
+                            print("'Log 13 - A huge and horrible monster has been created from the radiation and pollution. It has wrecked the place. This report will continue. Stay tuned.'")
+                            print()
+                            print("The reports do not continue.")
+                            print()
+                            print(name, "shuts the machine off and leaves.")
+                            print()
+                            break
+                elif choice.lower().startswith("n"):
                     print(name, "goes home. No more adventures.")
                     gameover()
                     break
                 else:
                     print("Invalid Response. Try Again.")
             break
-        elif choice.lower().startswith("H"):
+        elif choice.lower().startswith("h"):
             print(name,  "goes home. That's enough adventuring.")
             gameover()
             break
         else:
             print("Invalid Response. Try Again.")
             print()
+
+def end(name):
+    print(name, "begins to piece together the story.")
+    print()
+    print("The town and factory were once living hand in hand with each other.")
+    print()
+    print("Then something bad happened in the factory that affected the town.")
+    print()
+    print("While the factory was trying to deal with it, the town fell to cannibalism.")
+    print()
+    print("And then somewhere along the line the Kraken and the Wraith destroyed both places.")
+    print()
+    print("And now " + " has removed all the threats of the area.")
+    print()
+    print("The souls lost can now rest in peace.")
+    while True:
+        choice = input("Should anyone be told (Y/N)? ")
+        if choice.lower().startswith("y"):
+            print(name, "drives home and alerts the authorities.")
+            print()
+            print("Apparently nobody knew the town even existed.")
+            print()
+            print("They congratulate " + name + " for removing the threats with only a baseball bat and question them on why they were there.")
+            print()
+            print(name, "is sent home. They have saved many people from possible harm of the town and the creatures inside.")
+            print()
+            print(name, "puts the bat away and sleeps in their bed, eager for the next adventure.")
+            print()
+            print("Congratulations! You win!")
+            print()
+            gameover()
+            break
+        elif choice.lower().startswith("n"):
+            print(name, "drives home and goes to bed.")
+            print()
+            print("Telling the events that have happened would snap a normal person.")
+            print()
+            print(name, "goes to sleep, feeling exhausted after the adventure.")
+            print()
+            print("Congratulations, You win!")
+            print()
+            gameover()
+            break
+        else:
+            print("Invalid Responce. Please Try again.")
+            print()
+
 print("Welcome to the Great Adventure!")
 print()
 print("To play this game, read the scenarios and pick an option. Options are labeled with a key word in parentheses that help with progression.")

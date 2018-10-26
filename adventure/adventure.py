@@ -2,6 +2,7 @@
 
 import random
 import time
+import sys
 phealth = 100
 poriginal = 100
 playerdamage = random.randrange(0,30)
@@ -135,22 +136,21 @@ def combat(monsterdamage, mhealth, monster, phealth, poriginal, playerdamage, mo
     if action.lower().startswith("r"):
         print("You run from " + monster + ".")
         print()
-
-    else:
-        print("Invalid option. Try again.")
         
 def gameover():
-    answer = input("Do you want to restart (Restart) or Quit (Quit)? ").lower()
-    print()
-    if answer.startswith("r"):
-        adventure()
-    elif answer.startswith("q"):
-        print("Thank you for playing! Have a good day!")
-        time.sleep(10)
-    else:
-        print("Quit messing around, punk.")
+    while True:
+        answer = input("Do you want to restart (Restart) or Quit (Quit)? ").lower()
         print()
-        gameover()
+        if answer.startswith("r"):
+            adventure()
+        elif answer.startswith("q"):
+            print("Thank you for playing! Have a good day!")
+            kill()
+            break
+            
+        else:
+            print("Quit messing around, punk.")
+            print()
         
 def chapel(name):
     print(name, "walks into the old chapel.")
@@ -225,7 +225,7 @@ def chapel(name):
                                 print("The record ends there.")
                                 print()
                                 break
-                    break
+                
                                 
                 elif choice.upper() == "N":
                     print(name, "replaces the book and leaves. That's enough adventuring for one day.")
@@ -389,6 +389,10 @@ def end(name):
         else:
             print("Invalid Responce. Please Try again.")
             print()
+
+def kill():
+    time.sleep(10)
+    exit()
 
 print("Welcome to the Great Adventure!")
 print()

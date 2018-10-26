@@ -57,6 +57,7 @@ def tut(name):
                     choice = input("Go to the Factory (Factory) or go Home (Home)? ")
                     if choice.lower().startswith("f"):
                         factory(name)
+                        end(name)
                     elif choice.lower().startswith("h"):
                         print(name, "goes home. ")
                         gameover()
@@ -72,6 +73,8 @@ def tut(name):
                     choice = input("Go to the Chapel (Chapel) or go Home (Home)? ")
                     if choice.lower().startswith("c"):
                         chapel(name)
+                        end(name)
+                        break
                     elif choice.lower().startswith("h"):
                         print(name, "goes home. ")
                         gameover()
@@ -195,7 +198,7 @@ def chapel(name):
             monsterdamage = random.randrange(0,20)
             mhealth = 60
             combat(monsterdamage, mhealth, monster, phealth, poriginal, playerdamage, monsterimage, name)
-            print("The Wraith disappears and " + name + "finds a bookshelf.")
+            print("The Wraith disappears and " + name + " finds a bookshelf.")
             print()
             print("They begin reading.")
             print()
@@ -241,6 +244,151 @@ def chapel(name):
         else:
             print("Invalid Choice. Try Again.")
 
+def factory(name):
+    print(name, "walks into an old factory.")
+    print()
+    print("The pipes hang low and metal grates act like walkways.")
+    print()
+    print("The smell of unused chemicals and dead things flood the area.")
+    print()
+    print("Out of the dark, a rat appears!")
+    print()
+    monster = "Rat"
+    monsterdamage = random.randrange(0,20)
+    mhealth = 35
+    monsterimage = """
+                             _______      ________
+                            /       \    /        \
+                            |       |    |        |
+                            \        ----         /
+                             |                   |
+                             |    **       **    |
+                             |    **       **    |
+                             |         %%        |
+                             \         %%        /
+                              -------------------"""
+    combat(monsterdamage, mhealth, monster, phealth, poriginal, playerdamage, monsterimage, name)
+    print(name, "proceeded to navigate the area.")
+    print()
+    print("You finally reach a large pool of water in a room of the factory.")
+    print()
+    print("There's a button on a console from accross the room.")
+    print()
+    print("It looks like it'll go something with the pool.")
+    print()
+    while True:
+        choice = input("Will you push the button (Button) or go home (Home)? ")
+        print()
+        if choice.lower().startswith("b"):
+            print(name, "pushes the button.")
+            print()
+            print("The water beings to stir and makes a big whirlpool.")
+            print()
+            print("You can feel a rumbling...")
+            print()
+            print("A Kraken appears!")
+            monster = "Kraken"
+            monsterdamage = random.randrange(0,20)
+            mhealth = 70
+            monsterimage = """      ^
+                                   / \
+                                  /   \
+                               ----------
+                              |          |
+                              |  []  []  |
+                              |          |
+                              |     0    |
+                              ------------
+                              ____________"""
+            combat(monsterdamage, mhealth, monster, phealth, poriginal, playerdamage, monsterimage, name)
+            print("A falling tentacle hits the computer and boots up a log.")
+            print()
+            print("With the chaos over " + name + " goes over to read the reports.")
+            print()
+            print(name, "begins reading the reports.")
+            print("'Log 4 - We have been happily partnered with the town down river. We're working with them to see what needs to be done and what we can do to help them have a better life.'")
+            print()
+            choice = input("Continue Reading (Y/N)? ")
+            print()
+            while True:
+                if choice.lower().startswith("y"):
+                    print("'Log 7 - There was a big accident. We're not sure how it could affect the area, but we decided to keep it a secret to not induce mass hyteria.'")
+                    print()
+                    choice = input("Continue Reading (Y/N)? ")
+                    print()
+                    if choice.lower().startswith("y"):
+                        print("'Log 12 - A rogue employee went and dumped a bunch of hallucinages and pollutants into the river before jumping in himself. He's dead. We will be if we don't fix this soon.'")
+                        print()
+                        choice = input("Continue Reading (Y/N)? ")
+                        print()
+                        if choice.lower().startswith("y"):
+                            print("'Log 13 - A huge and horrible monster has been created from the radiation and pollution. It has wrecked the place. This report will continue. Stay tuned.'")
+                            print()
+                            print("The reports do not continue.")
+                            print()
+                            print(name, "shuts the machine off and leaves.")
+                            print()
+                            break
+                elif choice.lower().startswith("n"):
+                    print(name, "goes home. No more adventures.")
+                    gameover()
+                    break
+                else:
+                    print("Invalid Response. Try Again.")
+            break
+        elif choice.lower().startswith("h"):
+            print(name,  "goes home. That's enough adventuring.")
+            gameover()
+            break
+        else:
+            print("Invalid Response. Try Again.")
+            print()
+
+def end(name):
+    print(name, "begins to piece together the story.")
+    print()
+    print("The town and factory were once living hand in hand with each other.")
+    print()
+    print("Then something bad happened in the factory that affected the town.")
+    print()
+    print("While the factory was trying to deal with it, the town fell to cannibalism.")
+    print()
+    print("And then somewhere along the line the Kraken and the Wraith destroyed both places.")
+    print()
+    print("And now " + " has removed all the threats of the area.")
+    print()
+    print("The souls lost can now rest in peace.")
+    while True:
+        choice = input("Should anyone be told (Y/N)? ")
+        if choice.lower().startswith("y"):
+            print(name, "drives home and alerts the authorities.")
+            print()
+            print("Apparently nobody knew the town even existed.")
+            print()
+            print("They congratulate " + name + " for removing the threats with only a baseball bat and question them on why they were there.")
+            print()
+            print(name, "is sent home. They have saved many people from possible harm of the town and the creatures inside.")
+            print()
+            print(name, "puts the bat away and sleeps in their bed, eager for the next adventure.")
+            print()
+            print("Congratulations! You win!")
+            print()
+            gameover()
+            break
+        elif choice.lower().startswith("n"):
+            print(name, "drives home and goes to bed.")
+            print()
+            print("Telling the events that have happened would snap a normal person.")
+            print()
+            print(name, "goes to sleep, feeling exhausted after the adventure.")
+            print()
+            print("Congratulations, You win!")
+            print()
+            gameover()
+            break
+        else:
+            print("Invalid Responce. Please Try again.")
+            print()
 
 print("Welcome to the Great Adventure!")
 print()

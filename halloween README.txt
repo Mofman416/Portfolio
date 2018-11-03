@@ -1,0 +1,1 @@
+This is simply a program made in the spirit of Halloween. This is a freestyle software not required by any class or project.

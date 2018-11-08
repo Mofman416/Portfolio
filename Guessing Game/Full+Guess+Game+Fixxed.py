@@ -125,18 +125,18 @@ def game():
     guess_num = 0
     while guess_num <= guess:
         guess_1=input("Guess a number between 1 and 100 ")
-        if guess_1.isnum():
-            if guess_1==random_num:
+        if guess_1.isdigit():
+            if int(guess_1)==random_num:
                 print("You're Correct")
                 print("You Win")
                 print()
                 print()
                 return menu()
             
-            elif guess_1>random_num:
+            elif int(guess_1)>random_num:
                 print("The number that you guessed is higher then then random number")
                 guess+=1
-            elif guess_1<random_num:
+            elif int(guess_1)<random_num:
                 print("The number that you guessed is lower then then random number")
                 guess_num+=1
                 if guess_num== guess:
@@ -145,7 +145,6 @@ def game():
                     print()
                     time.sleep(5)
                     return menu()
-        if 
         else:
             print("This is not a valid number please try again")
 

@@ -125,9 +125,11 @@ def game():
     guess_num = 0
     while guess_num <= guess:
         guess_1=input("Guess a number between 1 and 100 ")
+        print()
         if guess_1.isdigit():
             if int(guess_1)==random_num:
                 print("You're Correct")
+                print()
                 print("You Win")
                 print()
                 print()
@@ -135,9 +137,11 @@ def game():
             
             elif int(guess_1)>random_num:
                 print("The number that you guessed is higher then then random number")
+                print()
                 guess+=1
             elif int(guess_1)<random_num:
                 print("The number that you guessed is lower then then random number")
+                print()
                 guess_num+=1
                 if guess_num== guess:
                     print("You Lose")

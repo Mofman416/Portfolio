@@ -1,0 +1,1 @@
+I kind of made a working birthday guessing program. Still can't get the magic trick

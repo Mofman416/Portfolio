@@ -1,0 +1,1 @@
+We continued into doing slicing and made a cheat sheet.

@@ -28,6 +28,43 @@ earn = point
 attempts = 0
 pointred = 0
 
+##Function looks good, update questions and finish programs.##
+def foundWord(iNum, wordToFind):
+    global point
+    global earn
+    global attempts
+    global pointred
+    global total
+    toReturn=0
+    if len(iNum) != len(wordToFind)*2:
+        return "Invalid input! Out of Range!"
+    iWord = ""    
+    i=0
+    while i < len(wordToFind)*2:
+        z = i + 2
+        index=iNum[i:z] #get next two numbers
+        index = int(index)
+        iWord=iWord+puzzle[index]
+        i+=2
+    print()
+    print("You've tried to find 'input'...")
+    print()
+    #time.sleep(2)
+    print(iWord)
+    print()
+    if iWord == wordToFind:
+        print("You were correct!")
+        print()
+        toReturn=1
+    else:
+        print("That's incorrect! Try again.")
+        print()
+        attempts += 1
+        print("That's", attempts, "attempts.")
+        
+    return toReturn
+
+
 #This is the word length keys.
 
 word1_length=len("input")
@@ -43,76 +80,56 @@ word10_length=len("float")
 
 #This is the crossword game
 def crossword():
-    global point
-    global earn
-    global attempts
-    global pointred
-    global total
+    #initialize the score keeping
+    total = 0
+    point = 20
+    earn = point
+    attempts = 0
+    pointred = 0
     
     #Question 1
     
     x=0
     while x==0:
-        ans = input("Question 1: This is what is used to get user defined values in a variable. Contrast Output. ")
+        ans = input("Question 1: What is used to get user defined values in a variable? (Contrast Output) ")
         print()
         if ans.lower() == "input":
             total += earn
-            i=0
             foundword=""
             earn = point
             pointred = 0
-            print("Good Job! Now enter the index positions of 'Input' in this puzzle: ")
-            print()
-            display_puzzle()
-            f=0
-            while f==0:
-                print()
-                word1 = input("Enter the index positions of 'input'. ")
-                if word1.isdigit():
-                    while i < word1_length*2:
-                        z = i + 2
-                        index=word1[i:z]
-                        index=int(index)
-                        foundword=foundword+puzzle[index]
-                        i+=2
-                    if foundword == "input":
-                        print()
-                        print("You've tried to find 'input'...")
-                        print()
-                        time.sleep(2)
-                        print(foundword)
-                        print()
-                        print("You were correct!")
-                        print()
-                        x=1
-                        f=1
-                    elif foundword != "input":
-                        print()
-                        print("You've tried to find the word 'input'...")
-                        print()
-                        time.sleep(2)
-                        print(foundword)
-                        print()
-                        print("That's incorrect! Try again.")
-                        print()
-                        attempts += 1
-                        print("That's " + attempts + " attempts.")
-                    else:
-                        print()
-                        print("Please input a valid response. No letters or decimals please.")
-                        print()
-                        break
-                    
+            x=1
         elif ans.lower() == "show":
             print(total)
             print()
         else:
             print("Try again.")
             attempts += 1
-            print("That's " + attempts + " attempts.")
+            print("That's", attempts, " attempts.")
             if pointred <= 5:
                 earn = point/2
                 pointred += 1
+#puzzle 1
+    x=0
+    while x==0:
+        print("Good Job! Now enter the index positions of 'Input' in this puzzle: ")
+        print()
+        display_puzzle()
+        f=0
+        while f==0:
+            print()
+            inputNumbers = input("Enter the index positions of 'input'. ")
+            if inputNumbers.isdigit():
+                seekWordLength=word1_length
+                inputLetters=""
+                f = foundWord(inputNumbers,'input')                
+            else:
+                print()
+                print("Please input a valid response. No letters or decimals please.")
+                print()                
+                
+        break            
+
 
     #Question 2
                 
@@ -136,7 +153,7 @@ def crossword():
                 if word2.isdigit():
                     while i < word2_length*2:
                         z = i + 2
-                        index=word1[i:z]
+                        index=word2[i:z]
                         index=int(index)
                         foundword=foundword+puzzle[index]
                         i+=2
@@ -161,7 +178,7 @@ def crossword():
                         print("That's incorrect! Try again.")
                         print()
                         attempts += 1
-                        print("That's " + attempts + " attempts.")
+                        print("That's", attempts, "attempts.")
                     else:
                         print()
                         print("Please input a valid response. No letters or decimals please.")
@@ -174,7 +191,7 @@ def crossword():
         else:
             print("Try again.")
             attempts += 1
-            print("That's " + attempts + " attempts.")
+            print("That's", attempts, "attempts.")
             if pointred <= 5:
                 earn = point/2
                 pointred += 1
@@ -201,7 +218,7 @@ def crossword():
                 if word3.isdigit():
                     while i < word3_length*2:
                         z = i + 2
-                        index=word1[i:z]
+                        index=word3[i:z]
                         index=int(index)
                         foundword=foundword+puzzle[index]
                         i+=2
@@ -214,6 +231,14 @@ def crossword():
                         print()
                         print("You were correct!")
                         print()
+                        print("Thank you for playing our demo!")
+                        print()
+                        print("You got", total, "points out of 60 for this session.")
+                        print()
+                        time.sleep(5)
+                        print("The program will shut down by itself. See ya later!")
+                        time.sleep(5)
+                        exit()
                         x=1
                         f=1
                     elif foundword != "print":
@@ -226,7 +251,7 @@ def crossword():
                         print("That's incorrect! Try again.")
                         print()
                         attempts += 1
-                        print("That's " + attempts + " attempts.")
+                        print("That's", attempts, "attempts.")
                     else:
                         print()
                         print("Please input a valid response. No letters or decimals please.")
@@ -239,10 +264,12 @@ def crossword():
         else:
             print("Try again.")
             attempts += 1
-            print("That's " + attempts + " attempts.")
+            print("That's", attempts, "attempts.")
             if pointred <= 5:
                 earn = point/2
                 pointred += 1
+
+    
 
 #This is how the game opens.
 def menu():
@@ -257,7 +284,7 @@ def menu():
             print("You will be asked a trivia question which will proceed to a crossword puzzle if answered correctly.")
             print()
         
-            print("You can earn at most 20 points. Everytime you answer correctly half the points will be taken from you until you guess incorrectly 5 times.")
+            print("You can earn at most 20 points. Everytime you answer incorrectly half the points will be taken from you until you guess incorrectly 5 times.")
             print()
 
             print("Go for the perfect 200 points!!")
@@ -280,6 +307,7 @@ def menu():
             exit()
         else:
             print("Invalid input, go home.")
-            break
+            menu()
             
-menu()
+#menu()
+crossword()

@@ -1,0 +1,1 @@
+We made a list in class where you can input your grades into a list.

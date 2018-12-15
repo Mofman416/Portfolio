@@ -51,7 +51,7 @@ def ask_num(question, low, high):
         if response.isdigit():
             if int(response) in range(low, high):
                 break
-            elif response not in range(low, high):
+            else:
                 response = input(question)
         else:
             print("Invalid, try again")
@@ -71,14 +71,14 @@ def pieces():
         print("You must be very brave or quite incompetent!\n")
         human = O
         computer = X
-    return human, computer
+    return computer, human
 ###############################################################################
 
 
 def new_board():
     #This is the new board to make.
     board = []
-    for squares in range(NUM_SQUARES):
+    for square in range(NUM_SQUARES):
         board.append(EMPTY)
     return board
 ###############################################################################
@@ -86,11 +86,11 @@ def new_board():
 
 def display_board(board):
     #This disaplys the board on the screen.
-    print("\n\t", board[0], "|", board[1], "|", board[2])
+    print("\t", board[0], "|", board[1], "|", board[2])
     print("\t", "---------")
-    print("\n\t", board[3], "|", board[4], "|", board[5])
+    print("\t", board[3], "|", board[4], "|", board[5])
     print("\t", "---------")
-    print("\n\t", board[6], "|", board[7], "|", board[8])
+    print("\t", board[6], "|", board[7], "|", board[8])
 ###############################################################################
 
 
@@ -106,32 +106,30 @@ def legal_moves(board):
 
 def winner(board):
     #This function defines winning conditions
-    WAYS_TO_WIN = ((0,1,2),
-            (3,4,5),
-            (6,7,8),
-            (0,3,6),
-            (1,4,7),
-            (2,5,8),
-            (0,4,8),
-            (2,4,6))
+    WAYS_TO_WIN = ((0, 1, 2),
+                   (3, 4, 5),
+                   (6, 7, 8),
+                   (0, 3, 6),
+                   (1, 4, 7),
+                   (2, 5, 8),
+                   (0, 4, 8),
+                   (2, 4, 6))
     for row in WAYS_TO_WIN:
         if board[row[0]] == board[row[1]] == board[row[2]] != EMPTY:
             winner = board[row[0]]
             return winner
 
-        if EMPTY in board:
+    if EMPTY in board:
             return TIE
         
-        return None
+    return None
 ###############################################################################
-
-
 def human_move(board):
     #Gets the human move
     op = legal_moves(board)
     move = None
     while move not in op:
-        set_move = ask_num("Pick a spot from 0-8: ", 0, NUM_SQUARES)
+        move = ask_num("Pick a spot from 0-8: ", 0, NUM_SQUARES)
         print(type(move))
         if move not in op:
             print(type(move))
@@ -155,61 +153,59 @@ def congrat_winner(winner, computer, human):
         print(winner, "is victorious!\n")
     else:
         print("It's a tie!\n")
-        if winner == computer:
+    if winner == computer:
             print("Gotcha punk!\n")
-        elif winner == human:
+    elif winner == human:
             print("You win. Cool.\n")
-        elif winner == TIE:
+    elif winner == TIE:
             print("A strange game. The only winning move is not to play.\n")
 ###############################################################################
 
 def computer_move(board, computer, human):
-    #Make a computer move.
-    #make a copy to work with since function will change the list
+    """Make computer move."""
+    # make a copy to work with since function will be changing list
     board = board[:]
-    #the best positions to have, in order
-    BEST_MOVES = (4,0,2,6,8,1,3,5,7)
+     # the best positions to have, in order
+    BEST_MOVES = (4, 0, 2, 6, 8, 1, 3, 5, 7)
     print("I shall take square number", end=" ")
-
-    #if computer can win, take that move
+    
+    # if computer can win, take that move
     for move in legal_moves(board):
         board[move] = computer
         if winner(board) == computer:
             print(move)
             return move
-        #done checking this move, undo it
+        # done checking this move, undo it
         board[move] = EMPTY
-
+        
     for move in legal_moves(board):
         board[move] = human
         if winner(board) == human:
             print(move)
-            return none
-        #done check this move, undo it
+            return move
+        # done checkin this move, undo it
         board[move] = EMPTY
 
-    #since no one can win on next move, pick best open square.
-        for move in BEST_MOVES:
-            if move in legal_moves(board):
-                print(move)
-                return move
+    # since no one can win on next move, pick best open square
+    for move in BEST_MOVES:
+        if move in legal_moves(board):
+            print(move)
+            return move
+    congrat_winner(winner, computer, human)
 
 def main():
     display_instruction()
     pieces()
+    #16 lines.
     
-##board = new_board()
-##print(board)
-##x = legal_moves(board)
-##print(x)
-##move = human_move(board)
+board = new_board()
+board[4] = O
+board[0] = O
+h=X
+c=O
+move = computer_move(board, c,h)
+print(move)
 
-##board = new_board()
-##board[4] = O
-##board[0] = O
-##h=X
-##c=O
-##move = computer_move(board, c,h)
-##print(move)
+congrat_winner(winner, computer, human)
 
-human, computer = pieces()
+#computer, human = pieces()

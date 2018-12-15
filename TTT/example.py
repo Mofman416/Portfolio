@@ -176,7 +176,13 @@ def computer_move(board, computer, human):
             print(move)
             return move
 
-
+board = new_board()
+board[4] = X
+board[0] = X
+h=X
+c=O
+move = computer_move(board, c,h)
+print(move)
 
 
 

@@ -119,7 +119,7 @@ def winner(board):
             winner = board[row[0]]
             return winner
 
-    if EMPTY in board:
+        if EMPTY in board:
             return TIE
         
     return None
@@ -201,17 +201,18 @@ def main():
     board = new_board()
     display_board(board)
     while not winner(board):
-        if turn == human:
-            human_move(board)
-            display_board(board)
-            next_turn(turn)
+        print("Hey!")
+        if turn==human:
+            move=human_move(board)
+            board[move]=human
         else:
-            computer_move(board, computer, human)
-            display_board(board)
-            next_turn(turn)
-    winner(board)
-    congrat_winner(winner, computer, human)
-    #16 lines.
+            move = computer_move(board, computer, human)
+            board[move] = computer
+        display_board(board)
+        turn = next_turn(turn)
+    win = winner(board)
+    congrat_winner(win, computer, human)
     
+    #16 lines.
 main()
 

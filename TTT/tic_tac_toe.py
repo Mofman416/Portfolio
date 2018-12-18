@@ -192,20 +192,26 @@ def computer_move(board, computer, human):
             print(move)
             return move
     congrat_winner(winner, computer, human)
-
+###############################################################################
+    
 def main():
-    display_instruction()
-    pieces()
+    instructions()
+    computer, human = pieces()
+    turn = X
+    board = new_board()
+    display_board(board)
+    while not winner(board):
+        if turn == human:
+            human_move(board)
+            display_board(board)
+            next_turn(turn)
+        else:
+            computer_move(board, computer, human)
+            display_board(board)
+            next_turn(turn)
+    winner(board)
+    congrat_winner(winner, computer, human)
     #16 lines.
     
-board = new_board()
-board[4] = O
-board[0] = O
-h=X
-c=O
-move = computer_move(board, c,h)
-print(move)
+main()
 
-congrat_winner(winner, computer, human)
-
-#computer, human = pieces()

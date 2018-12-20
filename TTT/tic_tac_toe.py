@@ -119,8 +119,8 @@ def winner(board):
             winner = board[row[0]]
             return winner
 
-        if EMPTY in board:
-            return TIE
+    if EMPTY not in board:
+        return TIE
         
     return None
 ###############################################################################

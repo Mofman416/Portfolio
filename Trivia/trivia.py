@@ -41,11 +41,11 @@ def next_block(file):
 ################################################################################
 def welcome(title):
     #Welcome the player and get his/her name
-    print("\t\tWelcome to Trivia Challenge!\n")
+    print("\t\tWelcome to Trivia Challenge!\nRead the Questions and answer correctly using\nnumbers 1-4. You have ten questions. Good luck!\n")
     print("\t\t", title, "\n")
 ################################################################################
 def main():
-    file = open_file("test_file.txt", "r")
+    file = open_file("test.txt", "r")
     title = read_line(file)
     welcome(title)
     score = 0
@@ -55,18 +55,17 @@ def main():
         print(question)
         for i in range(4):
             print(i+1, answers[i])
-        print(correct)
-        answer = input("Put in 4. ")
+        answer = input("Type the Correct Answer from 1-4. ")
         if answer == correct:
-            print("Cool.")
+            print("\nGood one!\n")
             score += 1
         else:
-            print("No.")
-        print(explanation)
-        print(score)
+            print("\nSorry!\n")
+        print(explanation, "\n")
+        print(score, "\n")
         category, question, answers, correct, explanation = next_block(file)
     file.close()
-    print("You've completed the quiz!")
+    print("You've completed the quiz!\n")
     return score
 
 ##file = open_file("test_file.txt", "r")

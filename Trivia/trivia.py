@@ -1,4 +1,9 @@
+#Michael Freeman
+#January 2019
+#4th/5th
+
 import sys
+import time
 
 ################################################################################
 def open_file(file_name, mode):
@@ -18,12 +23,6 @@ def read_line(file):
     line = line.replace("/", "\n")
     return line
 
-##file = open_file("test_file.txt", "w")
-##file.write("this/is/a/Test")
-##file.close()
-##file = open_file("test_file.txt", "r")
-##line = read_line(file)
-##print(line)
 ################################################################################
 def next_block(file):
     #This returns a block of data from the trivia file
@@ -45,11 +44,16 @@ def welcome(title):
     print("\t\t", title, "\n")
 ################################################################################
 def main():
+    #Begins the testing
+    #Calls up the file
     file = open_file("test.txt", "r")
+    #Sets the title
     title = read_line(file)
     welcome(title)
+    #Sets up the score
     score = 0
     category, question, answers, correct, explanation = next_block(file)
+    #Display goes as long as there is something for a category.
     while category:
         print(category)
         print(question)
@@ -63,18 +67,14 @@ def main():
             print("\nSorry!\n")
         print(explanation, "\n")
         print(score, "\n")
+        time.sleep(5)
         category, question, answers, correct, explanation = next_block(file)
+        #Close the file
     file.close()
-    print("You've completed the quiz!\n")
+    print("You've completed the quiz! Your final score is:\n")
     return score
 
-##file = open_file("test_file.txt", "r")
-##category, question, answers, correct, explanation = next_block(file)
-##print(category)
-##print(question)
-##print(answers)
-##print(correct)
-##print(explanation)
-
+#Execute the program.
 show = main()
 print(show)
+time.sleep(100)

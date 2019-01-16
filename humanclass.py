@@ -24,7 +24,7 @@ class Human(object):
             if int(answer)==4:
                 print("You go it!")
                 self.iq += 1
-                print(self.)
+                print(self.iq)
             else:
                 print("Wrong!")
         else:

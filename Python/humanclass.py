@@ -39,7 +39,7 @@ class Human(object):
         print("With you weight and height put through functions and math, you BMI is", bmi, "\n")
         if bmi >= 12 and bmi <=18:
             print("You are underweight!")
-        elif bmi >=18 and bmi <=24:
+        elif bmi >=19 and bmi <=24:
             print("You are at a healthy weight for your height!")
         elif bmi >= 25 and bmi <= 29:
             print("You are overweight!")
@@ -58,5 +58,3 @@ mike.intro_self()
 mike.describe_self()
 mike.learn()
 mike.bmi()
-
-#Make a function to calculare the BMI of an individual. Compare it to a BMI chart

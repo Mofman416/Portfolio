@@ -6,7 +6,14 @@ public class CarMpg {
 	  private double endMiles; 
 	  private double gallons; 
 
-	  // set the car trip details
+	// build a car with trip details
+	  public CarMpg(double start, double end, double gals){
+	      startMiles = start;
+	      endMiles   = end;
+	      gallons    = gals;
+	     }
+	  
+	  /* set the car trip details
 	  public void setTrip(double start, double end, double gals)
 	  {
 	      startMiles = start;
@@ -14,7 +21,7 @@ public class CarMpg {
 	      gallons    = gals;
 	  }
 
-	  // calculate miles-per-gallon
+	  // calculate miles-per-gallon*/
 	  public double calculateMPG()
 	  {
 	      return (endMiles - startMiles) / gallons;

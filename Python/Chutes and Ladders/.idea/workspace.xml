@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/C&amp;L.py" line="255" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ec09c1-2dc1-447e-a4c3-76a002541c1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C&amp;L.py" beforeDir="false" afterPath="$PROJECT_DIR$/C&amp;L.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,13 +18,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C&amp;L.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
+            <state relative-caret-position="409">
+              <caret line="236" column="19" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="19" />
+              <folding>
+                <element signature="e#429#1823#0" />
+                <element signature="e#1850#10902#0" />
+                <element signature="e#10928#12033#0" />
+                <element signature="e#12038#12324#0" />
+                <element signature="e#12404#12531#0" />
+                <element signature="e#12838#12861#0" />
+                <element signature="e#12311#13180#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>num_pla</find>
+      <find>players</find>
+      <find>winner</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -36,9 +54,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="149" />
-    <option name="y" value="33" />
-    <option name="width" value="1400" />
+    <option name="x" value="409" />
+    <option name="y" value="60" />
+    <option name="width" value="1327" />
     <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -137,9 +155,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="149" y="33" width="1400" height="828" extended-state="0" />
+    <frame x="409" y="60" width="1327" height="828" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26377037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -179,8 +197,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C&amp;L.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
+        <state relative-caret-position="409">
+          <caret line="236" column="19" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="19" />
+          <folding>
+            <element signature="e#429#1823#0" />
+            <element signature="e#1850#10902#0" />
+            <element signature="e#10928#12033#0" />
+            <element signature="e#12038#12324#0" />
+            <element signature="e#12404#12531#0" />
+            <element signature="e#12838#12861#0" />
+            <element signature="e#12311#13180#0" />
+          </folding>
         </state>
       </provider>
     </entry>

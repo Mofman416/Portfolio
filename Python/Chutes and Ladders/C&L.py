@@ -1,10 +1,12 @@
 #Michael Freeman
 #Chutes and Ladders
 #(Insert Date completed here)
+#It says we need to roll a 2 to get to one hundred but when you roll a 2 you still get that message
 
 #imports
 ###############################################################################
 import random
+import time
 
 #global variables
 ###############################################################################
@@ -236,7 +238,7 @@ def switch_turn(num_players, turn):
 
 def winner_grats():
     #Winning message!
-    print("You win!")
+    print("\n-----------You win!------------")
 #main
 ###############################################################################
 def main():
@@ -267,7 +269,8 @@ def main():
 
     winner_grats()
     print(winner)
-    input("Press enter to quit.")
+    time.sleep(5)
+    input("\nPress enter to quit.")
 
 
 #run

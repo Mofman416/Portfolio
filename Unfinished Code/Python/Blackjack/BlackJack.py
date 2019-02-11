@@ -2,15 +2,14 @@
 #February 2019
 #Python 4th/5th
 
-import random
 
 class Card(object):
-    """A playing card###
-    This class will ubild a single card
-    Ti build a card call Card() and pass in a rank and a suit
+    """A playing card
+    This class will build a single card
+    To build a card call Card() and pass in a rank and a suit
     card1 = Card(rank = "A", suit = "S"""
     RANKS = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
-    SUITS = ["c", "d", "h", "s"]
+    SUITS = ["♧", "♦", "♥", "♤"]
 
 
     def __init__(self, rank, suit):
@@ -49,27 +48,84 @@ class Hand(object):
         self.cards.remove(card)
         other_hand.add(card)
 
-my_hand = Hand()
+class Deck(Hand):
+    """This will give cards to a hand, shuffle them, or deal them out.
+    To make  a hand call Deck and pass in a variable for the hand
+    To shuffle use your new deck and use .shuffle()
+    to deal them out using deck.deal(x) with X being the amount of cards in a new hand."""
+    def populate(self):
+        for suit in Card.SUITS:
+            for rank in Card.RANKS:
+                self.add(Positionable_Card(rank,suit))
+    def shuffle(self):
+        import random
+        random.shuffle(self.cards)
 
-your_hand = Hand()
-deck = []
-for i in range(10):
-    card = Card(rank = random.choice(Card.RANKS), suit = random.choice(Card.SUITS))
-    deck.append(card)
+    def deal(self, hands, per_hand = 1):
+        for rounds in range(per_hand):
+            for hand in hands:
+                if self.cards:
+                    top_card = self.cards[0]
+                    self.give(top_card, hand)
 
-for i in range(5):
-    my_hand.add(deck.pop())
-    your_hand.add(deck.pop())
-print(my_hand)
-print(your_hand)
+                else:
+                    print("Can't continue to deal. Out of cards!")
 
-my_hand.give(my_hand.cards[0], your_hand)
 
-print(my_hand)
-print(your_hand)
+class Unprintable_Card(Card):
+    """A Card that won't reveal its rank or suit when presented"""
+    def __str__(self):
+        return "<unprintable>"
 
-my_hand.clear()
-your_hand.clear()
+class Positionable_Card(Card):
+    def __init__(self, rank, suit, face_up= False):
+        super(Positionable_Card, self).__init__(rank, suit)
+        self.is_face_up = face_up
+    def __str__(self):
+        if self.is_face_up:
+            rep = super(Positionable_Card, self).__str__()
+        else:
+            rep = "XX"
+        return rep
+    def flip(self):
+        self.is_face_up = not self.is_face_up
 
-print(my_hand)
-print(your_hand)
+
+
+def main():
+    """Deals cards and shows them.
+    First you need to create the overall deck by using populate and shuffle
+    then you need to create a hand function by passing it into Hand, then making an
+    empty hand list, then appending hand1 to said list.
+    Then you deal from deck using deal from hands for 5 cards, then print.
+    Repeat for the number of players.
+    Then use a for loop in the range of the length of the hand of cards,
+    use flip in the cards list in each index.
+    Repeat for the amount of players."""
+    deck = Deck()
+    deck.populate()
+    deck.shuffle()
+    print(deck)
+
+    hand1 = Hand()
+    hands = []
+    hands.append(hand1)
+    deck.deal(hands, 5)
+    print("\n",hand1)
+
+    hand2 = Hand()
+    hands = []
+    hands.append(hand2)
+    deck.deal(hands, 5)
+    print("\n",hand2)
+
+    for i in range(len(hand1.cards)):
+        hand1.cards[i].flip()
+    print("\n", hand1)
+
+    for i in range(len(hand2.cards)):
+        hand2.cards[i].flip()
+    print("\n", hand2)
+
+
+main()

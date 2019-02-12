@@ -1,0 +1,44 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import java.awt.*;
+import javax.swing.BorderFactory;
+import javax.swing.BoxLayout;
+import javax.swing.JPanel;
+import javax.swing.border.*;
+
+public class PhoneDialer {
+	JButton one;
+	JButton two;
+	JButton three;
+	JButton four;
+	JButton five;
+	JButton six;
+	JButton seven;
+	JButton eight;
+	JButton nine;
+	JButton zero;
+	JButton dash;
+	JButton pound;
+	JButton dialnumber;
+	JFrame dialer;
+
+	public static void main(String[] args) {
+		new PhoneDialer();
+
+	}
+
+	public PhoneDialer() {
+		dialer = new JFrame();
+		dialer.setSize(200, 250);
+		dialer.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		JPanel panel = (JPanel)dialer.getContentPane();
+		panel.setLayout(new BoxLayout(panel,BoxLayout.Y_AXIS));
+		Border myBorder = BorderFactory.createEmptyBorder(10,10,10,10);
+		panel.setBorder(myBorder);
+		
+		JPanel toplabel = new JPanel();
+		toplabel.setLayout(new FlowLayout());
+	}
+
+}

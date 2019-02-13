@@ -95,10 +95,3 @@ if __name__ == "__main__":
     print("You ran this module directly and didn't 'import' it.")
     input("\n\nPress the enter key to exit.")
 
-
-def main():
-    pass
-
-
-
-main()

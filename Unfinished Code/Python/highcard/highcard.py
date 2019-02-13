@@ -1,0 +1,27 @@
+import games, cards
+deck = cards.Deck()
+deck.populate()
+deck.shuffle()
+
+print("Welcome to the world's simplest game high card!\n")
+
+again = None
+while again != "n":
+    players = []
+    num = games.ask_num("How many players? (2-10): ", 2, 11)
+    for i in range(num):
+        name = input("Player name: ")
+        player = games.Player(name)
+        players.append(player)
+    hands = []
+    for player in players:
+        hand = player.hand
+        hands.append(hand)
+    deck.deal(hands, 1)
+    print("\nHere are the game results:")
+    for player in players:
+        print(player)
+
+    again = games.ask_permission("\nDo you want to play again? (y/n):")
+
+input("Press enter to quit.")

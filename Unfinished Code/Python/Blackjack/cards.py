@@ -12,13 +12,13 @@ class Card(object):
     SUITS = ["♧", "♦", "♥", "♤"]
 
 
-    def __init__(self, rank, suit, face_up = True):
+    def __init__(self, rank, suit):
         self.rank = rank
         self.suit = suit
-        self.is_face_up = face_up
+        self.is_face_up = True
 
     def flip(self):
-        self.face_up = not self.face_up
+        self.is_face_up = not self.is_face_up
 
     def __str__(self):
         if self.is_face_up:
@@ -26,9 +26,6 @@ class Card(object):
         else:
             rep = "XX"
         return rep
-
-    def flip(self):
-        self.is_face_up = not self.is_face_up
 
 class Hand(object):
     """A hand of playing cards"""
@@ -62,7 +59,7 @@ class Deck(Hand):
     def populate(self):
         for suit in Card.SUITS:
             for rank in Card.RANKS:
-                self.add(Card(rank,suit))
+                self.add(Positionable_Card(rank,suit))
     def shuffle(self):
         import random
         random.shuffle(self.cards)
@@ -78,14 +75,26 @@ class Deck(Hand):
                     print("Can't continue to deal. Out of cards!")
 
 
+class Unprintable_Card(Card):
+    """A Card that won't reveal its rank or suit when presented"""
+    def __str__(self):
+        return "<unprintable>"
+
+class Positionable_Card(Card):
+    def __init__(self, rank, suit, face_up= False):
+        super(Positionable_Card, self).__init__(rank, suit)
+        self.is_face_up = face_up
+    def __str__(self):
+        if self.is_face_up:
+            rep = super(Positionable_Card, self).__str__()
+        else:
+            rep = "XX"
+        return rep
+    def flip(self):
+        self.is_face_up = not self.is_face_up
+
+
 if __name__ == "__main__":
-    print("You called this module directly and didn't import it, you spoon!")
+    print("You ran this module directly and didn't 'import' it.")
     input("\n\nPress the enter key to exit.")
 
-
-def main():
-    pass
-
-
-
-main()

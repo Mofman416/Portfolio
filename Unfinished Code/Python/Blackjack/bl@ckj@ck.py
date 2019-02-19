@@ -21,6 +21,7 @@ class BJ_Card(cards.Card):
             v = None
         return v
 class BJ_Deck(cards.Deck):
+
     def populate(self):
         for suit in BJ_Card.SUITS:
             for rank in BJ_Card.RANKS:
@@ -110,7 +111,8 @@ class BJ_Game(object):
     def still_playing(self):
         sp = []
         for player in self.players:
-            sp.append(player)
+            if not player.is_busted():
+                sp.append(player)
         return sp
 
     def __additional_cards(self, player):
@@ -119,6 +121,7 @@ class BJ_Game(object):
             print(player)
             if player.is_busted():
                 player.bust()
+                
     def play(self):
         # deal initial 2 cards to everyone
         self.deck.deal(self.players + [self.dealer], per_hand = 2)

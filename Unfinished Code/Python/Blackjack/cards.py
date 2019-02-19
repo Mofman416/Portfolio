@@ -12,10 +12,10 @@ class Card(object):
     SUITS = ["♧", "♦", "♥", "♤"]
 
 
-    def __init__(self, rank, suit):
+    def __init__(self, rank, suit, face_up = True):
         self.rank = rank
         self.suit = suit
-        self.is_face_up = True
+        self.is_face_up = face_up
 
     def flip(self):
         self.is_face_up = not self.is_face_up
@@ -59,7 +59,7 @@ class Deck(Hand):
     def populate(self):
         for suit in Card.SUITS:
             for rank in Card.RANKS:
-                self.add(Positionable_Card(rank,suit))
+                self.add(Card(rank,suit))
     def shuffle(self):
         import random
         random.shuffle(self.cards)

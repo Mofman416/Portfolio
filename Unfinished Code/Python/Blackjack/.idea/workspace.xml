@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf7b320-4ecc-479d-90bd-4b2515342549" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlackJack.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlackJack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bl@ckj@ck.py" beforeDir="false" afterPath="$PROJECT_DIR$/bl@ckj@ck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/cards.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../highcard/highcard.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -22,11 +22,16 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bl@ckj@ck.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../highcard/cards.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-390">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="714">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -96,7 +101,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../highcard/highcard.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bl@ckj@ck.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -116,7 +121,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="highcard" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Bl@ckJ@ck" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Blackjack" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +129,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\michael.freeman\Desktop\Portfolio\New\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../highcard" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../highcard/highcard.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bl@ckj@ck.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.highcard" />
+        <item itemvalue="Python.Bl@ckJ@ck" />
       </list>
     </recent_temporary>
   </component>
@@ -199,9 +204,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
-    <entry file="file://$PROJECT_DIR$/../highcard/games.py.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../highcard/games.py.txt" />
     <entry file="file://$PROJECT_DIR$/../../../Python/Crossword/crossword.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-812">
@@ -223,13 +226,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../highcard/highcard.py.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../highcard/highcard.py.txt" />
     <entry file="file://$PROJECT_DIR$/../../../Python/Chutes and Ladders/C&amp;L.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3513">
@@ -251,17 +248,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../highcard/cards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../highcard/games.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../highcard/cards.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
@@ -271,6 +268,9 @@
           <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bl@ckj@ck.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

@@ -1,6 +1,7 @@
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.List;
 
 import javax.swing.*;
 
@@ -18,10 +19,11 @@ public class PizzaPlace implements ActionListener {
 	JCheckBox bread;
 	JCheckBox salad;
 	JCheckBox soda;
-	JTextArea customer;
+	JTextArea custComm;
 	JButton confirm;
 	JButton reset;
 	String size;
+	String extra;
 	
 	
 	public static void main(String[] args) {
@@ -110,8 +112,8 @@ public class PizzaPlace implements ActionListener {
 		JPanel cusCom = new JPanel();
 		JLabel name6 = new JLabel("Order Comments:");
 		cusCom.add(name6);
-		JTextArea customer = new JTextArea(5,20);
-		JScrollPane cusScroll = new JScrollPane(customer,
+		JTextArea custComm = new JTextArea(5,20);
+		JScrollPane cusScroll = new JScrollPane(custComm,
 				JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
 				JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 		cusCom.add(cusScroll);
@@ -159,13 +161,40 @@ public class PizzaPlace implements ActionListener {
 			else {
 				size = "Large";
 			}
-			String size = pbutton.getSelectedItem();
 			
-			String
+			String bone = (String)crust.getSelectedItem();
 			
+			List topping = pTop.getSelectedValuesList(); 
+	         String chosen = "";
+	         for (int i = 0; i< topping.size(); i++)
+	         {
+	            chosen = chosen + (String) topping.get(i);
+	            if (i < topping.size() - 1)
+	            {
+	               chosen +=  ", ";
+	            }
+	         }
+	         if (bread.isSelected()) {
+	        	 extra += "Bread Sticks";
+	         }
+	         else if (salad.isSelected()) {
+	        	 extra += "Salad";
+	         }
+	         else {
+	        	 extra += "Soda";
+	         }
+	         String comment = custComm.getText();
+	         
+	         String output = "PIZZA ORDER FOR: " + customer + "\n"
+	         		+ "SIZE: " + size + "\n"
+	         		+ "CUST TYPE: " + bone + "\n"
+	         		+ "TOPPINGS: " + topping + "\n"
+	         		+ "EXTRAS: " + extra + "\n"
+	         		+ "COMMENTS: " + comment + "\n";
+	         
+	         JOptionPane.showMessageDialog(pizzaFrame, output);
+			}
 			
 		}
 		
 	}
-
-}

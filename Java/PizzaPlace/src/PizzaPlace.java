@@ -1,3 +1,6 @@
+//Michael Freeman
+//Mobile App Development
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -12,6 +15,7 @@ public class PizzaPlace implements ActionListener {
 	JRadioButton pizzaSmall;
 	JRadioButton pizzaMed;
 	JRadioButton pizzaLarge;
+	ButtonGroup radioGroup;
 	@SuppressWarnings("rawtypes")
 	JComboBox crust;
 	@SuppressWarnings("rawtypes")
@@ -23,7 +27,7 @@ public class PizzaPlace implements ActionListener {
 	JButton confirm;
 	JButton reset;
 	String size;
-	String extra;
+	String extra = "";
 	
 	
 	public static void main(String[] args) {
@@ -45,7 +49,7 @@ public class PizzaPlace implements ActionListener {
 		JPanel tfield = new JPanel();
 		JLabel name1 = new JLabel("Custome Name:");
 		tfield.add(name1);
-		JTextField cname = new JTextField(20);
+		cname = new JTextField(20);
 		tfield.add(cname);
 		mainPanel.add(tfield);
 		
@@ -53,16 +57,16 @@ public class PizzaPlace implements ActionListener {
 		JPanel pbutton = new JPanel();
 		JLabel name2 = new JLabel("Pizza Size:");
 		pbutton.add(name2);
-		JRadioButton pizzaSmall = new JRadioButton("Small");
+		pizzaSmall = new JRadioButton("Small");
 		pizzaSmall.addActionListener(this);
 		pbutton.add(pizzaSmall);
-		JRadioButton pizzaMed = new JRadioButton("Medium");
+		pizzaMed = new JRadioButton("Medium");
 		pizzaMed.addActionListener(this);
 		pbutton.add(pizzaMed);
-		JRadioButton pizzaLarge = new JRadioButton("Large");
+		pizzaLarge = new JRadioButton("Large");
 		pizzaLarge.addActionListener(this);
 		pbutton.add(pizzaLarge);
-		ButtonGroup radioGroup = new ButtonGroup();
+		radioGroup = new ButtonGroup();
 		radioGroup.add(pizzaSmall);
 		radioGroup.add(pizzaMed);
 		radioGroup.add(pizzaLarge);
@@ -73,7 +77,7 @@ public class PizzaPlace implements ActionListener {
 		JLabel name3 = new JLabel("Crust Type:");
 		cbox.add(name3);
 		String[] pizzaCrust = {"Thin", "Thick", "Deep Dish"};
-		JComboBox crust = new JComboBox(pizzaCrust);
+		crust = new JComboBox(pizzaCrust);
 		cbox.add(crust);
 		mainPanel.add(cbox);
 		
@@ -84,7 +88,7 @@ public class PizzaPlace implements ActionListener {
 		String[] toppings = {"Pepperoni", "Sausage", "Green Peppers",
 				"Onions", "Tomatoes", "Anchovies", "Bacon", "Chicken",
 				"Beef", "Olives", "Mushrooms", "Pineapple"};
-		JList pTop = new JList(toppings);
+		pTop = new JList(toppings);
 		pTop.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
 		JScrollPane topScroll = new JScrollPane(pTop,
 				JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
@@ -97,13 +101,13 @@ public class PizzaPlace implements ActionListener {
 		JPanel exItems = new JPanel();
 		JLabel name5 = new JLabel("Extras:");
 		exItems.add(name5);
-		JCheckBox bread = new JCheckBox("Bread Sticks");
+		bread = new JCheckBox("Bread Sticks");
 		bread.addActionListener(this);
 		exItems.add(bread);
-		JCheckBox salad = new JCheckBox("Salad");
-		bread.addActionListener(this);
+		salad = new JCheckBox("Salad");
+		salad.addActionListener(this);
 		exItems.add(salad);
-		JCheckBox soda = new JCheckBox("Soda");
+		soda = new JCheckBox("Soda");
 		soda.addActionListener(this);
 		exItems.add(soda);
 		mainPanel.add(exItems);
@@ -112,7 +116,7 @@ public class PizzaPlace implements ActionListener {
 		JPanel cusCom = new JPanel();
 		JLabel name6 = new JLabel("Order Comments:");
 		cusCom.add(name6);
-		JTextArea custComm = new JTextArea(5,20);
+		custComm = new JTextArea(5,20);
 		JScrollPane cusScroll = new JScrollPane(custComm,
 				JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
 				JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
@@ -121,10 +125,10 @@ public class PizzaPlace implements ActionListener {
 		
 		//This makes two buttons to confirm order or reset the fields.
 		JPanel conRes = new JPanel();
-		JButton confirm = new JButton("Place Order");
+		confirm = new JButton("Place Order");
 		confirm.addActionListener(this);
 		conRes.add(confirm);
-		JButton reset = new JButton("Reset Values");
+		reset = new JButton("Reset Values");
 		reset.addActionListener(this);
 		conRes.add(reset);
 		mainPanel.add(conRes);
@@ -146,6 +150,7 @@ public class PizzaPlace implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		//This tells the program what to do and how to get values.
+		//This tells what happens if the user chooses to confirm.
 		Object control = e.getSource();
 		if (control == confirm) {
 			String customer = cname.getText();
@@ -175,13 +180,13 @@ public class PizzaPlace implements ActionListener {
 	            }
 	         }
 	         if (bread.isSelected()) {
-	        	 extra += "Bread Sticks";
+	        	 extra += "\n\tBread Sticks\n";
 	         }
-	         else if (salad.isSelected()) {
-	        	 extra += "Salad";
+	         if (salad.isSelected()) {
+	        	 extra += "\tSalad\n";
 	         }
-	         else {
-	        	 extra += "Soda";
+	         if (soda.isSelected()){
+	        	 extra += "\tSoda\n";
 	         }
 	         String comment = custComm.getText();
 	         
@@ -193,8 +198,19 @@ public class PizzaPlace implements ActionListener {
 	         		+ "COMMENTS: " + comment + "\n";
 	         
 	         JOptionPane.showMessageDialog(pizzaFrame, output);
+	         System.out.println(output);
 			}
 			
+		else if (control == reset) {
+			cname.setText("");
+			radioGroup.clearSelection();
+			crust.setSelectedIndex(0);
+			pTop.clearSelection();
+			bread.setSelected(false);
+			salad.setSelected(false);
+			soda.setSelected(false);
+			custComm.setText("");
+		}
 		}
 		
 	}

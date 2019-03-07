@@ -1,20 +1,51 @@
 #Michael Freeman
-#12/10/18
-#Secret Santa Program
 
+import sys
 import random
-import time
 
-#This list goes down with each new user to signify the turn.
-users = ["Dad", "Mom", "Kristopher", "Kourtney", "Brenda", "Michael", "Rebecca", "Allison", "Jonathan", "Cassidy"]
+names = []
 
-#This is where random names are drawn from. Names will be removed from the list once drawn if they don't match the user name.
-names = ["Dad", "Mom", "Kristopher", "Kourtney", "Brenda", "Michael", "Rebecca", "Allison", "Jonathan", "Cassidy"]
+class Santa:
+    def __init__(self, name):
+        self.turns = name
+        self.people = names
+        self.final = []
 
-#This gets called to get the names of each person.
-def get_name():
-    while names:
-        for i in users:
-            print(users[i], "it is your turn to draw.\n")
-            input("Make sure nobody is looking and press enter when you are ready.\n")
-            
+    def sort_names(self):
+        random.shuffle(self.people)
+        for name in self.turns:
+            pair = (name, random.choice(self.people))
+            if pair[0] == [1]:
+                pair = (name, random.choice(self.people))
+
+            else:
+                self.final.append(pair)
+
+    def print_name(self):
+        input("\nNames are ready! Press Enter to show the names.")
+        print(self.final)
+
+def main():
+    name = input("\nType in your name. ")
+    names.append(name)
+    name = input("\nType in the next name. ")
+    names.append(name)
+    name = input("\nType in the next name. ")
+    names.append(name)
+    while True:
+        next = input("\nIs this everyone? Y/N ")
+        if next.upper() == "Y":
+            break
+        elif next.upper() == "N":
+            name = input("\nType in the next name. ")
+            names.insert(0, name)
+        else:
+            print("\nInvalid response, please try again.")
+    print(names)
+    start = Santa(names)
+    start.sort_names()
+    start.print_name()
+    input("\nRecord these, and press enter to quit.")
+    sys.exit()
+
+main()

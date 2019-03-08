@@ -17,6 +17,7 @@ import javax.swing.JTextField;
 import javax.swing.JSpinner;
 import javax.swing.JTextArea;
 import javax.swing.SpinnerNumberModel;
+import java.util.ArrayList;
 
 public class BaseballStats implements ActionListener {
 
@@ -33,6 +34,7 @@ public class BaseballStats implements ActionListener {
 	JButton add;
 	JButton reset;
 	JButton show;
+	ArrayList<Player> playerList = new ArrayList<Player>();
 	
 	public static void main(String[] args) {
 		//This calls the program.
@@ -45,7 +47,7 @@ public class BaseballStats implements ActionListener {
 		df = new DecimalFormat("0.000");
 		
 		//Main Frame
-		JFrame baseFrame = new JFrame("Pizza Place");
+		JFrame baseFrame = new JFrame("Baseball Stats");
 		baseFrame.setLayout(new FlowLayout());
 		baseFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
@@ -126,14 +128,14 @@ public class BaseballStats implements ActionListener {
 		conResShow.add(show);
 		mainPanel.add(conResShow);
 		
-		
 		baseFrame.pack();
 		baseFrame.setVisible(true);
 	}
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub
+		Object control = e.getSource();
+		
 		
 	}
 

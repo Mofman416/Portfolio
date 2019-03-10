@@ -134,8 +134,11 @@ public class BaseballStats implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
+		//This tells the program what to do with the values.
 		Object control = e.getSource();
-		
+		if (control == add) {
+			String player = pname.getName();
+		}
 		
 	}
 

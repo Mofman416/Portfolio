@@ -33,6 +33,8 @@ class Application(Frame):
             message = "You got it!"
         else:
             message = "That is not the correct password, so I cannot share the secret with you."
+
+        #Display the story
         self.secret_txt.delete(0.0, END)
         self.secret_txt.insert(0.0, message)
 

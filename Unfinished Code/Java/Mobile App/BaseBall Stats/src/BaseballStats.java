@@ -3,6 +3,7 @@
 
 import java.text.*;
 import java.awt.*;
+import java.io.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
@@ -34,11 +35,12 @@ public class BaseballStats implements ActionListener {
 	JButton add;
 	JButton reset;
 	JButton show;
-	ArrayList<Player> playerList = new ArrayList<Player>();
+	ArrayList<Player> hits = new ArrayList<Player>();
 	
 	public static void main(String[] args) {
 		//This calls the program.
 		new BaseballStats();
+		Player nextplayer = new Player();
 
 	}
 	
@@ -137,7 +139,22 @@ public class BaseballStats implements ActionListener {
 		//This tells the program what to do with the values.
 		Object control = e.getSource();
 		if (control == add) {
-			String player = pname.getName();
+			Player player = new Player();
+			player.name1 = pname.getName();
+			
+			player.name1 += players;
+			
+			player.hits[0] = (Integer) Game1Spinner.getValue();
+			
+			player.hits[1] = (Integer) Game2Spinner.getValue();
+			
+			player.hits[2] = (Integer) Game3Spinner.getValue();
+			
+			player.hits[3] = (Integer) Game4Spinner.getValue();
+			
+			player.hits[4] = (Integer) Game5Spinner.getValue();
+			
+			
 		}
 		
 	}

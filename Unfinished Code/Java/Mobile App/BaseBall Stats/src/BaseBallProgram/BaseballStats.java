@@ -1,3 +1,4 @@
+package BaseBallProgram;
 //Michael Freeman
 //Mobile App Development
 
@@ -18,6 +19,7 @@ import javax.swing.JTextField;
 import javax.swing.JSpinner;
 import javax.swing.JTextArea;
 import javax.swing.SpinnerNumberModel;
+
 import java.util.ArrayList;
 
 public class BaseballStats implements ActionListener {
@@ -35,7 +37,7 @@ public class BaseballStats implements ActionListener {
 	JButton add;
 	JButton reset;
 	JButton show;
-	ArrayList<Player> hits = new ArrayList<Player>();
+	ArrayList<Player> playersli = new ArrayList<Player>();
 	
 	public static void main(String[] args) {
 		//This calls the program.
@@ -139,11 +141,16 @@ public class BaseballStats implements ActionListener {
 		//This tells the program what to do with the values.
 		Object control = e.getSource();
 		if (control == add) {
+			//Initialize the new player object
 			Player player = new Player();
-			player.name1 = pname.getName();
+			//Get player name.
+			player.PlayerName = (String)pname.getText();
+			System.out.println(player.PlayerName);
+			//Initialize the new player array
+			player.hits = new int[5];
 			
-			player.name1 += players;
-			
+		
+			//get values of games
 			player.hits[0] = (Integer) Game1Spinner.getValue();
 			
 			player.hits[1] = (Integer) Game2Spinner.getValue();
@@ -154,8 +161,54 @@ public class BaseballStats implements ActionListener {
 			
 			player.hits[4] = (Integer) Game5Spinner.getValue();
 			
+			//Adds the player name to the text field.
+			playersli.add(player);
 			
+			//Resets the values.
+			pname.setText("");
+			
+			Game1Spinner.setValue(0);
+			
+			Game2Spinner.setValue(0);
+			
+			Game3Spinner.setValue(0);
+			
+			Game4Spinner.setValue(0);
+			
+			Game5Spinner.setValue(0);
+			
+			//Updates the text fields.
+			String names = "";
+			for (Player i: playersli) {
+				names += (String) i.PlayerName + "\n";
+			}
+			System.out.println(names);
+			players.setText(names);
 		}
+		//This tells what to do if the reset button is selected.
+			
+			else if (control == reset) {
+			pname.setText("");
+			
+			Game1Spinner.setValue(0);
+			
+			Game2Spinner.setValue(0);
+			
+			Game3Spinner.setValue(0);
+			
+			Game4Spinner.setValue(0);
+			
+			Game5Spinner.setValue(0);
+			
+			for (Player i: playersli) {
+				playersli.remove(i);
+			}
+			String names = "";
+		
+			players.setText(names);System.out.println("Test");
+		}
+			
+		
 		
 	}
 

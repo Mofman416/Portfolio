@@ -5,6 +5,7 @@ package BaseBallProgram;
 import java.text.*;
 import java.awt.*;
 import java.io.*;
+import java.util.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
@@ -13,6 +14,7 @@ import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextField;
@@ -140,12 +142,11 @@ public class BaseballStats implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		//This tells the program what to do with the values.
 		Object control = e.getSource();
+		//Initialize the new player object
+		Player player = new Player();
 		if (control == add) {
-			//Initialize the new player object
-			Player player = new Player();
 			//Get player name.
 			player.PlayerName = (String)pname.getText();
-			System.out.println(player.PlayerName);
 			//Initialize the new player array
 			player.hits = new int[5];
 			
@@ -187,7 +188,7 @@ public class BaseballStats implements ActionListener {
 		}
 		//This tells what to do if the reset button is selected.
 			
-			else if (control == reset) {
+		else if (control == reset) {
 			pname.setText("");
 			
 			Game1Spinner.setValue(0);
@@ -200,14 +201,26 @@ public class BaseballStats implements ActionListener {
 			
 			Game5Spinner.setValue(0);
 			
-			for (Player i: playersli) {
-				playersli.remove(i);
-			}
-			String names = "";
-		
-			players.setText(names);System.out.println("Test");
-		}
+			players.setText("");
 			
+			playersli = new ArrayList<Player>(); 
+			
+			
+		}
+		
+		//Tells what to do if show is selected
+		else if (control == show) {
+			String result = "";
+			/*for (Player i: playersli) {
+				playersli.remove(i);
+			}*/
+			//Find the average for every player
+			for (Player i: playersli) {
+				result += i.PlayerName + "  Batting Average = " + df.format(i.GetAvgHits()) + "\n";
+			}
+			System.out.println(result);
+			JOptionPane.showMessageDialog(baseFrame, result);
+		}
 		
 		
 	}

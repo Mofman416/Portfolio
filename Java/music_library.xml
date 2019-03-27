@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MusicLibrary>
+	<Genre Category = "Disco-Funk">
+		<Album Name = "Thriller" Artist = "Michael Jackson">
+			<Song>
+				<Name>&quot;Thriller&quot;</Name>
+				<Duration>5:57</Duration>
+			</Song>
+			<Song>
+				<Name>&quot;Billie Jean&quot;</Name>
+				<Duration>4:18</Duration>
+			</Song>
+		</Album>
+		<Album Name = "Off the Wall" Artist = "Michael Jackson">
+			<Song>
+				<Name>&quot;Don't Stop 'Til You Get Enough&quot;</Name>
+				<Duration>6:02</Duration>
+			</Song>
+			<Song>
+				<Name>&quot;Rock With You&quot;</Name>
+				<Duration>3:38</Duration>
+			</Song>
+		</Album>
+	</Genre>
+	<Genre Category = "Pop/Pop-Rock">
+		<Album Name = "Just an Old Fashioned Love Song" Artist = "Paul Williams">
+			<Song>
+				<Name>&quot;(Just An) Old Fashioned Love Song&quot;</Name>
+				<Duration>3:26</Duration>
+			</Song>
+			<Song>
+				<Name>&quot;We've Only Just Begun&quot;</Name>
+				<Duration>3:05</Duration>
+			</Song>
+		</Album>
+		<Album Name = "The Monkees" Artist = "The Monkees">
+			<Song>
+				<Name>&quot;Yes I will&quot;</Name>
+				<Duration>2:57</Duration>
+			</Song>
+			<Song>
+				<Name>&quot;Take a Giant Step&quot;</Name>
+				<Duration>2:31</Duration>
+			</Song>
+		</Album>
+	</Genre>
+</MusicLibrary>

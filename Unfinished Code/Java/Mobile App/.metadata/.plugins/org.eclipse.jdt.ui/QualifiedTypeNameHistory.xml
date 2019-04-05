@@ -15,4 +15,6 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="mobileapp.myfirstproject.R.id"/>
+<fullyQualifiedTypeName name="android.os.Build.VERSION"/>
+<fullyQualifiedTypeName name="mobileapp.ch20acr.R.id"/>
 </qualifiedTypeNameHistroy>

@@ -23,6 +23,10 @@ public class SecondMain extends Activity {
 		//Get the TextView control and update the displayed text
 		TextView tv = (TextView)findViewById(R.id.textView1);
 		tv.setText("Hello " + value);
+		
+		Intent resultIntent = new Intent();
+		resultIntent.putExtra("name", value);
+		setResult(RESULT_OK, resultIntent);
 	}
 
 }

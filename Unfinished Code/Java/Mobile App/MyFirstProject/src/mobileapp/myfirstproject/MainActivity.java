@@ -7,7 +7,7 @@ import android.view.View.*;
 import android.widget.*;
 import android.content.Intent;
 
-public class MainActivity extends Activity implements OnClickListener {
+public class MainActivity extends Activity implements OnClickListener  {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -40,9 +40,17 @@ public class MainActivity extends Activity implements OnClickListener {
 			Intent myIntent = new Intent(MainActivity.this, SecondMain.class);
 			myIntent.putExtra("name", value);
 			
-			startActivity(myIntent);
+			startActivityForResult(myIntent, 0);
 		}
 		
 	}
-
+	
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		Bundle bun = data.getExtras();
+		
+		String value = bun.getString("name");
+		
+		TextView tv = (TextView)findViewById(R.id.textView1);
+		tv.setText("Received name back: " + value);
+	}
 }

@@ -55,7 +55,7 @@ public class Main extends Activity implements OnClickListener {
 		String strval = "";
 		if (strval != null) {
 			strval = bun.getString("color");
-			TextView tv = (TextView)findViewById(R.id.helloworld);
+			TextView tv = (TextView)findViewById(R.id.maintextview);
 			tv.setText("Received Color back: " + strval);
 		}
 	}

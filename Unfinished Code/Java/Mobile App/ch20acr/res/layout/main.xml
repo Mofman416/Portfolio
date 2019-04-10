@@ -9,7 +9,7 @@
     tools:context=".Main" >
 
     <TextView
-        android:id="@+id/helloworld"
+        android:id="@+id/maintextview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -21,8 +21,8 @@
         android:id="@+id/osversion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/helloworld"
-        android:layout_below="@+id/helloworld"
+        android:layout_alignLeft="@+id/maintextview"
+        android:layout_below="@+id/maintextview"
         android:text="OS Version" />
 
     <Button

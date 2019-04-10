@@ -28,7 +28,7 @@ public final class R {
         public static final int bluebutton=0x7f080006;
         public static final int colors=0x7f080003;
         public static final int emulatortime=0x7f080002;
-        public static final int helloworld=0x7f080000;
+        public static final int maintextview=0x7f080000;
         public static final int osversion=0x7f080001;
         public static final int redbutton=0x7f080005;
         public static final int secondmessage=0x7f080004;

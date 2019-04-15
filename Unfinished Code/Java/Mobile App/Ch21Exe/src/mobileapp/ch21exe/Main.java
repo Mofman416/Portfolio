@@ -6,7 +6,8 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.EditText;
+//import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
 public class Main extends Activity implements OnClickListener{
@@ -29,11 +30,22 @@ public class Main extends Activity implements OnClickListener{
 
 	@Override
 	public void onClick(View v) {
+		String myText = "";
 		int id = v.getId();
 		if (id == R.id.but1) {
 			TextView tv = (TextView)findViewById(R.id.textView1);
-			EditText et = (EditText)findViewById(R.id.editText1);
-			tv.setText(et);
+			//EditText et = (EditText)findViewById(R.id.editText1);
+			//myText = et.getText().toString();
+			
+			RadioButton rbred = (RadioButton)findViewById(R.id.rbred);
+			RadioButton rbblue = (RadioButton)findViewById(R.id.rbblue);
+			if (rbred.isChecked()) {
+				myText = rbred.getText().toString();
+			}
+			else if (rbblue.isChecked()) {
+				myText = rbblue.getText().toString();
+			}
+			tv.setText(myText);
 		}
 		
 	}

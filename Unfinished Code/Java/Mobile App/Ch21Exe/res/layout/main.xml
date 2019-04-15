@@ -25,17 +25,24 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
         android:text="Button" />
+    
+    <RadioGroup
+        android:id="@+id/rgColors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
-    <EditText
-        android:id="@+id/editText1"
+    <RadioButton
+        android:id="@+id/rbred"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="65dp"
-        android:ems="10" >
+        android:layout_marginTop="90dp"
+        android:text="Red" />
 
-        <requestFocus />
-    </EditText>
+    <RadioButton
+        android:id="@+id/rbblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue" />
+    </RadioGroup>
 
 </RelativeLayout>

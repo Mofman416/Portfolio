@@ -29,9 +29,11 @@
 <fullyQualifiedTypeName name="android.content.Intent"/>
 <fullyQualifiedTypeName name="mobileapp.mypetactivity.R.layout"/>
 <fullyQualifiedTypeName name="mobileapp.mypetactivity.R.id"/>
+<fullyQualifiedTypeName name="mobileapp.ch22exe.R.id"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="teencoder.androidprogramming.R.id"/>
+<fullyQualifiedTypeName name="android.widget.Spinner"/>
 <fullyQualifiedTypeName name="android.R"/>
 <fullyQualifiedTypeName name="android.R.layout"/>
-<fullyQualifiedTypeName name="mobileapp.ch22exe.R.id"/>
-<fullyQualifiedTypeName name="teencoder.androidprogramming.R.id"/>
+<fullyQualifiedTypeName name="android.widget.ArrayAdapter"/>
 </qualifiedTypeNameHistroy>

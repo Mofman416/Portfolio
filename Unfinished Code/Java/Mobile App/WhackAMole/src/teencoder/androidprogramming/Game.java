@@ -67,7 +67,11 @@ public class Game extends Activity implements OnClickListener
     public void onCreate(Bundle savedInstanceState) 
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.game);
+        setContentView(R.layout.game);    	
+    	initButtons();
+    	setNewMole();
+    	setTimer(difficultyLevel * 1000);
+    	
         
         
     }
@@ -76,10 +80,6 @@ public class Game extends Activity implements OnClickListener
     // Click method for all buttons in the game
     public void onClick(View v) 
     {
-    	int id = v.getId();
-    	initButtons();
-    	setNewMole();
-    	setTimer(difficultyLevel * 1000);
     	
     	if (isComplete == true) {
     		return;
@@ -87,6 +87,8 @@ public class Game extends Activity implements OnClickListener
     	
     	if (v == currentMole) {
     		numWhacks += 1;
+    		TextView message = (TextView)findViewById(R.id.tvNumWhacks);
+        	message.setText("Score: " + numWhacks);
     		setNewMole();
     	}
 	}

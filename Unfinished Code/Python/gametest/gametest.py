@@ -10,61 +10,56 @@ class Fire(games.Sprite):
     def update(self):
         """Reverse a velocity component if edge of screen reached"""
         global SCORE
-        # if self.right > games.screen.width or self.left < 0:
-        #     self.dx = -self.dx
-        #     SCORE += 1
+        if self.right > games.screen.width or self.left < 0:
+            self.dx = -self.dx
+            SCORE += 1
 
-        ##FIGURE THIS OUT!!
-        if self.left > games.screen.height:
-            self.x = games.screen.width/2
-            self.dx = 0
-            self.dy = 5
-            SCORE += 1
-        if self.top < 0:
-            self.right = 0
-            self.dy = self.dx
-            SCORE += 1
-        if self.left > games.screen.width:
-            self.top = 0
-            self.dx = -self.dy
-            SCORE += 1
-        if self.right < 0:
-            self.bottom = games.screen.height
-            self.dx = self.dy
-            SCORE += 1
+
+class Pyro(games.Sprite):
+
+    def update(self):
+        if self.right > games.screen.width or self.left < 0:
+            self.dx = -self.dx
 
 
 class ScText(games.Text):
-    #updates the score
+    # Updates the score
     def update(self):
         self.value = SCORE
 
 def main():
-    #loaded img
+    # loaded img
     bg_img = games.load_image("images/backgroundedit.PNG", transparent=False)
     fireball = games.load_image("images/fire.png")
+    pyroenemy = games.load_image("images/pyro.png")
 
-    #added img to bg
+    # added img to bg
     games.screen.background = bg_img
 
-    #created firball object
+    # created fireball object
     fire = Fire(image=fireball,
                         x=games.screen.width/2,
                         y=games.screen.height/2,
                         dx= 5,
                         dy= 0)
 
-
-    #create text object
+    # create text object
     score = ScText(value=SCORE,
                     size=60,
                     color=color.black,
                     x=550,
                     y=30)
 
-    #draws objects to screen
+    # Create Pyro object
+    pyro = Pyro(image=pyroenemy,
+                x=games.screen.width/2,
+                y=75,
+                dx = 5)
+
+    # draws objects to screen
     games.screen.add(fire)
     games.screen.add(score)
+    games.screen.add(pyro)
 
 # game_over = games.Message(value="Game Over!",
 #                           size=100,

@@ -27,6 +27,12 @@ class ScText(games.Text):
     def update(self):
         self.value = SCORE
 
+class Player(games.Sprite):
+
+    def update(self):
+        self.dx = 0
+        games.keyboard
+
 def main():
     # loaded img
     bg_img = games.load_image("images/backgroundedit.PNG", transparent=False)

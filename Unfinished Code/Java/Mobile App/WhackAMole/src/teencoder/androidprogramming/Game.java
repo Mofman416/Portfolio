@@ -67,10 +67,31 @@ public class Game extends Activity implements OnClickListener
     public void onCreate(Bundle savedInstanceState) 
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.game);    	
+        setContentView(R.layout.game); 
+		Bundle bun = getIntent().getExtras();
+		
+		playerName = bun.getString("Name");
+		difficultyLevel = bun.getInt("Difficulty");
+		numMoles = bun.getInt("Moles");
+		duration = bun.getInt("Duration");
+        
+        //SharedPreferences prefs = getSharedPreferences("WhackSettings", MODE_PRIVATE);
+        
+        //playerName = prefs.getString("Name", playerName);
+        //difficultyLevel = prefs.getInt("Difficulty", difficultyLevel);
+        //numMoles = prefs.getInt("Moles", numMoles);
+        //duration = prefs.getInt("Duration", duration);
+        
+    	TextView tvName = (TextView)findViewById(R.id.tvName);
+    	tvName.setText("Player Name: " + playerName);
+        
+        
     	initButtons();
     	setNewMole();
     	setTimer(difficultyLevel * 1000);
+    	
+
+    	
     	
         
         

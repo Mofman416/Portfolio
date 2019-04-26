@@ -6,78 +6,119 @@ SCORE = 0
 games.init(screen_width=640, screen_height=480, fps=50)
 
 class Fire(games.Sprite):
+    image = games.load_image("images/fire.png")
+
+    speed = 1
+
+    def __init__(self, x, y=90):
+        """Initiate a fire object."""
+        super(Fire, self).__init__(Fire.image,
+                                   x=x,
+                                   y=y,
+                                   dy=Fire.speed)
 
     def update(self):
-        """Reverse a velocity component if edge of screen reached"""
-        global SCORE
-        if self.right > games.screen.width or self.left < 0:
-            self.dx = -self.dx
-            SCORE += 1
+        """Check if bottom edge has reached screen bottom."""
+        if self.bottom > games.screen.height:
+            self.end_game()
+
+            self.destroy()
+
+    def handle_caught(self):
+        """Destroys itself once caught."""
+        self.destroy()
+
+    def end_game(self):
+        """End the game"""
+
+        end_message = games.Message(value="Game Over!", size=90, color=color.blue, x=games.screen.width/2,
+                                    y=games.screen.width/2, lifetime=5 * games.screen.fps,
+                                    after_death=games.screen.quit)
+        games.screen.add(end_message)
 
 
 class Pyro(games.Sprite):
+    """The Pyro who moves left and right, dropping fireballs!"""
+    image = games.load_image("images/pyro.png")
+
+    def __init__(self, y=55, speed=2, odds_change=200):
+        """Initialize the Chef object"""
+        super(Pyro, self).__init__(image=Pyro.image, x=games.screen.width/2, y=y, dx=speed)
+        self.odds_change = odds_change
+        self.time_til_drop = 0
 
     def update(self):
-        if self.right > games.screen.width or self.left < 0:
+        """Determine if direction needs to be reversed"""
+
+        if self.left < 0 or self.right > games.screen.width:
+            self.dx = -self.dx
+        elif random.randrange(self.odds_change) == 0:
             self.dx = -self.dx
 
+        self.check_drop()
 
-class ScText(games.Text):
-    # Updates the score
+    def check_drop(self):
+        """Decrease countdown or drop pizza and reset countdown"""
+        if self.time_til_drop > 0:
+            self.time_til_drop -= 1
+        else:
+            new_fire = Fire(x=self.x)
+            games.screen.add(new_fire)
+        #set buffer to about 30% of pizza height, regardless of pizza speed.
+            self.time_til_drop = int(new_fire.height*1.3/Fire.speed) + 1
+
+
+class Bucket(games.Sprite):
+    """A bucket controlled by the mouse"""
+    image = games.load_image("images/bucket.png")
+
+    def __init__(self):
+        super(Bucket, self).__init__(image=Bucket.image,
+                                     x=games.mouse.x,
+                                     bottom=games.screen.height)
+        self.score = games.Text(value=0, size=25, color=color.black, top=5, right=games.screen.width - 10)
+        games.screen.add(self.score)
+
     def update(self):
-        self.value = SCORE
+        """Move to mouse coordinates"""
+        self.x = games.mouse.x
 
-class Player(games.Sprite):
+        if self.left < 0:
+            self.left = 0
 
-    def update(self):
-        self.dx = 0
-        games.keyboard
+        if self.right > games.screen.width:
+            self.right = games.screen.width
+
+        self.check_catch()
+
+    def check_catch(self):
+        """Check for collision with fireball"""
+        for fire in self.overlapping_sprites:
+            self.score.value += 10
+
+            self.score.right = games.screen.width - 10
+            fire.handle_caught()
 
 def main():
     # loaded img
     bg_img = games.load_image("images/backgroundedit.PNG", transparent=False)
-    fireball = games.load_image("images/fire.png")
-    pyroenemy = games.load_image("images/pyro.png")
 
     # added img to bg
     games.screen.background = bg_img
 
-    # created fireball object
-    fire = Fire(image=fireball,
-                        x=games.screen.width/2,
-                        y=games.screen.height/2,
-                        dx= 5,
-                        dy= 0)
-
-    # create text object
-    score = ScText(value=SCORE,
-                    size=60,
-                    color=color.black,
-                    x=550,
-                    y=30)
-
     # Create Pyro object
-    pyro = Pyro(image=pyroenemy,
-                x=games.screen.width/2,
-                y=75,
-                dx = 5)
+    pyro = Pyro()
+
+    bucket = Bucket()
+
+    games.mouse.is_visible = False
 
     # draws objects to screen
-    games.screen.add(fire)
-    games.screen.add(score)
     games.screen.add(pyro)
-
-# game_over = games.Message(value="Game Over!",
-#                           size=100,
-#                           color=color.blue,
-#                           x=games.screen.width/2,
-#                           y=games.screen.height/2,
-#                           lifetime=250,
-#                           after_death=games.screen.quit)
-# games.screen.add(game_over)
-
-
+    games.screen.add(bucket)
+    games.screen.event_grab = True
 
     games.screen.mainloop()
+
 
 main()

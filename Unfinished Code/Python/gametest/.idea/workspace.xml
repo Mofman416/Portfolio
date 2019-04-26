@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a15c2e1-c440-465a-bb4f-cd38d74735de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/gametest.py" beforeDir="false" afterPath="$PROJECT_DIR$/gametest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bucket.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/bucket.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shooter/.idea/Shooter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shooter/.idea/Shooter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shooter/shooter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Shooter/shooter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gametest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Dropper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gametest.py" beforeDir="false" afterPath="$PROJECT_DIR$/dropper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,14 +17,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gametest.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dropper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            <state relative-caret-position="221">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Shooter/shooter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="38" column="71" lean-forward="true" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Shooter/sound.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -34,6 +56,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>random</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
@@ -43,6 +70,9 @@
         <option value="$PROJECT_DIR$/../PyGameTemplate/PyGameTemplate.py" />
         <option value="$PROJECT_DIR$/../PyGameTemplate/sprite example.py" />
         <option value="$PROJECT_DIR$/gametest.py" />
+        <option value="$PROJECT_DIR$/dropper.py" />
+        <option value="$PROJECT_DIR$/../Shooter/shooter.py" />
+        <option value="$PROJECT_DIR$/../Shooter/sound.py" />
       </list>
     </option>
   </component>
@@ -62,17 +92,31 @@
         <subPane>
           <expand>
             <path>
-              <item name="gametest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dropper" type="b2602c69:ProjectViewProjectNode" />
               <item name="gametest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gametest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dropper" type="b2602c69:ProjectViewProjectNode" />
               <item name="gametest" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gametest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dropper" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyGameTemplate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dropper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shooter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dropper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shooter" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dropper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shooter" type="462c0819:PsiDirectoryNode" />
+              <item name="sounds" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -83,7 +127,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gametest.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Shooter" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -98,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gametest">
+  <component name="RunManager" selected="Python.sound">
     <configuration name="PyGameTemplate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyGameTemplate" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +165,7 @@
       <method v="2" />
     </configuration>
     <configuration name="gametest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="gametest" />
+      <module name="Dropper" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -132,7 +176,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gametest.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\michael.freeman\Desktop\Portfolio\Unfinished Code\Python\gametest\dropper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="shooter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Shooter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Shooter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Shooter/shooter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sound" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Shooter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Shooter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Shooter/sound.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,9 +252,13 @@
       <item itemvalue="Python.gametest" />
       <item itemvalue="Python.PyGameTemplate" />
       <item itemvalue="Python.sprite example" />
+      <item itemvalue="Python.shooter" />
+      <item itemvalue="Python.sound" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sound" />
+        <item itemvalue="Python.shooter" />
         <item itemvalue="Python.gametest" />
         <item itemvalue="Python.sprite example" />
         <item itemvalue="Python.PyGameTemplate" />
@@ -231,13 +321,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gametest.py">
+    <entry file="file://$PROJECT_DIR$/dropper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        <state relative-caret-position="221">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shooter/shooter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="38" column="71" lean-forward="true" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shooter/sound.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
         </state>
       </provider>
     </entry>

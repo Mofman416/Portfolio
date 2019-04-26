@@ -8,19 +8,33 @@ games.init(screen_width=640, screen_height=480, fps=50)
 class Fire(games.Sprite):
     image = games.load_image("images/fire.png")
 
-    speed = 1
+
 
     def __init__(self, x, y=90):
         """Initiate a fire object."""
         super(Fire, self).__init__(Fire.image,
                                    x=x,
-                                   y=y,
-                                   dy=Fire.speed)
+                                   y=y,)
+
+        self.speed = random.randint(1, 10)
+        self.dy = self.speed
+
+        self.lives = games.Message(value=3, size=25, color=color.black, top=25,
+                                   right=games.screen.width - 10)
+
+        self.life_status = games.Message(value="Lives: ", size=25, color=color.black, top=25,
+                                         right=games.screen.width - 25)
+
+        games.screen.add(self.lives)
+        games.screen.add(self.life_status)
 
     def update(self):
         """Check if bottom edge has reached screen bottom."""
+
         if self.bottom > games.screen.height:
-            self.end_game()
+            self.lives.value -= 1
+            if self.lives.value == 0:
+                self.end_game()
 
             self.destroy()
 
@@ -65,7 +79,7 @@ class Pyro(games.Sprite):
             new_fire = Fire(x=self.x)
             games.screen.add(new_fire)
         #set buffer to about 30% of pizza height, regardless of pizza speed.
-            self.time_til_drop = int(new_fire.height*1.3/Fire.speed) + 1
+            self.time_til_drop = int(random.randint(1, 10))
 
 
 class Bucket(games.Sprite):

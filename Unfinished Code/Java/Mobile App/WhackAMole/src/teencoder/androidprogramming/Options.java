@@ -82,7 +82,7 @@ public class Options extends Activity implements OnClickListener {
 		
 		int numMoles = sp.getSelectedItemPosition() + 3;
 		
-		saveSettingsInIntent(difficulty, name, numMoles, duration, myIntent);
+		saveSettingsInPrefs(difficulty, name, numMoles, duration);
 		
 		//saveSettingsInPrefs(difficulty, name, numMoles, duration);
 		

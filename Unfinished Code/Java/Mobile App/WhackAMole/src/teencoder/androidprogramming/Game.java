@@ -68,19 +68,19 @@ public class Game extends Activity implements OnClickListener
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.game); 
-		Bundle bun = getIntent().getExtras();
+		//Bundle bun = getIntent().getExtras();
 		
-		playerName = bun.getString("Name");
-		difficultyLevel = bun.getInt("Difficulty");
-		numMoles = bun.getInt("Moles");
-		duration = bun.getInt("Duration");
+		//playerName = bun.getString("Name");
+		//difficultyLevel = bun.getInt("Difficulty");
+		//numMoles = bun.getInt("Moles");
+		//duration = bun.getInt("Duration");
         
-        //SharedPreferences prefs = getSharedPreferences("WhackSettings", MODE_PRIVATE);
+        SharedPreferences prefs = getSharedPreferences("WhackSettings", MODE_PRIVATE);
         
-        //playerName = prefs.getString("Name", playerName);
-        //difficultyLevel = prefs.getInt("Difficulty", difficultyLevel);
-        //numMoles = prefs.getInt("Moles", numMoles);
-        //duration = prefs.getInt("Duration", duration);
+        playerName = prefs.getString("Name", playerName);
+        difficultyLevel = prefs.getInt("Difficulty", difficultyLevel);
+        numMoles = prefs.getInt("Moles", numMoles);
+        duration = prefs.getInt("Duration", duration);
         
     	TextView tvName = (TextView)findViewById(R.id.tvName);
     	tvName.setText("Player Name: " + playerName);
@@ -96,7 +96,6 @@ public class Game extends Activity implements OnClickListener
         
         
     }
-    
      
     // Click method for all buttons in the game
     public void onClick(View v) 
@@ -120,6 +119,13 @@ public class Game extends Activity implements OnClickListener
     	isComplete = true;
     	TextView message = (TextView)findViewById(R.id.tvNumWhacks);
     	message.setText("Game over! Score: " + numWhacks);
+    	
+    	Intent myIntent = new Intent(this, GameOver.class);
+    	myIntent.putExtra("Hits", numWhacks);
+    	myIntent.putExtra("Name", playerName);
+    	
+    	startActivity(myIntent);
+    	finish();
     }
        
     // This method will choose a new button as the current mole

@@ -49,7 +49,15 @@ public class HighScores extends Activity
 	// This method will load the scores from the HighScores.txt internal file
 	private void loadHighScoresInternalFile()
 	{
-
+		try {
+			FileInputStream fis = openFileInput("HighScores.txt");
+			
+			readScoresFIS(fis);
+		}
+		
+		catch (Exception e) {
+			System.out.println(e);
+		}
 	}
 	
 	//**********************************************************
@@ -58,7 +66,15 @@ public class HighScores extends Activity
 	// This method will load the scores from the HighScores.txt file
 	private void loadHighScoresSD()
 	{
-
+		try {
+			File privateLocation = getExternalFilesDir(null);
+			
+			
+		}
+		
+		catch (Exception e) {
+			
+		}
 	}
 	//**********************************************************
 

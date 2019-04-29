@@ -48,6 +48,23 @@ public class GameOver extends Activity implements OnClickListener
 	{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gameover);
+        
+        numWhacks = getIntent().getExtras().getInt("Hits");
+        playerName = getIntent().getExtras().getString("Name");
+        
+        TextView tv = (TextView)findViewById(R.id.tvHits);
+        tv.setText("You hit " + numWhacks + "times!");
+        
+        TextView tv2 = (TextView)findViewById(R.id.tvGameOver);
+        tv2.setText("Game Over, " + playerName);
+        
+        Button playButton = (Button)findViewById(R.id.buttonPlay);
+        playButton.setOnClickListener(this);
+        
+        Button scoreButton = (Button)findViewById(R.id.buttonScores);
+        scoreButton.setOnClickListener(this);
+        
+        saveHighScoreInternalFile();
     }
 	
 	//**********************************************************
@@ -56,7 +73,24 @@ public class GameOver extends Activity implements OnClickListener
     // save the player's score into the specified FileOutputStream
     private void writeToFOS(FileOutputStream fos)
     {
-    
+    	try {
+    		OutputStreamWriter osw = new OutputStreamWriter(fos);
+    		
+    		String endLine = System.getProperty("line.seperator");
+    		
+    		osw.write(playerName + endLine);
+    		
+    		osw.write(numWhacks + endLine);
+    		
+    		osw.flush();
+    		
+    		osw.close();
+    		
+    	}
+    	
+    	catch (Exception e) {
+    		System.out.println(e);
+    	}
     }
     
 	//**********************************************************
@@ -66,7 +100,15 @@ public class GameOver extends Activity implements OnClickListener
 	// This method will save the player's score into the HighScores.txt file in Internal Memory
 	private void saveHighScoreInternalFile()
 	{
-
+		try {
+			FileOutputStream fos = openFileOutput("HighScores.txt", MODE_APPEND);
+			
+			writeToFOS(fos);
+		}
+		
+		catch (Exception e) {
+			System.out.println(e);
+		}
 	}
 	
 	//**********************************************************

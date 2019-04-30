@@ -41,8 +41,8 @@ def main():
                        "img/explosion4.bmp", "img/explosion5.bmp", "img/explosion6.bmp",
                        "img/explosion7.bmp", "img/explosion8.bmp", "img/explosion9.bmp"]
 
-    missile_sound = games.load_sound("sounds/laser.mp4")
-    games.music.load("sounds/Erebus.mp4")
+    missile_sound = games.load_sound("sounds/laser.ogg")
+    games.music.load("sounds/Erebus.ogg")
 
     #create objects
     the_ship = Ship()

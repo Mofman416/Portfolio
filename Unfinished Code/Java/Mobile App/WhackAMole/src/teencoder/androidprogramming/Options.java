@@ -26,7 +26,7 @@ public class Options extends Activity implements OnClickListener {
 		Button playButton = (Button)findViewById(R.id.buttonPlay);
 		playButton.setOnClickListener(this);
 		
-		loadSettings();
+		//loadSettings();
 
 	}
 	
@@ -84,8 +84,6 @@ public class Options extends Activity implements OnClickListener {
 		
 		saveSettingsInPrefs(difficulty, name, numMoles, duration);
 		
-		//saveSettingsInPrefs(difficulty, name, numMoles, duration);
-		
 		startActivity(myIntent);
 		
 	}
@@ -139,11 +137,11 @@ public class Options extends Activity implements OnClickListener {
 			hard.setChecked(true);
 		}
 		
-		//String name = ev.getText().toString();
-		//int duration = sb.getProgress();
+		String name = ev.getText().toString();
+		duration = sb.getProgress();
 		
-		//int numMoles = sp.getSelectedItemPosition() + 3;
+		numMoles = sp.getSelectedItemPosition() + 3;
 		
-		//saveSettingsInPrefs(difficulty, name, numMoles, duration);
+		saveSettingsInPrefs(difficultyLevel, name, numMoles, duration);
 	}
 }

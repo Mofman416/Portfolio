@@ -64,7 +64,9 @@ public class GameOver extends Activity implements OnClickListener
         Button scoreButton = (Button)findViewById(R.id.buttonScores);
         scoreButton.setOnClickListener(this);
         
-        saveHighScoreInternalFile();
+        // Save the current player's score.
+        //saveHighScoreInternalFile();
+        saveHighScoreSD();
     }
 	
 	//**********************************************************
@@ -117,7 +119,26 @@ public class GameOver extends Activity implements OnClickListener
 	// This method will save the player's score into the HighScores.txt file on a SD card
 	private void saveHighScoreSD()
 	{
-
+		// File operations must be done in a try/catch block
+		try {
+			// Get the location for this application's private SD card folder.
+			File privateLocation = getExternalFilesDir(null);
+			
+			// Construct a file object representing the target filename
+			File myFile = new File(privateLocation, "HighScores.txt");
+			
+			// Build a FileOutputStream and write some text data!
+			// Note: We use the "true" flag to tell the compiler to append to our data in the existing file instead of overwriting it!
+			FileOutputStream fos = new FileOutputStream(myFile, true);
+			
+			// Write our data to this fileOutputStream
+			writeToFOS(fos);
+		}
+		
+		catch (Exception e) {
+			// There was a problem with the file
+			System.out.println(e);
+		}
 	}
 	//**********************************************************
 	

@@ -69,7 +69,11 @@ public class HighScores extends Activity
 		try {
 			File privateLocation = getExternalFilesDir(null);
 			
+			File myFile = new File(privateLocation, "HighScores.txt");
 			
+			FileInputStream fis = new FileInputStream(myFile);
+			
+			readScoresFIS(fis);
 		}
 		
 		catch (Exception e) {

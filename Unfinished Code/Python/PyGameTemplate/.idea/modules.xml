@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../NiceDay/.idea/NiceDay.iml" filepath="$PROJECT_DIR$/../NiceDay/.idea/NiceDay.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PyGameTemplate.iml" filepath="$PROJECT_DIR$/.idea/PyGameTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/../platformer/.idea/platformer.iml" filepath="$PROJECT_DIR$/../platformer/.idea/platformer.iml" />
     </modules>

@@ -2,1031 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="246269d3-e608-4013-b3db-fb54648f3406" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../NiceDay/.idea/NiceDay.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/PyGameTemplate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PyGameTemplate.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/blockerBody.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/blockerMad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/blockerSad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/enemies_spritesheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/enemies_spritesheet.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/fishDead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/fishSwim1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/fishSwim2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/flyDead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/flyFly1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/flyFly2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/pokerMad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/pokerSad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/slimeDead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/slimeWalk1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/slimeWalk2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/snailShell.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/snailShell_upsidedown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/snailWalk1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Enemies/snailWalk2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_coins.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_gem_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_gem_green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_gem_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_gem_yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_heartEmpty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_heartFull.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_heartHalf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_keyBlue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_keyBlue_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_keyGreem_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_keyGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_keyRed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_keyRed_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_keyYellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_keyYellow_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_p1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_p1Alt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_p2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_p2Alt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_p3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_p3Alt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_spritesheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_spritesheet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/HUD/hud_x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/bomb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/bombFlash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/bush.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/buttonBlue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/buttonBlue_pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/buttonGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/buttonGreen_pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/buttonRed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/buttonRed_pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/buttonYellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/buttonYellow_pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/cactus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/chain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/cloud1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/cloud2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/cloud3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/coinBronze.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/coinGold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/coinSilver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/fireball.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/flagBlue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/flagBlue2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/flagBlueHanging.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/flagGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/flagGreen2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/flagGreenHanging.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/flagRed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/flagRed2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/flagRedHanging.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/flagYellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/flagYellow2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/flagYellowHanging.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/gemBlue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/gemGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/gemRed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/gemYellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/items_spritesheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/items_spritesheet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/keyBlue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/keyGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/keyRed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/keyYellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/mushroomBrown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/mushroomRed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/particleBrick1a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/particleBrick1b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/particleBrick2a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/particleBrick2b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/plant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/plantPurple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/rock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/snowhill.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/spikes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/springboardDown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/springboardUp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/switchLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/switchMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/switchRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/weight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Items/weightChained.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_duck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_front.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_hurt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_spritesheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_spritesheet.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_stand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_walk/PNG/p1_walk01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_walk/PNG/p1_walk02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_walk/PNG/p1_walk03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_walk/PNG/p1_walk04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_walk/PNG/p1_walk05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_walk/PNG/p1_walk06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_walk/PNG/p1_walk07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_walk/PNG/p1_walk08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_walk/PNG/p1_walk09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_walk/PNG/p1_walk10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_walk/PNG/p1_walk11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_walk/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_walk/p1_walk.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p1_walk/p1_walk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_duck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_front.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_hurt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_spritesheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_spritesheet.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_stand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_walk/PNG/p2_walk01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_walk/PNG/p2_walk02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_walk/PNG/p2_walk03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_walk/PNG/p2_walk04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_walk/PNG/p2_walk05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_walk/PNG/p2_walk06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_walk/PNG/p2_walk07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_walk/PNG/p2_walk08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_walk/PNG/p2_walk09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_walk/PNG/p2_walk10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_walk/PNG/p2_walk11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_walk/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_walk/p2_walk.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p2_walk/p2_walk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_duck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_front.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_hurt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_spritesheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_spritesheet.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_stand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_walk/PNG/p3_walk01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_walk/PNG/p3_walk02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_walk/PNG/p3_walk03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_walk/PNG/p3_walk04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_walk/PNG/p3_walk05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_walk/PNG/p3_walk06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_walk/PNG/p3_walk07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_walk/PNG/p3_walk08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_walk/PNG/p3_walk09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_walk/PNG/p3_walk10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_walk/PNG/p3_walk11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_walk/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_walk/p3_walk.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Player/p3_walk/p3_walk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/box.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/boxAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/boxCoin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/boxCoinAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/boxCoinAlt_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/boxCoin_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/boxEmpty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/boxExplosive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/boxExplosiveAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/boxExplosive_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/boxItem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/boxItemAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/boxItemAlt_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/boxItem_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/boxWarning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/brickWall.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/bridge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/bridgeLogs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleCenter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleCenter_rounded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleCliffLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleCliffLeftAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleCliffRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleCliffRightAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleHalf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleHalfLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleHalfMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleHalfRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleHillLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleHillLeft2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleHillRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleHillRight2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleLedgeLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleLedgeRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/castleRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtCenter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtCenter_rounded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtCliffLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtCliffLeftAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtCliffRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtCliffRightAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtHalf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtHalfLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtHalfMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtHalfRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtHillLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtHillLeft2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtHillRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtHillRight2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtLedgeLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtLedgeRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/dirtRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/door_closedMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/door_closedTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/door_openMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/door_openTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/fence.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/fenceBroken.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassCenter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassCenter_rounded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassCliffLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassCliffLeftAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassCliffRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassCliffRightAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassHalf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassHalfLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassHalfMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassHalfRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassHillLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassHillLeft2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassHillRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassHillRight2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassLedgeLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassLedgeRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/grassRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/hill_large.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/hill_largeAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/hill_small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/hill_smallAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/ladder_mid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/ladder_top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/liquidLava.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/liquidLavaTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/liquidLavaTop_mid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/liquidWater.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/liquidWaterTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/liquidWaterTop_mid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/lock_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/lock_green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/lock_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/lock_yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/rockHillLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/rockHillRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/ropeAttached.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/ropeHorizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/ropeVertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandCenter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandCenter_rounded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandCliffLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandCliffLeftAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandCliffRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandCliffRightAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandHalf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandHalfLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandHalfMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandHalfRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandHillLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandHillLeft2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandHillRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandHillRight2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandLedgeLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandLedgeRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sandRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/sign.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/signExit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/signLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/signRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowCenter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowCenter_rounded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowCliffLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowCliffLeftAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowCliffRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowCliffRightAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowHalf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowHalfLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowHalfMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowHalfRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowHillLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowHillLeft2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowHillRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowHillRight2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowLedgeLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowLedgeRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/snowRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneCenter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneCenter_rounded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneCliffLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneCliffLeftAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneCliffRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneCliffRightAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneHalf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneHalfLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneHalfMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneHalfRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneHillLeft2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneHillRight2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneLedgeLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneLedgeRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/stoneWall.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/tiles_spritesheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/tiles_spritesheet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/tochLit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/tochLit2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/torch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Tiles/window.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Vector/characters.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Vector/characters.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Vector/enemies.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Vector/enemies.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Vector/tiles.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/Vector/tiles.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/bg_castle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/preview.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Base pack/sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/anemometer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/awningGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/awningGreenRed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/awningRed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/chimney.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/chimneyLow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/chimneyThin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/clock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/doorKnob.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/doorKnobAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/doorLock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/doorOpen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/doorOpenTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/doorPlateTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/doorTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/doorWindowTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/fenceGate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/fenceLong.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/fenceLow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseBeige.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseBeigeAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseBeigeAlt2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseBeigeBottomLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseBeigeBottomMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseBeigeBottomRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseBeigeMidLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseBeigeMidRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseBeigeTopLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseBeigeTopMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseBeigeTopRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseDark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseDarkAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseDarkAlt2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseDarkBottomLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseDarkBottomMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseDarkBottomRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseDarkMidLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseDarkMidRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseDarkTopLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseDarkTopMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseDarkTopRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseGray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseGrayAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseGrayAlt2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseGrayBottomLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseGrayBottomMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseGrayBottomRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseGrayMidLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseGrayMidRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseGrayTopLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseGrayTopMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/houseGrayTopRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/rockMoss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/rockMossAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofGreyLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofGreyMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofGreyRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofGreyTopLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofGreyTopMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofGreyTopRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofRedLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofRedMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofRedRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofRedTopLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofRedTopMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofRedTopRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofYellowLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofYellowMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofYellowRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofYellowTopLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofYellowTopMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/roofYellowTopRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/signBed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/signCoin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/signCup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/signHangingBed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/signHangingCoin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/signHangingCup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/window.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowCheckered.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowHighBottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowHighCheckeredBottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowHighCheckeredMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowHighCheckeredTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowHighLeadlightBottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowHighLeadlightMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowHighLeadlightTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowHighMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowHighOpenBottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowHighOpenMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowHighOpenTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowHighTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowLeadlight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowLow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowLowCheckered.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowLowLeadlight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowLowOpen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Tiles/windowOpen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Vector/sheet.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/Vector/sheet.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/preview.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Buildings expansion/sheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cake.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeCenter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeCenter_rounded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeCliffLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeCliffLeftAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeCliffRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeCliffRightAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeHalf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeHalfAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeHalfAltLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeHalfAltMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeHalfAltRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeHalfLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeHalfMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeHalfRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeHillLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeHillLeft2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeHillRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeHillRight2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeLedgeLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeLedgeRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cakeRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/candyBlue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/candyGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/candyRed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/candyYellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/canePink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/canePinkSmall.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/canePinkTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/canePinkTopAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cherry.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/choco.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoCenter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoCenter_rounded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoCliffLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoCliffLeftAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoCliffRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoCliffRightAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoHalf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoHalfAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoHalfAltLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoHalfAltMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoHalfAltRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoHalfLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoHalfMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoHalfRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoHillLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoHillLeft2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoHillRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoHillRight2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoLedgeLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoLedgeRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/chocoRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cookieBrown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cookieChoco.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cookiePink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/creamChoco.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/creamMocca.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/creamPink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/creamVanilla.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/cupCake.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/gummyWormGreenEnd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/gummyWormGreenHead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/gummyWormGreenMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/gummyWormRedEnd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/gummyWormRedHead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/gummyWormRedMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/heart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/hillCaneChoco.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/hillCaneChocoTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/hillCaneGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/hillCaneGreenTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/hillCanePink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/hillCanePinkTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/hillCaneRed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/hillCaneRedTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/lollipopBase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/lollipopBaseBeige.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/lollipopBaseBrown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/lollipopBaseCake.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/lollipopBasePink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/lollipopFruitGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/lollipopFruitRed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/lollipopFruitYellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/lollipopGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/lollipopRed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/lollipopWhiteGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/lollipopWhiteRed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/waffleChoco.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/wafflePink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Tiles/waffleWhite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Vector/sheet.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/Vector/sheet.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/preview.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Candy expansion/sheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBeige.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBeige_badge1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBeige_badge2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBeige_climb1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBeige_climb2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBeige_duck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBeige_hurt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBeige_jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBeige_stand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBeige_swim1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBeige_swim2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBeige_walk1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBeige_walk2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBlue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBlue_badge1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBlue_badge2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBlue_climb1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBlue_climb2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBlue_duck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBlue_hurt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBlue_jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBlue_stand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBlue_swim1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBlue_swim2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBlue_walk1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienBlue_walk2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienGreen_badge1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienGreen_badge2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienGreen_climb1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienGreen_climb2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienGreen_duck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienGreen_hurt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienGreen_jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienGreen_stand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienGreen_swim1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienGreen_swim2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienGreen_walk1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienGreen_walk2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienPink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienPink_badge1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienPink_badge2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienPink_climb1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienPink_climb2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienPink_duck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienPink_hurt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienPink_jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienPink_stand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienPink_swim1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienPink_swim2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienPink_walk1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienPink_walk2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienYellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienYellow_badge1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienYellow_badge2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienYellow_climb1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienYellow_climb2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienYellow_duck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienYellow_hurt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienYellow_jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienYellow_stand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienYellow_swim1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienYellow_swim2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienYellow_walk1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Alien sprites/alienYellow_walk2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/barnacle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/barnacle_bite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/barnacle_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/barnacle_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/bat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/bat_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/bat_fly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/bat_hang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/bat_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/bee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/bee_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/bee_fly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/bee_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/fishGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/fishGreen_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/fishGreen_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/fishGreen_swim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/fishPink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/fishPink_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/fishPink_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/fishPink_swim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/fly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/fly_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/fly_fly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/fly_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/frog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/frog_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/frog_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/frog_leap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/ghost.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/ghost_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/ghost_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/ghost_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/grassBlock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/grassBlock_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/grassBlock_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/grassBlock_jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/ladyBug.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/ladyBug_fly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/ladyBug_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/ladyBug_walk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/mouse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/mouse_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/mouse_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/mouse_walk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/piranha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/piranha_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/piranha_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/piranha_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slime.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slimeBlock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slimeBlock_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slimeBlock_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slimeBlue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slimeBlue_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slimeBlue_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slimeBlue_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slimeBlue_squashed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slimeGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slimeGreen_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slimeGreen_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slimeGreen_squashed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slimeGreen_walk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slime_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slime_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slime_squashed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/slime_walk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/snail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/snail_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/snail_shell.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/snail_walk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/snake.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/snakeLava.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/snakeLava_ani.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/snakeLava_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/snakeLava_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/snakeSlime.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/snakeSlime_ani.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/snakeSlime_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/snakeSlime_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/snake_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/snake_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/snake_walk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/spider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/spider_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/spider_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/spider_walk1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/spider_walk2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/spinner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/spinnerHalf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/spinnerHalf_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/spinnerHalf_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/spinnerHalf_spin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/spinner_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/spinner_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/spinner_spin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/worm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/worm_dead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/worm_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Enemy sprites/worm_walk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Spritesheets/alienBeige.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Spritesheets/alienBeige.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Spritesheets/alienBlue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Spritesheets/alienBlue.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Spritesheets/alienGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Spritesheets/alienGreen.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Spritesheets/alienPink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Spritesheets/alienPink.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Spritesheets/alienYellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Spritesheets/alienYellow.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Spritesheets/aliens.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Spritesheets/aliens.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Spritesheets/enemies.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Spritesheets/enemies.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Vector/aliens.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Vector/aliens.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Vector/enemies.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/Vector/enemies.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/preview.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Extra animations and enemies/sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/caneGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/caneGreenSmall.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/caneGreenTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/caneGreenTopAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/caneRed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/caneRedSmall.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/caneRedTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/caneRedTopAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/deadTree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iceBlock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iceBlockAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iceBlockHalf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iceBlockHalfAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iceWater.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iceWaterAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iceWaterDeep.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iceWaterDeepAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iceWaterDeepStars.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iceWaterDeepStarsAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iceWaterMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iceWaterMidAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/igloo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iglooAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iglooDoor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iglooRoof.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iglooRoofLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/iglooRoofRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/pineSapling.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/pineSaplingAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/plant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/plantAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/rock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/rockAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/snowBall.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/snowBallBig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/snowBallBigGround.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/snowBallGround.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/snowGroundLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/snowGroundRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/snowHill.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/snowHillLow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/snowLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/snowMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/snowRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/snowWave.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/spikeTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/spikesBottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/spikesBottomAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/spikesBottomAlt2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/spikesTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/spikesTopAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/spikesTopAlt2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeBranchesLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeBranchesLeftAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeBranchesLeftSnowAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeBranchesRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeBranchesSnowLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeBranchesSnowRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeBranchesSnowRightAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeBranchesSnowRightSnowAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeTopSnow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeTrunk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeTrunkBottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeTrunkBottomAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeTrunkBottomAlt2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeTrunkBottomAlt3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeTrunkBranch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeTrunkBranchEndLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeTrunkBranchEndRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeTrunkBranchLeftAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeTrunkBranchRightAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeTrunkSplitLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeTrunkSplitRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/treeTrunkTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundra.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraCenter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraCenter_rounded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraCliffLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraCliffLeftAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraCliffRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraCliffRightAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraHalf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraHalfLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraHalfMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraHalfRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraHillLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraHillLeft2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraHillRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraHillRight2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraLedgeLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraLedgeRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Tiles/tundraRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Vector/sheet.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/Vector/sheet.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/preview.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Ice expansion/sheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/Backgrounds/bg_castle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/Backgrounds/bg_desert.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/Backgrounds/bg_grasslands.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/Backgrounds/bg_shroom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/bush.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomBrownAltLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomBrownAltMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomBrownAltMidAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomBrownAltRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomBrownAltSpotsLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomBrownAltSpotsMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomBrownAltSpotsMidAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomBrownAltSpotsRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomBrownLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomBrownMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomBrownMidAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomBrownRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomBrownSpotsLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomBrownSpotsMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomBrownSpotsMidAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomBrownSpotsRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomRedAltLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomRedAltMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomRedAltMidAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomRedAltRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomRedLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomRedMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomRedMidAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomRedRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomTanAltLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomTanAltMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomTanAltMidAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomTanAltRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomTanLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomTanMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomTanMidAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/shroomTanRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/spritesheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/spritesheet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/stem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/stemBase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/stemBaseAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/stemCrown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/stemShroom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/stemTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/stemTopAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/stemVine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/tallShroom_brown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/tallShroom_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/tallShroom_tan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/tinyShroom_brown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/tinyShroom_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/PNG/tinyShroom_tan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/Vector/tiles.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/Vector/tiles.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/preview.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Mushroom expansion/sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/beam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/beamBolts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/beamBoltsHoles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/beamBoltsNarrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/beamDiagonalLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/beamDiagonalRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/beamHoles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/beamNarrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/dirtCaveBL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/dirtCaveBR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/dirtCaveBottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/dirtCaveRockLarge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/dirtCaveRockSmall.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/dirtCaveSpikeBottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/dirtCaveSpikeTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/dirtCaveTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/dirtCaveUL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/dirtCaveUR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserBlueBurst.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserBlueHorizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserBlueVertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserDown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserDownShoot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserGreenBurst.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserGreenHorizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserGreenVertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserLeftShoot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserPurple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserPurpleDot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserRedBurst.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserRedHorizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserRedVertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserRightShoot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserSwitchBlueOff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserSwitchBlueOn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserSwitchGreenOff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserSwitchGreenOn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserSwitchRedOff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserSwitchRedOn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserSwitchYellowOff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserSwitchYellowOn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserUp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserUpShoot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserYellowBurst.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserYellowHorizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/laserYellowVertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalCenter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalCenterSticker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalCenterWarning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalCliffLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalCliffLeftAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalCliffRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalCliffRightAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalFence.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalFenceAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalHalf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalHalfLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalHalfMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalHalfRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalMid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalPlatform.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalPlatformWire.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalPlatformWireAlt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/metalRounded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/raygun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/raygunBig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/raygunPurple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/raygunPurpleBig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/shieldBronze.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/shieldGold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/shieldSilver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/stoneCaveBL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/stoneCaveBR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/stoneCaveBottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/stoneCaveRockLarge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/stoneCaveRockSmall.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/stoneCaveSpikeBottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/stoneCaveSpikeTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/stoneCaveTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/stoneCaveUL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/stoneCaveUR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/swordBronze.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/swordGold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/swordSilver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/tile_20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/tile_21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/umbrellaClosed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/umbrellaOpen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/wireBottomLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/wireBottomRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/wireHook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/wireLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Tiles/wireRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Vector/sheet.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/Vector/sheet.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/preview.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/Request pack/sheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/preview.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Platformer Art Complete Pack/sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/p1_jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shmup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shmup/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformer/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../platformer/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformer/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../platformer/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformer/sprites.py" beforeDir="false" afterPath="$PROJECT_DIR$/../platformer/sprites.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1035,26 +17,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../platformer/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state>
+              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
               <folding>
-                <element signature="e#19#38#0" expanded="true" />
+                <element signature="e#115#1553#0" />
+                <element signature="e#1611#1641#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../platformer/sprites.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+            <state relative-caret-position="68">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
-                <element signature="e#36#42#0" expanded="true" />
+                <element signature="e#139#1053#0" />
+                <element signature="e#1101#1333#0" />
               </folding>
             </state>
           </provider>
@@ -1063,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../platformer/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="272">
+              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -1087,8 +71,11 @@
         <option value="$PROJECT_DIR$/PyGameTemplate.py" />
         <option value="$PROJECT_DIR$/sprite example.py" />
         <option value="$PROJECT_DIR$/../platformer/platformer.py" />
-        <option value="$PROJECT_DIR$/../platformer/main.py" />
+        <option value="$PROJECT_DIR$/../NiceDay/main.py" />
+        <option value="$PROJECT_DIR$/../NiceDay/sprites.py" />
+        <option value="$PROJECT_DIR$/../NiceDay/settings.py" />
         <option value="$PROJECT_DIR$/../platformer/settings.py" />
+        <option value="$PROJECT_DIR$/../platformer/main.py" />
         <option value="$PROJECT_DIR$/../platformer/sprites.py" />
       </list>
     </option>
@@ -1110,6 +97,10 @@
           <expand>
             <path>
               <item name="PyGameTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NiceDay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyGameTemplate" type="b2602c69:ProjectViewProjectNode" />
               <item name="platformer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1126,7 +117,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../platformer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NiceDay" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -1235,7 +226,7 @@
   <component name="ToolWindowManager">
     <frame x="99" y="14" width="1400" height="828" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25330397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25330397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1292,36 +283,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../platformer/platformer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../platformer/platformer.py" />
+    <entry file="file://$PROJECT_DIR$/../NiceDay/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../platformer/main.py">
+    <entry file="file://$PROJECT_DIR$/../NiceDay/sprites.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NiceDay/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../platformer/sprites.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="e#19#38#0" expanded="true" />
+            <element signature="e#139#1053#0" />
+            <element signature="e#1101#1333#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../platformer/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="272">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../platformer/sprites.py">
+    <entry file="file://$PROJECT_DIR$/../platformer/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
           <folding>
-            <element signature="e#36#42#0" expanded="true" />
+            <element signature="e#115#1553#0" />
+            <element signature="e#1611#1641#0" />
           </folding>
         </state>
       </provider>

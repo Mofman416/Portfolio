@@ -41,4 +41,10 @@
 <fullyQualifiedTypeName name="android.content.SharedPreferences.Editor"/>
 <fullyQualifiedTypeName name="teencoder.androidprogramming.R.id"/>
 <fullyQualifiedTypeName name="android.provider.Settings.System"/>
+<fullyQualifiedTypeName name="mobileapp.wammerge.R.id"/>
+<fullyQualifiedTypeName name="android.widget.LinearLayout"/>
+<fullyQualifiedTypeName name="mobileapp.wammerge.R.drawable"/>
+<fullyQualifiedTypeName name="android.widget.ImageView"/>
+<fullyQualifiedTypeName name="android.view.ViewGroup.LayoutParams"/>
+<fullyQualifiedTypeName name="android.widget.ImageView.ScaleType"/>
 </qualifiedTypeNameHistroy>

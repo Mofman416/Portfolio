@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_arGQMWXSEem457HedT6how" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_arGQMmXSEem457HedT6how" bindingContexts="_arGQNGXSEem457HedT6how">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Options.java&quot; tooltip=&quot;WhackAMole/src/teencoder/androidprogramming/Options.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/src/teencoder/androidprogramming/Options.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;HighScores.java&quot; tooltip=&quot;WhackAMole/src/teencoder/androidprogramming/HighScores.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/src/teencoder/androidprogramming/HighScores.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.manifest.ManifestEditor&quot; name=&quot;AndroidManifest.xml&quot; tooltip=&quot;WhackAMole/AndroidManifest.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/AndroidManifest.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;gameover.xml&quot; tooltip=&quot;WhackAMole/res/layout/gameover.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/res/layout/gameover.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GameOver.java&quot; tooltip=&quot;WhackAMole/src/teencoder/androidprogramming/GameOver.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/src/teencoder/androidprogramming/GameOver.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Main.java&quot; tooltip=&quot;Ch22Exe/src/mobileapp/ch22exe/Main.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Ch22Exe/src/mobileapp/ch22exe/Main.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Main.java&quot; tooltip=&quot;Ch21Exe/src/mobileapp/ch21exe/Main.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Ch21Exe/src/mobileapp/ch21exe/Main.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Game.java&quot; tooltip=&quot;WhackAMole/src/teencoder/androidprogramming/Game.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/src/teencoder/androidprogramming/Game.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PizzaPlace.java&quot; tooltip=&quot;PizzaPlace/src/PizzaPlace.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PizzaPlace/src/PizzaPlace.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;game.xml&quot; tooltip=&quot;WhackAMole/res/layout/game.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/res/layout/game.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;strings.xml&quot; tooltip=&quot;WhackAMole/res/values/strings.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/res/values/strings.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;options.xml&quot; tooltip=&quot;WhackAMole/res/layout/options.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/res/layout/options.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;R.java&quot; tooltip=&quot;WAMMerge/gen/mobileapp/wammerge/R.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WAMMerge/gen/mobileapp/wammerge/R.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MainActivity.java&quot; tooltip=&quot;WAMMerge/src/mobileapp/wammerge/MainActivity.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WAMMerge/src/mobileapp/wammerge/MainActivity.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;activity_main.xml&quot; tooltip=&quot;WAMMerge/res/layout/activity_main.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WAMMerge/res/layout/activity_main.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Options.java&quot; tooltip=&quot;WhackAMole/src/teencoder/androidprogramming/Options.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/src/teencoder/androidprogramming/Options.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;HighScores.java&quot; tooltip=&quot;WhackAMole/src/teencoder/androidprogramming/HighScores.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/src/teencoder/androidprogramming/HighScores.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.manifest.ManifestEditor&quot; name=&quot;AndroidManifest.xml&quot; tooltip=&quot;WhackAMole/AndroidManifest.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/AndroidManifest.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;gameover.xml&quot; tooltip=&quot;WhackAMole/res/layout/gameover.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/res/layout/gameover.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GameOver.java&quot; tooltip=&quot;WhackAMole/src/teencoder/androidprogramming/GameOver.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/src/teencoder/androidprogramming/GameOver.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Main.java&quot; tooltip=&quot;Ch22Exe/src/mobileapp/ch22exe/Main.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Ch22Exe/src/mobileapp/ch22exe/Main.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Main.java&quot; tooltip=&quot;Ch21Exe/src/mobileapp/ch21exe/Main.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Ch21Exe/src/mobileapp/ch21exe/Main.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Game.java&quot; tooltip=&quot;WhackAMole/src/teencoder/androidprogramming/Game.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/src/teencoder/androidprogramming/Game.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PizzaPlace.java&quot; tooltip=&quot;PizzaPlace/src/PizzaPlace.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PizzaPlace/src/PizzaPlace.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;game.xml&quot; tooltip=&quot;WhackAMole/res/layout/game.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/res/layout/game.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;strings.xml&quot; tooltip=&quot;WhackAMole/res/values/strings.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/res/values/strings.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;options.xml&quot; tooltip=&quot;WhackAMole/res/layout/options.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WhackAMole/res/layout/options.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_arGQMmXSEem457HedT6how" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_bTLj4WXSEem457HedT6how" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
@@ -85,6 +85,7 @@
             <children xsi:type="basic:PartSashContainer" xmi:id="_b3i1MmXSEem457HedT6how" containerData="2500" selectedElement="_b3i1M2XSEem457HedT6how">
               <children xsi:type="basic:PartStack" xmi:id="_b3i1M2XSEem457HedT6how" elementId="left" containerData="6000" selectedElement="_b3i1NGXSEem457HedT6how">
                 <tags>org.eclipse.e4.primaryNavigationStack</tags>
+                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_b3i1NGXSEem457HedT6how" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_b20ccGXSEem457HedT6how" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Java</tags>
@@ -113,7 +114,7 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_b3i1O2XSEem457HedT6how" containerData="7500" selectedElement="_b3i1RmXSEem457HedT6how">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_b3i1O2XSEem457HedT6how" containerData="7500" selectedElement="_b3i1PGXSEem457HedT6how">
               <children xsi:type="basic:PartSashContainer" xmi:id="_b3i1PGXSEem457HedT6how" containerData="7500" selectedElement="_b3i1PWXSEem457HedT6how" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_b3i1PWXSEem457HedT6how" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_b2r5kGXSEem457HedT6how"/>
                 <children xsi:type="basic:PartSashContainer" xmi:id="_b3i1PmXSEem457HedT6how" containerData="2500" selectedElement="_b3i1P2XSEem457HedT6how">
@@ -147,7 +148,6 @@
               <children xsi:type="basic:PartStack" xmi:id="_b3i1RmXSEem457HedT6how" elementId="bottom" containerData="2500" selectedElement="_b3jcQWXSEem457HedT6how">
                 <tags>org.eclipse.e4.secondaryDataStack</tags>
                 <tags>Android</tags>
-                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_b3i1R2XSEem457HedT6how" elementId="org.eclipse.ui.views.ProblemView" ref="_b22Ro2XSEem457HedT6how" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
@@ -176,18 +176,13 @@
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
                 </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_t_PoIGXXEem457HedT6how" elementId="com.android.ide.eclipse.ddms.views.LogCatView" ref="_t_PBEGXXEem457HedT6how" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:Android</tags>
+                </children>
               </children>
             </children>
           </children>
-          <windows xsi:type="basic:TrimmedWindow" xmi:id="_Boal0GwoEemuFP-7bQc5TQ" toBeRendered="false" x="1957" y="-402" width="1443" height="1178">
-            <tags>shellMaximized</tags>
-            <children xsi:type="basic:PartStack" xmi:id="_Boal0WwoEemuFP-7bQc5TQ" elementId="PartStack@63fa3a18" toBeRendered="false">
-              <children xsi:type="advanced:Placeholder" xmi:id="_t_PoIGXXEem457HedT6how" elementId="com.android.ide.eclipse.ddms.views.LogCatView" toBeRendered="false" ref="_t_PBEGXXEem457HedT6how" closeable="true">
-                <tags>View</tags>
-                <tags>categoryTag:Android</tags>
-              </children>
-            </children>
-          </windows>
         </children>
         <children xsi:type="advanced:Perspective" xmi:id="_lt4dcGqOEemgcL_d7vOokQ" elementId="com.android.ide.eclipse.ddms.Perspective" selectedElement="_qM8pwGqOEemgcL_d7vOokQ" label="DDMS" iconURI="platform:/plugin/com.android.ide.eclipse.ddms/icons/ddms-16.png">
           <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.undo,persp.hideToolbarSC:org.eclipse.ui.edit.redo,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,persp.hideToolbarSC:org.eclipse.debug.ui.commands.RunToLine,persp.hideToolbarSC:org.eclipse.jdt.ui.actions.OpenProjectWizard,"/>
@@ -322,9 +317,10 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_b2r5kGXSEem457HedT6how" elementId="org.eclipse.ui.editorss" selectedElement="_b2r5kWXSEem457HedT6how">
-      <children xsi:type="basic:PartStack" xmi:id="_b2r5kWXSEem457HedT6how" elementId="PartStack@6e43ddd6" selectedElement="_KHhsAGXZEem457HedT6how">
+      <children xsi:type="basic:PartStack" xmi:id="_b2r5kWXSEem457HedT6how" elementId="PartStack@6e43ddd6" selectedElement="_vWOOcG20Eemgo-GC3MoRlg">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_DJgWkGdxEemfF6K43Gn4sw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Game.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Game.java&quot; partName=&quot;Game.java&quot; title=&quot;Game.java&quot; tooltip=&quot;WhackAMole/src/teencoder/androidprogramming/Game.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/WhackAMole/src/teencoder/androidprogramming/Game.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;4051&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -338,7 +334,7 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_KHhsAGXZEem457HedT6how" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Options.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Options.java&quot; partName=&quot;Options.java&quot; title=&quot;Options.java&quot; tooltip=&quot;WhackAMole/src/teencoder/androidprogramming/Options.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/WhackAMole/src/teencoder/androidprogramming/Options.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2374&quot; selectionTopPixel=&quot;970&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Options.java&quot; partName=&quot;Options.java&quot; title=&quot;Options.java&quot; tooltip=&quot;WhackAMole/src/teencoder/androidprogramming/Options.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/WhackAMole/src/teencoder/androidprogramming/Options.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2374&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -378,6 +374,20 @@
           <tags>Editor</tags>
           <tags>com.android.ide.eclipse.editors.manifest.ManifestEditor</tags>
           <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_fZHjcG2yEemgo-GC3MoRlg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="activity_main.xml" iconURI="platform:/plugin/com.android.ide.eclipse.adt/icons/android_file.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;activity_main.xml&quot; partName=&quot;activity_main.xml&quot; title=&quot;activity_main.xml&quot; tooltip=&quot;WAMMerge/res/layout/activity_main.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/WAMMerge/res/layout/activity_main.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>com.android.ide.eclipse.editors.CommonXmlEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_vWOOcG20Eemgo-GC3MoRlg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MainActivity.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MainActivity.java&quot; partName=&quot;MainActivity.java&quot; title=&quot;MainActivity.java&quot; tooltip=&quot;WAMMerge/src/mobileapp/wammerge/MainActivity.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/WAMMerge/src/mobileapp/wammerge/MainActivity.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;978&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -459,8 +469,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_K1WNkGXUEem457HedT6how" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -676,7 +684,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_bYs9EGXSEem457HedT6how" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_8X4WwGwbEemuFP-7bQc5TQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_as2j8GXSEem457HedT6how"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_DGGogG2sEemgo-GC3MoRlg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_as2j8GXSEem457HedT6how"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_bYs9EWXSEem457HedT6how" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -716,7 +724,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_bYx1kGXSEem457HedT6how" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_8X6zAWwbEemuFP-7bQc5TQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_as18z2XSEem457HedT6how"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_DGJEwG2sEemgo-GC3MoRlg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_as18z2XSEem457HedT6how"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_bYzDsGXSEem457HedT6how" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2783,7 +2791,7 @@
   <addons xmi:id="_arGQQ2XSEem457HedT6how" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_arGQRGXSEem457HedT6how" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_arc1gGXSEem457HedT6how" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_79jyQWwbEemuFP-7bQc5TQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_asun4GXSEem457HedT6how" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_asun4WXSEem457HedT6how" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

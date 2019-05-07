@@ -8,6 +8,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="platformer" />
     <orderEntry type="module" module-name="NiceDay" />
+    <orderEntry type="module" module-name="Shooter" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a15c2e1-c440-465a-bb4f-cd38d74735de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/version.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/WhackAMole/bin/WhackAMole.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/WhackAMole/bin/WhackAMole.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/WhackAMole/bin/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/WhackAMole/bin/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/WhackAMole/src/teencoder/androidprogramming/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/WhackAMole/src/teencoder/androidprogramming/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/WhackAMole/src/teencoder/androidprogramming/GameOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/WhackAMole/src/teencoder/androidprogramming/GameOver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/WhackAMole/src/teencoder/androidprogramming/HighScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/WhackAMole/src/teencoder/androidprogramming/HighScores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/WhackAMole/src/teencoder/androidprogramming/Options.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/WhackAMole/src/teencoder/androidprogramming/Options.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shooter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dropper.py" beforeDir="false" afterPath="$PROJECT_DIR$/dropper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/PyGameTemplate/.idea/PyGameTemplate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unfinished Code/Python/PyGameTemplate/.idea/PyGameTemplate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/PyGameTemplate/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unfinished Code/Python/PyGameTemplate/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/PyGameTemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unfinished Code/Python/PyGameTemplate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/Shooter/shooterv1.5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unfinished Code/Python/Shooter/shooterv1.5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/Shooter/sounds/Erebus.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/Shooter/sounds/Franklin.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/Shooter/sounds/laser.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/Shooter/sounds/mvm_tank_explode.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/Shooter/sounds/mvm_used_powerup.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/Shooter/sounds/thrusters.wav" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,29 +25,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dropper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="150" column="68" selection-start-line="150" selection-start-column="68" selection-end-line="150" selection-end-column="68" />
+            <state relative-caret-position="-101">
+              <caret line="76" selection-start-line="76" selection-end-line="83" selection-end-column="42" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Shooter/shooter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Shooter/sound.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -74,7 +52,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -88,9 +66,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="234" />
-    <option name="y" value="24" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="58" />
+    <option name="y" value="95" />
     <option name="width" value="1400" />
     <option name="height" value="828" />
   </component>
@@ -100,6 +78,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,34 +91,15 @@
               <item name="gametest" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Dropper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyGameTemplate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dropper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shooter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dropper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shooter" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dropper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shooter" type="462c0819:PsiDirectoryNode" />
-              <item name="sounds" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dropper.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -261,11 +221,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.gametest" />
       <item itemvalue="Python.PyGameTemplate" />
-      <item itemvalue="Python.sprite example" />
+      <item itemvalue="Python.gametest" />
       <item itemvalue="Python.shooter" />
       <item itemvalue="Python.sound" />
+      <item itemvalue="Python.sprite example" />
     </list>
     <recent_temporary>
       <list>
@@ -291,9 +251,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="58" y="95" width="1400" height="828" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20704846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -313,26 +274,8 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../PyGameTemplate/PyGameTemplate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#18#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PyGameTemplate/sprite example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding>
-            <element signature="e#18#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../PyGameTemplate/PyGameTemplate.py" />
+    <entry file="file://$PROJECT_DIR$/../PyGameTemplate/sprite example.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="939">
@@ -374,27 +317,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Shooter/shooter.py" />
+    <entry file="file://$PROJECT_DIR$/../Shooter/sound.py" />
     <entry file="file://$PROJECT_DIR$/dropper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="150" column="68" selection-start-line="150" selection-start-column="68" selection-end-line="150" selection-end-column="68" />
+        <state relative-caret-position="-101">
+          <caret line="76" selection-start-line="76" selection-end-line="83" selection-end-column="42" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shooter/shooter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shooter/sound.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

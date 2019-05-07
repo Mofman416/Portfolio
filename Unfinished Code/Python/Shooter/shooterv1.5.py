@@ -17,7 +17,7 @@ class Game(object):
         # set level
         self.level = 0
         # load sound for level advance
-        self.sound = games.load_sound("sounds/mvm_used_powerup.wav")
+        self.sound = games.load_sound("sounds/mvm_used_powerup.ogg")
         # create score
         self.score = games.Text(value=0,
                                 size=30,
@@ -32,11 +32,11 @@ class Game(object):
         games.screen.add(self.ship)
 
     def play(self):
-        games.music.load("sounds/Erebus.mp4")
+        games.music.load("sounds/Erebus.ogg")
         games.music.play(-1)
 
         bg_img = games.load_image("img/space.png")
-        games.screen.background(bg_img)
+        games.screen.background = bg_img
 
         self.advance()
 
@@ -69,7 +69,7 @@ class Game(object):
             games.screen.add(new_asteroid)
 
         # display level number
-        level_message = games.Message(value="Level" + str(self.level),
+        level_message = games.Message(value="Level " + str(self.level),
                                       size=40,
                                       color=color.yellow,
                                       x=games.screen.width/2,
@@ -256,7 +256,7 @@ class Missile(Collider):
 
 
 class Explosion(games.Animation):
-    sound = games.load_sound("sounds/mvm_tank_explode.wav")
+    sound = games.load_sound("sounds/mvm_tank_explode.ogg")
     expimages = ["img/explosion1.bmp",
                  "img/explosion2.bmp",
                  "img/explosion3.bmp",

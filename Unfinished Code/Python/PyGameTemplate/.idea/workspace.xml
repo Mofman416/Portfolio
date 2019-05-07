@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="246269d3-e608-4013-b3db-fb54648f3406" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../platformer/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../platformer/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/gametest/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Python/gametest/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/gametest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Python/gametest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PyGameTemplate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PyGameTemplate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shooter/shooterv1.5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Shooter/shooterv1.5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shooter/sounds/Erebus.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shooter/sounds/Franklin.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shooter/sounds/laser.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shooter/sounds/mvm_tank_explode.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shooter/sounds/mvm_used_powerup.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shooter/sounds/thrusters.wav" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,20 +23,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../platformer/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Shooter/shooterv1.5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
               <folding>
-                <element signature="e#143#439#0" />
-                <element signature="e#468#804#0" />
-                <element signature="e#833#1009#0" />
-                <element signature="e#1412#1786#0" />
-                <element signature="e#1816#1991#0" />
-                <element signature="e#2034#2073#0" />
-                <element signature="e#2113#2146#0" />
+                <element signature="e#45#80#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Shooter/shooterv1.6.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -34,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/../platformer/sprites.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -57,6 +80,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Ship</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
@@ -72,6 +100,8 @@
         <option value="$PROJECT_DIR$/../platformer/settings.py" />
         <option value="$PROJECT_DIR$/../platformer/sprites.py" />
         <option value="$PROJECT_DIR$/../platformer/main.py" />
+        <option value="$PROJECT_DIR$/../Shooter/shooterv1.5.py" />
+        <option value="$PROJECT_DIR$/../Shooter/shooterv1.6.py" />
       </list>
     </option>
   </component>
@@ -103,6 +133,15 @@
               <item name="platformer" type="462c0819:PsiDirectoryNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PyGameTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shooter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyGameTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shooter" type="462c0819:PsiDirectoryNode" />
+              <item name="sounds" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -112,11 +151,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NiceDay" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Shooter" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Python\Shooter" />
       <recent name="C:\Users\mofma\Desktop\portfolio\Unfinished Code\Python\platformer" />
       <recent name="C:\Users\mofma\Desktop\portfolio\Unfinished Code\Python" />
     </key>
@@ -133,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.shooterv1.6">
     <configuration name="PyGameTemplate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyGameTemplate" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,8 +237,52 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="shooterv1.5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Shooter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Shooter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Shooter/shooterv1.5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="shooterv1.6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Shooter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Shooter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Shooter/shooterv1.6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.shooterv1.6" />
+        <item itemvalue="Python.shooterv1.5" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.platformer" />
         <item itemvalue="Python.PyGameTemplate" />
@@ -288,6 +372,13 @@
     <entry file="file://$PROJECT_DIR$/../NiceDay/settings.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/../platformer/sprites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../platformer/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -295,26 +386,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../platformer/sprites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../Shooter/shooter.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../platformer/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shooter/shooterv1.5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
           <folding>
-            <element signature="e#143#439#0" />
-            <element signature="e#468#804#0" />
-            <element signature="e#833#1009#0" />
-            <element signature="e#1412#1786#0" />
-            <element signature="e#1816#1991#0" />
-            <element signature="e#2034#2073#0" />
-            <element signature="e#2113#2146#0" />
+            <element signature="e#45#80#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shooter/shooterv1.6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>

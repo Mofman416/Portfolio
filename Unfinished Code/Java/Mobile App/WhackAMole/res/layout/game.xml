@@ -12,57 +12,78 @@
         android:layout_gravity="center_horizontal"
         android:text="Player Name: " />
 
-    <Button
+    <ImageButton
         android:id="@+id/button1"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:text=":)" />
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignRight="+id/button2"
+        android:layout_below="+id/button2"
+        android:scaleType="fitCenter"
+        android:text="@drawable/mole" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button2"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:text=":)" />
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignRight="+id/button3"
+        android:layout_below="+id/button3"
+        android:scaleType="fitCenter"
+        android:text="@drawable/mole" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button3"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:text=":)" />
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignRight="+id/button4"
+        android:layout_below="+id/button4"
+        android:scaleType="fitCenter"
+        android:text="@drawable/mole" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button4"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:text=":)" />
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignRight="+id/button5"
+        android:layout_below="+id/button5"
+        android:scaleType="fitCenter"
+        android:text="@drawable/mole" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button5"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:text=":)" />
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignRight="+id/button6"
+        android:layout_below="+id/button6"
+        android:scaleType="fitCenter"
+        android:text="@drawable/mole" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button6"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:text=":)" />
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignRight="+id/button7"
+        android:layout_below="+id/=button7"
+        android:scaleType="fitCenter"
+        android:text="@drawable/mole" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button7"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:text=":)" />
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignTop="+id/button8"
+        android:layout_toRightOf="+id/button8"
+        android:scaleType="fitCenter"
+        android:text="@drawable/mole" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button8"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:text=":)" />
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignRight="+id/tvName"
+        android:layout_below="+id/tvName"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitCenter"
+        android:text="@drawable/mole" />
   
     	<TextView
         android:id="@+id/tvNumWhacks"

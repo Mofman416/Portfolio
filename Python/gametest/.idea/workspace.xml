@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a15c2e1-c440-465a-bb4f-cd38d74735de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/PyGameTemplate/.idea/PyGameTemplate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unfinished Code/Python/PyGameTemplate/.idea/PyGameTemplate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/PyGameTemplate/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unfinished Code/Python/PyGameTemplate/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/PyGameTemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unfinished Code/Python/PyGameTemplate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/Shooter/shooterv1.5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unfinished Code/Python/Shooter/shooterv1.5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/Shooter/sounds/Erebus.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/Shooter/sounds/Franklin.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/Shooter/sounds/laser.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/Shooter/sounds/mvm_tank_explode.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/Shooter/sounds/mvm_used_powerup.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unfinished Code/Python/Shooter/sounds/thrusters.wav" beforeDir="false" />
-    </list>
+    <list default="true" id="0a15c2e1-c440-465a-bb4f-cd38d74735de" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dropper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-101">
-              <caret line="76" selection-start-line="76" selection-end-line="83" selection-end-column="42" />
+            <state relative-caret-position="629">
+              <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -252,7 +240,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="95" width="1400" height="828" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20704846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -321,8 +308,8 @@
     <entry file="file://$PROJECT_DIR$/../Shooter/sound.py" />
     <entry file="file://$PROJECT_DIR$/dropper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
-          <caret line="76" selection-start-line="76" selection-end-line="83" selection-end-column="42" />
+        <state relative-caret-position="629">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

@@ -1,6 +1,5 @@
 # Asteroids 1.0
 # Michael Freeman
-# Work on the lives system.
 
 # imports
 from superwires import games, color
@@ -28,6 +27,23 @@ class Game(object):
                                 is_collideable=False)
         games.screen.add(self.score)
         self.create_ship()
+
+        start_message1 = games.Message(value="Move your Ship with the Arrow Keys.",
+                                    size=36,
+                                    color=color.red,
+                                    x=games.screen.width/2,
+                                    y=games.screen.height/2,
+                                    lifetime=3*games.screen.fps,
+                                    is_collideable=False)
+        start_message2 = games.Message(value="Press the Space Bar to fire a laser.",
+                                    size=36,
+                                    color=color.red,
+                                    x=games.screen.width/2,
+                                    y=games.screen.height * 3 / 4,
+                                    lifetime=3*games.screen.fps,
+                                    is_collideable=False)
+        games.screen.add(start_message1)
+        games.screen.add(start_message2)
 
     def create_ship(self):
         self.ship = Ship(game=self,
@@ -151,20 +167,14 @@ class Ship(Collider):
         super(Ship, self).__init__(image=Ship.image, x=x, y=y)
         self.game = game
         self.missile_wait = 0
-        self.lives = games.Text(value=Ship.LIVES, size=25, color=color.white, top=25,
+        self.lives = games.Text(value="Lives: "+str(Ship.LIVES), size=25, color=color.white, top=25,
                                 right=games.screen.width - 10, is_collideable=False)
-        self.life_status = games.Message(value="Lives: ", size=25, color=color.white, top=25,
-                                         right=games.screen.width - 25, is_collideable=False)
 
         games.screen.add(self.lives)
-        games.screen.add(self.life_status)
+
 
     def update(self):
         super(Ship, self).update()
-        self.lives.destroy()
-        self.lives = games.Text(value=Ship.LIVES, size=25, color=color.white, top=25,
-                                right=games.screen.width - 10, is_collideable=False)
-        games.screen.add(self.lives)
         if games.keyboard.is_pressed(games.K_LEFT) or games.keyboard.is_pressed(games.K_a):
             self.angle -= Ship.ROTATION_STEP
         if games.keyboard.is_pressed(games.K_RIGHT) or games.keyboard.is_pressed(games.K_d):
@@ -185,12 +195,13 @@ class Ship(Collider):
             self.missile_wait = Ship.MISSILE_DELAY
 
     def loselife(self):
-        self.lives.value -= 1
         Ship.LIVES -= 1
-        self.game.create_ship()
-        if self.lives.value == 0:
-            self.die()
+        self.lives.destroy()
+        if Ship.LIVES <= 0:
+            print("Hello!")
             self.game.end()
+        else:
+            self.game.create_ship()
 
     def die(self):
         super(Ship, self).die()

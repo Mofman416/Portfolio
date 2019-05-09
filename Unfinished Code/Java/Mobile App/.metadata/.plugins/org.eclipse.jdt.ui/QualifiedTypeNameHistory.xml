@@ -17,10 +17,8 @@
 <fullyQualifiedTypeName name="mobileapp.myfirstproject.R.id"/>
 <fullyQualifiedTypeName name="android.os.Build.VERSION"/>
 <fullyQualifiedTypeName name="mobileapp.ch20acr.R.id"/>
-<fullyQualifiedTypeName name="android.content.DialogInterface"/>
 <fullyQualifiedTypeName name="mobileapp.ch21exe.R.id"/>
 <fullyQualifiedTypeName name="mobileapp.checkbuttons.R.id"/>
-<fullyQualifiedTypeName name="android.view.View"/>
 <fullyQualifiedTypeName name="mobileapp.mypetactivity.R.layout"/>
 <fullyQualifiedTypeName name="mobileapp.mypetactivity.R.id"/>
 <fullyQualifiedTypeName name="mobileapp.ch22exe.R.id"/>
@@ -34,7 +32,6 @@
 <fullyQualifiedTypeName name="android.widget.EditText"/>
 <fullyQualifiedTypeName name="android.widget.RadioButton"/>
 <fullyQualifiedTypeName name="android.widget.SeekBar"/>
-<fullyQualifiedTypeName name="android.widget.Button"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="android.content.SharedPreferences"/>
 <fullyQualifiedTypeName name="android.content.SharedPreferences.Editor"/>
@@ -44,9 +41,15 @@
 <fullyQualifiedTypeName name="android.widget.LinearLayout"/>
 <fullyQualifiedTypeName name="mobileapp.wammerge.R.drawable"/>
 <fullyQualifiedTypeName name="android.widget.ImageView.ScaleType"/>
-<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.widget.ImageView"/>
 <fullyQualifiedTypeName name="android.view.ViewGroup.LayoutParams"/>
-<fullyQualifiedTypeName name="mobileap.photoalbum.R.id"/>
 <fullyQualifiedTypeName name="mobileap.photoalbum.R.drawable"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.content.DialogInterface"/>
+<fullyQualifiedTypeName name="android.app.AlertDialog.Builder"/>
+<fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
+<fullyQualifiedTypeName name="mobileapp.dialogueexample.R.id"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="mobileap.photoalbum.R.id"/>
 </qualifiedTypeNameHistroy>

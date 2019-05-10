@@ -4,6 +4,7 @@
 WIDTH = 360
 HEIGHT = 480
 FPS = 30
+TITLE = "A Grand Day Out"
 
 # Define Colors.
 WHITE = (255, 255, 255)

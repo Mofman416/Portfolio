@@ -198,7 +198,6 @@ class Ship(Collider):
         Ship.LIVES -= 1
         self.lives.destroy()
         if Ship.LIVES <= 0:
-            print("Hello!")
             self.game.end()
         else:
             self.game.create_ship()

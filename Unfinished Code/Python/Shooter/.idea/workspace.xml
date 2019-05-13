@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b84c971b-9760-4f68-84d4-b4cbccaef353" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../NiceDay/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NiceDay/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shooterv1.6.py" beforeDir="false" afterPath="$PROJECT_DIR$/shooterv1.6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../platformer/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../platformer/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../platformer/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../platformer/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../platformer/sprites.py" beforeDir="false" afterPath="$PROJECT_DIR$/../platformer/sprites.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/dialogueExample/bin/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/dialogueExample/bin/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/dialogueExample/bin/dialogueExample.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/dialogueExample/bin/dialogueExample.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/dialogueExample/bin/resources.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/dialogueExample/bin/resources.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/dialogueExample/gen/mobileapp/dialogueexample/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/dialogueExample/gen/mobileapp/dialogueexample/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/dialogueExample/res/layout/main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/dialogueExample/res/layout/main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/dialogueExample/src/mobileapp/dialogueexample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/dialogueExample/src/mobileapp/dialogueexample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformer/highscore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../platformer/highscore.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../platformer/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="425">
               <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
               <folding>
                 <element signature="e#29#48#0" expanded="true" />
@@ -32,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/../platformer/img/spritesheet_jumper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="80" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="80" />
+              <caret line="13" column="80" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -49,7 +64,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../platformer/sprites.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1248">
+            <state relative-caret-position="1426">
               <caret line="90" column="41" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
               <folding>
                 <element signature="e#36#55#0" expanded="true" />
@@ -103,9 +118,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1542" />
-    <option name="y" value="-403" />
-    <option name="width" value="1688" />
+    <option name="x" value="1779" />
+    <option name="y" value="-405" />
+    <option name="width" value="1628" />
     <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -114,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,6 +149,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,14 +320,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-395" width="1096" height="1896" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32136106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.12989223" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3294964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -438,30 +452,6 @@
     <entry file="file://$PROJECT_DIR$/../platformer/highscore.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../platformer/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-          <folding>
-            <element signature="e#29#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../platformer/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../platformer/img/spritesheet_jumper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="80" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shooterv1.6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -496,9 +486,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../platformer/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+          <folding>
+            <element signature="e#29#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../platformer/img/spritesheet_jumper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="80" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../platformer/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../platformer/sprites.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
+        <state relative-caret-position="1426">
           <caret line="90" column="41" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
           <folding>
             <element signature="e#36#55#0" expanded="true" />

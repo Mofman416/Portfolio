@@ -35,7 +35,6 @@
 <fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="android.content.SharedPreferences"/>
 <fullyQualifiedTypeName name="android.content.SharedPreferences.Editor"/>
-<fullyQualifiedTypeName name="teencoder.androidprogramming.R.id"/>
 <fullyQualifiedTypeName name="android.provider.Settings.System"/>
 <fullyQualifiedTypeName name="mobileapp.wammerge.R.id"/>
 <fullyQualifiedTypeName name="android.widget.LinearLayout"/>
@@ -47,9 +46,13 @@
 <fullyQualifiedTypeName name="android.widget.Button"/>
 <fullyQualifiedTypeName name="android.view.View"/>
 <fullyQualifiedTypeName name="android.content.DialogInterface"/>
-<fullyQualifiedTypeName name="android.app.AlertDialog.Builder"/>
-<fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
-<fullyQualifiedTypeName name="mobileapp.dialogueexample.R.id"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="mobileap.photoalbum.R.id"/>
+<fullyQualifiedTypeName name="mobileapp.dialogueexample.R.id"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="android.Manifest"/>
+<fullyQualifiedTypeName name="android.app.TimePickerDialog"/>
+<fullyQualifiedTypeName name="teencoder.androidprogramming.R.id"/>
+<fullyQualifiedTypeName name="android.app.AlertDialog.Builder"/>
+<fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
 </qualifiedTypeNameHistroy>

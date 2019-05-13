@@ -5,58 +5,45 @@ import android.app.Activity;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
+
+import java.util.Calendar;
+
 import android.app.*;
 import android.content.DialogInterface;
 import android.widget.*;
+import android.app.TimePickerDialog;
 
-public class Main extends Activity implements OnClickListener {
+public class Main extends Activity {
+	   static String[] pets = {"Dog", "Cat", "Horse"};  
+	   // data array for alert list 
 	
-	
-	public static class MyAlertDialog extends DialogFragment{
-		public Dialog onCreateDialog(Bundle savedInstanceState) {
-			AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-			
-			builder.setMessage("Hello World!");
-			builder.setCancelable(true);
-			builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-				
-				@Override
-				public void onClick(DialogInterface dialog, int id) {
-					Main myActivity = (Main)getActivity();
-					TextView myView =
-							(TextView)myActivity.findViewById(R.id.textview1);
-					myView.setText("I agree!");
-					
-				}
-			});
-			
-			builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
-				
-				@Override
-				public void onClick(DialogInterface dialog, int id) {
-					Main myActivity = (Main)getActivity();
-					TextView myView =
-							(TextView)myActivity.findViewById(R.id.textview1);
-					myView.setText("I disagree!");
-					
-				}
-			});
-			
-			builder.setNeutralButton("Maybe", new DialogInterface.OnClickListener() {
-				
-				@Override
-				public void onClick(DialogInterface dialog, int id) {
-					Main myActivity = (Main)getActivity();
-					TextView myView =
-							(TextView)myActivity.findViewById(R.id.textview1);
-					myView.setText("I don't care!");
-					
-				}
-			});
-			
-			return builder.create();
-		}
-	}
+	   public static class MyDatePicker extends DialogFragment 
+       implements DatePickerDialog.OnDateSetListener  
+{
+public Dialog onCreateDialog(Bundle savedInstanceState) 
+{
+// Use the current date as the default date in the picker
+Calendar c = Calendar.getInstance();
+int year = c.get(Calendar.YEAR);
+int month = c.get(Calendar.MONTH);
+int day = c.get(Calendar.DAY_OF_MONTH);
+
+// Create a new instance of DatePickerDialog and return it
+return new DatePickerDialog(getActivity(), this, 
+                 year, month, day);
+}
+
+@Override
+
+public void onDateSet(DatePicker view, int year, int monthOfYear, 
+        int dayOfMonth)
+{
+Main myActivity = (Main)getActivity();
+TextView myView 
+       = (TextView)myActivity.findViewById(R.id.textView1);
+myView.setText(year + "/" + Integer.toString(monthOfYear + 1) + "/" + dayOfMonth);
+}
+}  // end of MyDatePicker
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -64,7 +51,7 @@ public class Main extends Activity implements OnClickListener {
 		setContentView(R.layout.main);
 		
 		 Button b = (Button)findViewById(R.id.button1);
-		 b.setOnClickListener(this);
+		 b.setOnClickListener(new OnClickListener());
 	}
 
 	@Override
@@ -72,13 +59,6 @@ public class Main extends Activity implements OnClickListener {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
-	}
-
-	@Override
-	public void onClick(View arg0) {
-		DialogFragment newFragment = new MyAlertDialog();
-		newFragment.show(getFragmentManager(), "myDialog");
-		
 	}
 
 }

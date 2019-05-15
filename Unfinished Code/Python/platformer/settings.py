@@ -22,6 +22,15 @@ PLATFORM_LIST = [(0, HEIGHT - 60),
                  (175, 100),
                  ]
 
+# Game Properties
+BOOST_POWER = 60
+POW_SPWN_PCT = 7
+MOB_FREQ = 5000
+PLAYER_LAYER = 2
+PLATFORM_LAYER = 1
+POW_LAYER = 1
+MOB_LAYER = 2
+
 # Define Colors.
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)

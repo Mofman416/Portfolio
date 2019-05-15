@@ -3,7 +3,6 @@
 # Art from Kenney.nl
 # Happy Tune by https://opengameart.org/content/yippee-0
 # Yippee by https://opengameart.org/content/happy-tune
-# Episode 15 11:45
 
 import pygame as pg
 import random
@@ -43,17 +42,20 @@ class Game:
         # Load sounds
         self.snd_dir = path.join(self.dir, 'snd')
         self.jump_sound = pg.mixer.Sound(path.join(self.snd_dir, 'Jump59.wav'))
+        self.boost_sound = pg.mixer.Sound(path.join(self.snd_dir, 'Powerup7.wav'))
 
 
     def new(self):
         # start a new game
         self.score = 0
-        self.all_sprites = pg.sprite.Group()
+        self.all_sprites = pg.sprite.LayeredUpdates()
         self.platforms = pg.sprite.Group()
         self.powerups = pg.sprite.Group()
+        self.mobs = pg.sprite.Group()
         self.player = Player(self)
         for plat in PLATFORM_LIST:
             Platform(self, *plat)
+        self.mob_timer = 0
         pg.mixer.music.load(path.join(self.snd_dir, "happytune.wav"))
         self.run()
 
@@ -71,6 +73,18 @@ class Game:
     def update(self):
         # game loop - update
         self.all_sprites.update()
+
+        # Spawn a mob?
+        now = pg.time.get_ticks()
+        if now - self.mob_timer > 5000 + random.choice([-1000, -500, 0, 500, 1000]):
+            self.mob_timer = now
+            Mob(self)
+
+        # Hits mobs
+        mob_hits = pg.sprite.spritecollide(self.player, self.mobs, False)
+        if mob_hits:
+            self.playing = False
+
         # Check if player hits a platform, only if falling.
         if self.player.vel.y > 0:
             hits = pg.sprite.spritecollide(self.player, self.platforms, False)
@@ -89,12 +103,21 @@ class Game:
         # if player reaches top 1/4 of screen.
         if self.player.rect.top <= HEIGHT / 4:
             self.player.pos.y += max(abs(self.player.vel.y), 2)
+            for mob in self.mobs:
+                mob.rect.y += max(abs(self.player.vel.y), 2)
             for plat in self.platforms:
                 plat.rect.y += max(abs(self.player.vel.y), 2)
                 if plat.rect.top >= HEIGHT:
                     plat.kill()
                     self.score += 10
 
+        # If the player hits a powerup.
+        pow_hits = pg.sprite.spritecollide(self.player, self.powerups, True)
+        for pow in pow_hits:
+            if pow.type == "boost":
+                self.boost_sound.play()
+                self.player.vel.y = -BOOST_POWER
+                self.player.jumping = False
         # Die!
         if self.player.rect.bottom > HEIGHT:
             for sprite in self.all_sprites:
@@ -130,7 +153,6 @@ class Game:
         # game loop - draw
         self.screen.fill(BGCOLOR)
         self.all_sprites.draw(self.screen)
-        self.screen.blit(self.player.image, self.player.rect)
         self.draw_text(str(self.score), 22, WHITE, WIDTH / 2, 15)
         # *after* drawing everything, flip the display.
         pg.display.flip()

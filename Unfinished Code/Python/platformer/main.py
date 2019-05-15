@@ -3,6 +3,7 @@
 # Art from Kenney.nl
 # Happy Tune by https://opengameart.org/content/yippee-0
 # Yippee by https://opengameart.org/content/happy-tune
+# 10:37
 
 import pygame as pg
 import random
@@ -39,6 +40,11 @@ class Game:
         # Load spritesheet image
         self.spritesheet = Spritesheet(path.join(img_dir, SPRITESHEET))
 
+        # Cloud images
+        self.cloud_images = []
+        for i in range(1, 4):
+            self.cloud_images.append(pg. image.load(path.join(img_dir, 'cloud{}.png'.format(i))).convert())
+
         # Load sounds
         self.snd_dir = path.join(self.dir, 'snd')
         self.jump_sound = pg.mixer.Sound(path.join(self.snd_dir, 'Jump59.wav'))
@@ -52,11 +58,15 @@ class Game:
         self.platforms = pg.sprite.Group()
         self.powerups = pg.sprite.Group()
         self.mobs = pg.sprite.Group()
+        self.clouds = pg.sprite.Group()
         self.player = Player(self)
         for plat in PLATFORM_LIST:
             Platform(self, *plat)
         self.mob_timer = 0
         pg.mixer.music.load(path.join(self.snd_dir, "happytune.wav"))
+        for i in range(8):
+            c = Cloud(self)
+            c.rect.y += 500
         self.run()
 
     def run(self):
@@ -81,7 +91,7 @@ class Game:
             Mob(self)
 
         # Hits mobs
-        mob_hits = pg.sprite.spritecollide(self.player, self.mobs, False)
+        mob_hits = pg.sprite.spritecollide(self.player, self.mobs, False, pg.sprite.collide_mask)
         if mob_hits:
             self.playing = False
 
@@ -102,7 +112,11 @@ class Game:
 
         # if player reaches top 1/4 of screen.
         if self.player.rect.top <= HEIGHT / 4:
+            if random.randrange(100) < 15:
+                Cloud(self)
             self.player.pos.y += max(abs(self.player.vel.y), 2)
+            for cloud in self.clouds:
+                cloud.rect.y += max(abs(self.player.vel.y / 2), 2)
             for mob in self.mobs:
                 mob.rect.y += max(abs(self.player.vel.y), 2)
             for plat in self.platforms:

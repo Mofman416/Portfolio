@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b84c971b-9760-4f68-84d4-b4cbccaef353" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../NiceDay/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NiceDay/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NiceDay/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NiceDay/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NiceDay/sprites.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NiceDay/sprites.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../platformer/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../platformer/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../platformer/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../platformer/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../platformer/sprites.py" beforeDir="false" afterPath="$PROJECT_DIR$/../platformer/sprites.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,14 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../platformer/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding>
-                <element signature="e#29#48#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1768">
+              <caret line="112" column="31" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../NiceDay/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -37,8 +48,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../platformer/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="68">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../NiceDay/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../NiceDay/sprites.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="144" column="21" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
+              <folding>
+                <element signature="e#162#610#0" />
+                <element signature="e#649#4480#0" />
+                <element signature="e#5840#6500#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,10 +80,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../platformer/sprites.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+            <state relative-caret-position="306">
+              <caret line="133" column="41" selection-end-line="215" />
               <folding>
-                <element signature="e#151#599#0" />
+                <element signature="e#162#610#0" />
+                <element signature="e#649#4470#0" />
+                <element signature="e#5084#5744#0" />
               </folding>
             </state>
           </provider>
@@ -69,6 +105,8 @@
       <find>game</find>
       <find>loselife</find>
       <find>lives</find>
+      <find>happy</find>
+      <find>yippe</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,17 +123,17 @@
         <option value="$PROJECT_DIR$/shooterv1.2.5.py" />
         <option value="$PROJECT_DIR$/shooterv1.3.py" />
         <option value="$PROJECT_DIR$/../PyGameTemplate/PyGameTemplate.py" />
-        <option value="$PROJECT_DIR$/../NiceDay/sprites.py" />
-        <option value="$PROJECT_DIR$/../NiceDay/main.py" />
         <option value="$PROJECT_DIR$/shooterv1.4.py" />
         <option value="$PROJECT_DIR$/shooterv1.2.1.py" />
         <option value="$PROJECT_DIR$/shooterv1.5.py" />
         <option value="$PROJECT_DIR$/shooterv1.7.py" />
-        <option value="$PROJECT_DIR$/../NiceDay/settings.py" />
         <option value="$PROJECT_DIR$/shooterv1.6.py" />
         <option value="$PROJECT_DIR$/../platformer/settings.py" />
         <option value="$PROJECT_DIR$/../platformer/sprites.py" />
+        <option value="$PROJECT_DIR$/../NiceDay/sprites.py" />
+        <option value="$PROJECT_DIR$/../NiceDay/settings.py" />
         <option value="$PROJECT_DIR$/../platformer/main.py" />
+        <option value="$PROJECT_DIR$/../NiceDay/main.py" />
       </list>
     </option>
   </component>
@@ -160,7 +198,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NiceDay" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../NiceDay" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../NiceDay/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="platformer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,27 +233,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../platformer/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="shooterv1.3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Shooter" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shooterv1.3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,19 +305,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.shooterv1.3" />
       <item itemvalue="Python.shooterv1.4" />
       <item itemvalue="Python.shooterv1.5" />
       <item itemvalue="Python.shooterv1.6" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.shooterv1.6" />
         <item itemvalue="Python.shooterv1.5" />
         <item itemvalue="Python.shooterv1.4" />
-        <item itemvalue="Python.shooterv1.3" />
       </list>
     </recent_temporary>
   </component>
@@ -307,13 +345,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-395" width="1096" height="1896" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32136106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32898468" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32898468" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -446,33 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NiceDay/sprites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#78#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NiceDay/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NiceDay/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#52#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../platformer/img/spritesheet_jumper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -480,30 +492,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../platformer/settings.py">
+    <entry file="file://$PROJECT_DIR$/../platformer/sprites.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="306">
+          <caret line="133" column="41" selection-end-line="215" />
+          <folding>
+            <element signature="e#162#610#0" />
+            <element signature="e#649#4470#0" />
+            <element signature="e#5084#5744#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../platformer/sprites.py">
+    <entry file="file://$PROJECT_DIR$/../NiceDay/sprites.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+        <state relative-caret-position="493">
+          <caret line="144" column="21" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
           <folding>
-            <element signature="e#151#599#0" />
+            <element signature="e#162#610#0" />
+            <element signature="e#649#4480#0" />
+            <element signature="e#5840#6500#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NiceDay/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../platformer/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../platformer/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <element signature="e#29#48#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1768">
+          <caret line="112" column="31" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NiceDay/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
         </state>
       </provider>
     </entry>

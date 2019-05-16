@@ -84,8 +84,8 @@ class Player(pg.sprite.Sprite):
             self.vel.x = 0
         self.pos += self.vel + 0.5 * self.acc
         # Wrap around the screen
-        if self.pos.x > WIDTH + self.rect.width / 2:
-            self.pos.x = 0 - self.rect.width / 2
+        #if self.pos.x > WIDTH + self.rect.width / 2:
+        #    self.pos.x = 0 - self.rect.width / 2
         if self.pos.x < 0 - self.rect.width / 2:
             self.pos.x = WIDTH + self.rect.width / 2
 
@@ -148,8 +148,8 @@ class Platform(pg.sprite.Sprite):
         self.groups = game.all_sprites, game.platforms
         pg.sprite.Sprite.__init__(self, self.groups)
         self.game = game
-        images = [self.game.spritesheet.get_image(0, 288, 380, 94),
-                   self.game.spritesheet.get_image(213, 1662, 201, 100)]
+        images = [self.game.spritesheet.get_image(0, 672, 380, 94),
+                   self.game.spritesheet.get_image(208, 1879, 201, 100)]
         self.image = choice(images)
         self.image.set_colorkey(BLACK)
         self.rect = self.image.get_rect()
@@ -213,3 +213,15 @@ class Mob(pg.sprite.Sprite):
         self.rect.y += self.vy
         if self.rect.left > WIDTH + 100 or self.rect.right < -100:
             self.kill()
+
+class Yes(pg.sprite.Sprite):
+    def __init__(self):
+        pg.sprite.Sprite.__init__(self)
+        self.image = pg.Surface((30, 40))
+        self.image.fill(GREEN)
+        self.rect = self.image.get_rect()
+
+    def update(self):
+        mouse = pg.mouse.get_pressed()
+        if mouse[pg.BUTTON_LEFT]:
+            mode = EASY_MODE

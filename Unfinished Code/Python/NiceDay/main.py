@@ -28,15 +28,23 @@ class Game:
         self.load_data()
 
     def load_data(self):
-        # Load the high score.
+        # Load the high score for easy mode.
         self.dir = path.dirname(__file__)
         img_dir = path.join(self.dir, 'img')
-        with open(path.join(self.dir, HS_FILE), 'r') as f:
+        with open(path.join(self.dir, EHS_FILE), 'r') as f:
             try:
-                self.highscore = int(f.read())
+                self.easyscore = int(f.read())
 
             except:
-                self.highscore = 0
+                self.easyscore = 0
+
+        with open(path.join(self.dir, HHS_FILE), 'r') as f:
+            try:
+                self.hardscore = int(f.read())
+
+            except:
+                self.hardscore = 0
+
         # Load spritesheet image
         self.spritesheet = Spritesheet(path.join(img_dir, SPRITESHEET))
 
@@ -59,6 +67,7 @@ class Game:
         self.powerups = pg.sprite.Group()
         self.mobs = pg.sprite.Group()
         self.clouds = pg.sprite.Group()
+        self.buttons = pg.sprite.Group()
         self.player = Player(self)
         for plat in PLATFORM_LIST:
             Platform(self, *plat)
@@ -110,17 +119,17 @@ class Game:
                             self.player.vel.y = 0
                             self.player.jumping = False
 
-        # if player reaches right 1/4 of screen.
-        if self.player.rect.right <= -WIDTH / 4:
+        # if player reaches right 3/4 of screen.
+        if self.player.rect.right >= WIDTH * 3 / 4:
             if random.randrange(100) < 15:
                 Cloud(self)
-            self.player.pos.x += max(abs(self.player.vel.x), 2)
+            self.player.pos.x -= max(abs(self.player.vel.x), 2)
             for cloud in self.clouds:
-                cloud.rect.x += max(abs(self.player.vel.x / 2), 2)
+                cloud.rect.x -= max(abs(self.player.vel.x / 2), 2)
             for mob in self.mobs:
-                mob.rect.x += max(abs(self.player.vel.x), 2)
+                mob.rect.x -= max(abs(self.player.vel.x), 2)
             for plat in self.platforms:
-                plat.rect.x += max(abs(self.player.vel.x), 2)
+                plat.rect.x -= max(abs(self.player.vel.x), 2)
                 if plat.rect.right <= WIDTH:
                     plat.kill()
                     self.score += 10
@@ -131,6 +140,7 @@ class Game:
             if pow.type == "boost":
                 self.boost_sound.play()
                 self.player.vel.x = BOOST_POWER
+                self.player.vel.y = -BOOST_POWER
                 self.player.jumping = False
         # Die!
         if self.player.rect.bottom > HEIGHT:
@@ -168,6 +178,7 @@ class Game:
         self.screen.fill(BGCOLOR)
         self.all_sprites.draw(self.screen)
         self.draw_text(str(self.score), 22, WHITE, WIDTH / 2, 15)
+        self.draw_text(str(self.score), 22, WHITE, WIDTH / 2, 15)
         # *after* drawing everything, flip the display.
         pg.display.flip()
 
@@ -179,10 +190,22 @@ class Game:
         self.draw_text(TITLE, 48, WHITE, WIDTH / 2, HEIGHT / 4)
         self.draw_text("Arrows to move, Space to jump.", 22, WHITE, WIDTH / 2, HEIGHT / 2)
         self.draw_text("Press a key to play.", 22, WHITE, WIDTH / 2, HEIGHT * 3 / 4)
-        self.draw_text("High Score: " + str(self.highscore), 22, WHITE, WIDTH / 2, 15)
+        self.draw_text("Easy Mode High Score: " + str(self.easyscore), 22, WHITE, WIDTH / 2, 15)
+        self.draw_text("Hard Mode High Score: " + str(self.hardscore), 22, WHITE, WIDTH / 2, 40)
         pg.display.flip()
         self.wait_for_key()
         pg.mixer.music.fadeout(500)
+
+        self.image = pg.Surface((50, 40))
+        self.image.fill(GREEN)
+        self.rect = self.image.get_rect()
+        self.rect.centerx = WIDTH / 2
+        self.rect.bottom = HEIGHT - 10
+
+
+        self.image = pg.Surface((50, 40))
+        self.image.fill(RED)
+        self.rect = self.image.get_rect()
 
 
     def show_go_screen(self):
@@ -193,15 +216,15 @@ class Game:
         pg.mixer.music.play(loops=-1)
         self.screen.fill(BGCOLOR)
         self.draw_text("GAME OVER!", 48, WHITE, WIDTH / 2, HEIGHT / 4)
-        self.draw_text("Score: " + str(self.score), 22, WHITE, WIDTH / 2, HEIGHT / 2)
+        self.draw_text("Score For Easy Mode: " + str(self.score), 22, WHITE, WIDTH / 2, HEIGHT / 2)
         self.draw_text("Press a key to play again.", 22, WHITE, WIDTH / 2, HEIGHT * 3 / 4)
-        if self.score > self.highscore:
+        if self.score > self.easyscore:
             self.highscore = self.score
             self.draw_text("NEW HIGH SCORE!", 22, WHITE, WIDTH / 2, HEIGHT / 2 + 40)
-            with open(path.join(self.dir, HS_FILE), 'w') as f:
+            with open(path.join(self.dir, EHS_FILE), 'w') as f:
                 f.write(str(self.score))
         else:
-            self.draw_text("High Score: " + str(self.highscore), 22, WHITE, WIDTH / 2, HEIGHT / 2 + 40)
+            self.draw_text("High Score For Easy Mode: " + str(self.easyscore), 22, WHITE, WIDTH / 2, HEIGHT / 2 + 40)
 
         pg.display.flip()
         self.wait_for_key()

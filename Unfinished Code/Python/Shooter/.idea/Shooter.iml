@@ -10,6 +10,7 @@
     <orderEntry type="module" module-name="NiceDay" />
     <orderEntry type="module" module-name="platformer" />
     <orderEntry type="module" module-name="platformer" />
+    <orderEntry type="module" module-name="platformer" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

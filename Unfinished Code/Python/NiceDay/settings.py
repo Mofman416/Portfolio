@@ -5,7 +5,8 @@ HEIGHT = 480
 FPS = 60
 TITLE = "A Totally Rad Day Out"
 FONT_NAME = 'arial'
-HS_FILE = "highscore.txt"
+EHS_FILE = "highscore_easy.txt"
+HHS_FILE = "highscore_hard.txt"
 SPRITESHEET = "spritesheet_jumper.png"
 
 # Player properties
@@ -31,6 +32,8 @@ PLATFORM_LAYER = 1
 POW_LAYER = 1
 MOB_LAYER = 2
 CLOUD_LAYER = 0
+EASY_MODE = 0
+HARD_MODE = 1
 
 # Define Colors.
 WHITE = (255, 255, 255)

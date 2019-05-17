@@ -1,0 +1,18 @@
+package DoHo;
+
+public class Home {
+
+	public static void main(String[] args) {
+		//Set the variable used to call the Dog class
+		Dog myDog = new Dog();
+		
+		String name = myDog.getName();
+		
+		System.out.println("A day in the life of my dog " + name);
+		
+		myDog.wakeUp();
+		myDog.sleep();
+
+	}
+
+}

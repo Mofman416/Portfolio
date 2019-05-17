@@ -1,0 +1,30 @@
+package ch12;
+import javax.swing.*;
+import java.awt.event.*;
+
+public class SimpleGUI implements ActionListener{
+	
+	public static void main(String[] args) {
+		new SimpleGUI();
+	}
+
+	public SimpleGUI() {
+	       JFrame myFrame = new JFrame();        // create the JFrame window
+	       myFrame.setLayout(new FlowLayout());  // attach manager 
+	       myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+	       JButton myButton = new JButton("Click Here"); 
+	       myButton.addActionListener(this);
+	       myFrame.add(myButton);     // add JButton to JFrame
+
+	       myFrame.pack();
+	       myFrame.setVisible(true); 
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		JOptionPane.showMessageDialog(null,"Hey that tickles!");
+		
+	}
+
+}

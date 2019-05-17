@@ -1,0 +1,31 @@
+package people;
+
+public class Knight{
+        // everyone knows your name!
+        public String myName = "Sir Jousts-a-Lot";
+
+        // nobody else needs to know this
+        private String horseNickname = "Stinker";
+
+        // knights and anyone else inheriting from this class  
+        // will have a skill level
+        protected int skillLevel = 100;
+    
+        // anyone can wake you up, whether you like it or not!
+        public void wakeUp()
+        {
+        }
+
+        // only you can tell if you are hungry!
+        private boolean isHungry()
+        {
+           return true;      // jousting is hard work
+        }
+
+        // knights and anyone else inheriting from this class have  
+        // the ability to put on armor
+        protected void donArmor()
+        {
+        }
+    
+}

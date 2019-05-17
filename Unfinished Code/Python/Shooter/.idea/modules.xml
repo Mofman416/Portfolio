@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../NiceDay/.idea/NiceDay.iml" filepath="$PROJECT_DIR$/../NiceDay/.idea/NiceDay.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Shooter.iml" filepath="$PROJECT_DIR$/.idea/Shooter.iml" />
       <module fileurl="file://$PROJECT_DIR$/../platformer/.idea/platformer.iml" filepath="$PROJECT_DIR$/../platformer/.idea/platformer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../platformer/.idea/platformer.iml" filepath="$PROJECT_DIR$/../platformer/.idea/platformer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shmup/.idea/shmup.iml" filepath="$PROJECT_DIR$/../shmup/.idea/shmup.iml" />
     </modules>
   </component>
 </project>

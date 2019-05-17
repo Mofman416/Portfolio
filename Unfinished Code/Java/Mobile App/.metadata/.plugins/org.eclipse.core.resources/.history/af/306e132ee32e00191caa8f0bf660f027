@@ -1,0 +1,29 @@
+package ch12;
+import javax.swing.BorderFactory;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.*;
+
+import java.awt.*;
+import java.awt.event.*;
+
+public class layout2 {
+	JFrame myFrame;
+	JButton appleButton;
+	JButton orangeButton;
+	JButton pearButton;
+	JButton bananaButton;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public layout2() {
+
+	}
+	
+
+}

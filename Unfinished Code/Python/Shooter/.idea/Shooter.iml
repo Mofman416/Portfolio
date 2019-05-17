@@ -11,6 +11,7 @@
     <orderEntry type="module" module-name="platformer" />
     <orderEntry type="module" module-name="platformer" />
     <orderEntry type="module" module-name="platformer" />
+    <orderEntry type="module" module-name="shmup" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

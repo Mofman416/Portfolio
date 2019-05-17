@@ -63,7 +63,7 @@ class Game:
         for plat in PLATFORM_LIST:
             Platform(self, *plat)
         self.mob_timer = 0
-        pg.mixer.music.load(path.join(self.snd_dir, "happytune.wav"))
+        pg.mixer.music.load(path.join(self.snd_dir, "level1.ogg"))
         for i in range(8):
             c = Cloud(self)
             c.rect.y += 500
@@ -173,7 +173,7 @@ class Game:
 
     def show_start_screen(self):
         # Game splash/start screen
-        pg.mixer.music.load(path.join(self.snd_dir, "Yippee.wav"))
+        pg.mixer.music.load(path.join(self.snd_dir, "menu.ogg"))
         pg.mixer.music.play(loops=-1)
         self.screen.fill(BGCOLOR)
         self.draw_text(TITLE, 48, WHITE, WIDTH / 2, HEIGHT / 4)
@@ -189,7 +189,7 @@ class Game:
         # game over/continue
         if not self.running:
             return
-        pg.mixer.music.load(path.join(self.snd_dir, "Yippee.wav"))
+        pg.mixer.music.load(path.join(self.snd_dir, "menu.ogg"))
         pg.mixer.music.play(loops=-1)
         self.screen.fill(BGCOLOR)
         self.draw_text("GAME OVER!", 48, WHITE, WIDTH / 2, HEIGHT / 4)

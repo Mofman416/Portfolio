@@ -1,0 +1,41 @@
+//Michael Freeman
+//Mobile App Development
+
+import java.text.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.List;
+
+import javax.swing.BorderFactory;
+import javax.swing.BoxLayout;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class BaseballStats {
+
+	DecimalFormat df;
+	JFrame baseFrame;
+	JPanel mainPanel;
+	
+	public static void main(String[] args) {
+		//This calls the program.
+		new BaseballStats();
+
+	}
+	
+	public BaseballStats() {
+		//This defines the decimal format
+		df = new DecimalFormat("0.000");
+		
+		//Main Frame
+		JFrame baseFrame = new JFrame("Pizza Place");
+		baseFrame.setLayout(new FlowLayout());
+		baseFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		JPanel mainPanel = (JPanel)baseFrame.getContentPane();
+		mainPanel.setLayout(new BoxLayout(mainPanel,BoxLayout.Y_AXIS));
+		mainPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+	}
+
+}

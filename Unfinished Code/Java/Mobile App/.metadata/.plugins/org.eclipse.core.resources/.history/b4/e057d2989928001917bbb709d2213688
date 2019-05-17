@@ -1,0 +1,28 @@
+package ch12;
+import javax.swing.*;
+import java.awt.*;
+
+public class SimpleGUI {
+	
+	public static void main(String[] args) {
+		//object creation
+		JFrame myFrame = new JFrame();
+		FlowLayout myLayout = new FlowLayout();
+		Jlabel myLabel = new JLabel("This is my label!");
+		
+		
+		//setup
+		myLabel.setText("This is my label!");
+		myFrame.setLayout(myLayout);
+	    myFrame.setTitle("JFrame Window");
+	    myFrame.setSize(400, 200);
+	    myFrame.setLocation(200, 300);
+	    myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	    
+	    //draw / render
+	    myFrame.add(myLabel);
+	    myFrame.setVisible(true);
+		
+	}
+
+}

@@ -1,0 +1,75 @@
+//Michael Freeman
+//Mobile App Development
+
+import java.text.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.List;
+import javax.swing.BorderFactory;
+import javax.swing.BoxLayout;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.JSpinner;
+import javax.swing.SpinnerNumberModel;
+
+public class BaseballStats {
+
+	DecimalFormat df;
+	JFrame baseFrame;
+	JPanel mainPanel;
+	JTextField pname;
+	JSpinner Game1Spinner;
+	JSpinner Game2Spinner;
+	
+	public static void main(String[] args) {
+		//This calls the program.
+		new BaseballStats();
+
+	}
+	
+	public BaseballStats() {
+		//This defines the decimal format
+		df = new DecimalFormat("0.000");
+		
+		//Main Frame
+		JFrame baseFrame = new JFrame("Pizza Place");
+		baseFrame.setLayout(new FlowLayout());
+		baseFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		JPanel mainPanel = (JPanel)baseFrame.getContentPane();
+		mainPanel.setLayout(new BoxLayout(mainPanel,BoxLayout.Y_AXIS));
+		mainPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+		
+		//Player Input field
+		JPanel tfield = new JPanel();
+		JLabel name1 = new JLabel("Player Name:");
+		tfield.add(name1);
+		pname = new JTextField(20);
+		tfield.add(pname);
+		mainPanel.add(tfield);
+		
+		//Spinner Number Field - Game 1
+		JPanel hitspin1 = new JPanel();
+		JLabel game1 = new JLabel("Game 1 Hits:");
+		hitspin1.add(game1);
+		Game1Spinner = new JSpinner(new SpinnerNumberModel(0,0,5,1));
+		hitspin1.add(Game1Spinner);
+		mainPanel.add(hitspin1);
+		
+		//Spinner Number Field - Game 2
+		JPanel hitspin2 = new JPanel();
+		JLabel game2 = new JLabel("Game 2 Hits:");
+		hitspin2.add(game2);
+		Game2Spinner = new JSpinner(new SpinnerNumberModel(0,0,5,1));
+		hitspin2.add(Game2Spinner);
+		mainPanel.add(hitspin2);
+		
+		
+		baseFrame.pack();
+		baseFrame.setVisible(true);
+	}
+
+}

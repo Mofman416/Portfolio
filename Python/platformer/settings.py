@@ -3,7 +3,7 @@
 WIDTH = 480
 HEIGHT = 600
 FPS = 60
-TITLE = "Jumpy!"
+TITLE = "A Totally Rad Day Out"
 FONT_NAME = 'arial'
 HS_FILE = "highscore.txt"
 SPRITESHEET = "spritesheet_jumper.png"
@@ -31,6 +31,8 @@ PLATFORM_LAYER = 1
 POW_LAYER = 1
 MOB_LAYER = 2
 CLOUD_LAYER = 0
+EASY_MODE = 0
+HARD_MODE = 1
 
 # Define Colors.
 WHITE = (255, 255, 255)

@@ -1,0 +1,20 @@
+package lists;
+
+import java.util.Collection;
+
+public class lists {
+
+	public static void main(String[] args) {
+		Integer myInt = new Integer(3);
+		Collection<Integer> myCollection = null;
+		myCollection.add(myInt);
+		myCollection.add(15);
+		myCollection.add(42);
+		myCollection.add(52);
+		
+		int x = myCollection.size();
+		System.out.println(x);
+
+	}
+
+}

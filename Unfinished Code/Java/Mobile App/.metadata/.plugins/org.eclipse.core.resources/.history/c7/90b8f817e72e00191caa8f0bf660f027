@@ -1,0 +1,29 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class PhoneDialer {
+	JButton one;
+	JButton two;
+	JButton three;
+	JButton four;
+	JButton five;
+	JButton six;
+	JButton seven;
+	JButton eight;
+	JButton nine;
+	JButton zero;
+	JButton dash;
+	JButton pound;
+	JButton dialnumber;
+	JFrame dialer;
+
+	public static void main(String[] args) {
+		dialer = new JFrame();
+
+	}
+
+	public PhoneDialer() {
+		
+	}
+
+}

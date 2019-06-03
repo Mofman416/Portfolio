@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;addalarm.xml&quot; tooltip=&quot;ReminderAlarm/res/layout/addalarm.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ReminderAlarm/res/layout/addalarm.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.manifest.ManifestEditor&quot; name=&quot;AndroidManifest.xml&quot; tooltip=&quot;ReminderAlarm/AndroidManifest.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ReminderAlarm/AndroidManifest.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AlarmReceiver.java&quot; tooltip=&quot;ReminderAlarm/src/teencoder/androidprogramming/AlarmReceiver.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ReminderAlarm/src/teencoder/androidprogramming/AlarmReceiver.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AlarmList.java&quot; tooltip=&quot;ReminderAlarm/src/teencoder/androidprogramming/AlarmList.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ReminderAlarm/src/teencoder/androidprogramming/AlarmList.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AlarmKeeper.java&quot; tooltip=&quot;ReminderAlarm/src/teencoder/androidprogramming/AlarmKeeper.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ReminderAlarm/src/teencoder/androidprogramming/AlarmKeeper.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AddAlarm.java&quot; tooltip=&quot;ReminderAlarm/src/teencoder/androidprogramming/AddAlarm.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ReminderAlarm/src/teencoder/androidprogramming/AddAlarm.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;main.xml&quot; tooltip=&quot;dialogueExample/res/layout/main.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/dialogueExample/res/layout/main.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Main.java&quot; tooltip=&quot;dialogueExample/src/mobileapp/dialogueexample/Main.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/dialogueExample/src/mobileapp/dialogueexample/Main.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.manifest.ManifestEditor&quot; name=&quot;AndroidManifest.xml&quot; tooltip=&quot;dialogueExample/AndroidManifest.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/dialogueExample/AndroidManifest.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Main.java&quot; tooltip=&quot;NoteKeeper/src/teencoder/androidprogramming/Main.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/NoteKeeper/src/teencoder/androidprogramming/Main.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;main.xml&quot; tooltip=&quot;NoteKeeper/res/layout/main.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/NoteKeeper/res/layout/main.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.manifest.ManifestEditor&quot; name=&quot;AndroidManifest.xml&quot; tooltip=&quot;NoteKeeper/AndroidManifest.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/NoteKeeper/AndroidManifest.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Main.java&quot; tooltip=&quot;ch26exe/src/mobileapp/ch26exe/Main.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ch26exe/src/mobileapp/ch26exe/Main.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;main.xml&quot; tooltip=&quot;ch26exe/res/layout/main.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ch26exe/res/layout/main.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Main.java&quot; tooltip=&quot;PhotoAlbum/src/mobileap/photoalbum/Main.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PhotoAlbum/src/mobileap/photoalbum/Main.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;main.xml&quot; tooltip=&quot;PhotoAlbum/res/layout/main.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PhotoAlbum/res/layout/main.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;activity_main.xml&quot; tooltip=&quot;WAMMerge/res/layout/activity_main.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WAMMerge/res/layout/activity_main.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.android.ide.eclipse.editors.manifest.ManifestEditor&quot; name=&quot;AndroidManifest.xml&quot; tooltip=&quot;WAMMerge/AndroidManifest.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WAMMerge/AndroidManifest.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;R.java&quot; tooltip=&quot;WAMMerge/gen/mobileapp/wammerge/R.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WAMMerge/gen/mobileapp/wammerge/R.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MainActivity.java&quot; tooltip=&quot;WAMMerge/src/mobileapp/wammerge/MainActivity.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WAMMerge/src/mobileapp/wammerge/MainActivity.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_arGQMmXSEem457HedT6how" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_bTLj4WXSEem457HedT6how" label="%trimmedwindow.label.eclipseSDK" x="409" y="-24" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_arGQMmXSEem457HedT6how" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_bTLj4WXSEem457HedT6how" label="%trimmedwindow.label.eclipseSDK" x="184" y="27" width="1338" height="978">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -11,7 +11,6 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1556029012618"/>
     <tags>topLevel</tags>
-    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_bTLj4WXSEem457HedT6how" selectedElement="_bTLj4mXSEem457HedT6how" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_bTLj4mXSEem457HedT6how" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_b3i1MGXSEem457HedT6how">
         <children xsi:type="advanced:Perspective" xmi:id="_b3i1MGXSEem457HedT6how" elementId="org.eclipse.jdt.ui.JavaPerspective" selectedElement="_b3i1MWXSEem457HedT6how" label="Java" iconURI="platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/eview16/jperspective.png">
@@ -81,10 +80,11 @@
           <tags>persp.actionSet:adt.actionSet.lint</tags>
           <tags>persp.actionSet:adt.actionSet.refactorings</tags>
           <tags>persp.viewSC:org.eclipse.ant.ui.views.AntView</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_b3i1MWXSEem457HedT6how" selectedElement="_b3i1O2XSEem457HedT6how" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_b3i1MWXSEem457HedT6how" selectedElement="_b3i1MmXSEem457HedT6how" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_b3i1MmXSEem457HedT6how" containerData="2500" selectedElement="_b3i1M2XSEem457HedT6how">
               <children xsi:type="basic:PartStack" xmi:id="_b3i1M2XSEem457HedT6how" elementId="left" containerData="6000" selectedElement="_b3i1NGXSEem457HedT6how">
                 <tags>org.eclipse.e4.primaryNavigationStack</tags>
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_b3i1NGXSEem457HedT6how" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_b20ccGXSEem457HedT6how" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Java</tags>
@@ -113,7 +113,7 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_b3i1O2XSEem457HedT6how" containerData="7500" selectedElement="_b3i1RmXSEem457HedT6how">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_b3i1O2XSEem457HedT6how" containerData="7500" selectedElement="_b3i1PGXSEem457HedT6how">
               <children xsi:type="basic:PartSashContainer" xmi:id="_b3i1PGXSEem457HedT6how" containerData="7500" selectedElement="_b3i1PWXSEem457HedT6how" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_b3i1PWXSEem457HedT6how" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_b2r5kGXSEem457HedT6how"/>
                 <children xsi:type="basic:PartSashContainer" xmi:id="_b3i1PmXSEem457HedT6how" containerData="2500" selectedElement="_b3i1P2XSEem457HedT6how">
@@ -317,48 +317,9 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_b2r5kGXSEem457HedT6how" elementId="org.eclipse.ui.editorss" selectedElement="_b2r5kWXSEem457HedT6how">
-      <children xsi:type="basic:PartStack" xmi:id="_b2r5kWXSEem457HedT6how" elementId="PartStack@6e43ddd6" selectedElement="_cYH8kHWSEemdb_or83ZPuQ">
+      <children xsi:type="basic:PartStack" xmi:id="_b2r5kWXSEem457HedT6how" elementId="PartStack@6e43ddd6">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_cYH8kHWSEemdb_or83ZPuQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="AddAlarm.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AddAlarm.java&quot; partName=&quot;AddAlarm.java&quot; title=&quot;AddAlarm.java&quot; tooltip=&quot;ReminderAlarm/src/teencoder/androidprogramming/AddAlarm.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ReminderAlarm/src/teencoder/androidprogramming/AddAlarm.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;9069&quot; selectionTopPixel=&quot;2785&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>removeOnHide</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_cfKYsHWSEemdb_or83ZPuQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="AlarmKeeper.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AlarmKeeper.java&quot; partName=&quot;AlarmKeeper.java&quot; title=&quot;AlarmKeeper.java&quot; tooltip=&quot;ReminderAlarm/src/teencoder/androidprogramming/AlarmKeeper.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ReminderAlarm/src/teencoder/androidprogramming/AlarmKeeper.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;66&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_coabUHWSEemdb_or83ZPuQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="AlarmList.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AlarmList.java&quot; partName=&quot;AlarmList.java&quot; title=&quot;AlarmList.java&quot; tooltip=&quot;ReminderAlarm/src/teencoder/androidprogramming/AlarmList.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ReminderAlarm/src/teencoder/androidprogramming/AlarmList.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;66&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_cuhDUHWSEemdb_or83ZPuQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="AlarmReceiver.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AlarmReceiver.java&quot; partName=&quot;AlarmReceiver.java&quot; title=&quot;AlarmReceiver.java&quot; tooltip=&quot;ReminderAlarm/src/teencoder/androidprogramming/AlarmReceiver.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ReminderAlarm/src/teencoder/androidprogramming/AlarmReceiver.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;66&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_eQ74UHWSEemdb_or83ZPuQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="addalarm.xml" iconURI="platform:/plugin/com.android.ide.eclipse.adt/icons/android_file.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot; name=&quot;addalarm.xml&quot; partName=&quot;addalarm.xml&quot; title=&quot;addalarm.xml&quot; tooltip=&quot;ReminderAlarm/res/layout/addalarm.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ReminderAlarm/res/layout/addalarm.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>com.android.ide.eclipse.editors.CommonXmlEditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_ewGgkHWSEemdb_or83ZPuQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ReminderAlarm Manifest" iconURI="platform:/plugin/com.android.ide.eclipse.adt/icons/android_file.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.android.ide.eclipse.editors.manifest.ManifestEditor&quot; name=&quot;AndroidManifest.xml&quot; partName=&quot;ReminderAlarm Manifest&quot; title=&quot;ReminderAlarm Manifest&quot; tooltip=&quot;ReminderAlarm/AndroidManifest.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ReminderAlarm/AndroidManifest.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>com.android.ide.eclipse.editors.manifest.ManifestEditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_b20ccGXSEem457HedT6how" elementId="org.eclipse.jdt.ui.PackageExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Package Explorer" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/package.png" tooltip="" closeable="true">
@@ -367,6 +328,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1550000561745&quot;>&#xD;&#xA;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;>&#xD;&#xA;&lt;xmlDefinedFilters>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.buildfolder&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.subProject&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.DeprecatedMembersFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;/xmlDefinedFilters>&#xD;&#xA;&lt;/customFilters>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Java</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_b9zOMGXSEem457HedT6how" elementId="org.eclipse.jdt.ui.PackageExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -654,7 +617,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_bYs9EGXSEem457HedT6how" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Da1kInWIEemdb_or83ZPuQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_as2j8GXSEem457HedT6how"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_NtqtwIHcEemTMIJt91cTcQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_as2j8GXSEem457HedT6how"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_bYs9EWXSEem457HedT6how" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -667,13 +630,13 @@
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_bYwncWXSEem457HedT6how" elementId="additions" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_b58o8GXSEem457HedT6how" elementId="adt.actionSet.avdManager">
+      <children xsi:type="menu:ToolBar" xmi:id="_b58o8GXSEem457HedT6how" elementId="adt.actionSet.avdManager" visible="false">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_b6dmUGXSEem457HedT6how" elementId="adt.actionSet.lint">
+      <children xsi:type="menu:ToolBar" xmi:id="_b6dmUGXSEem457HedT6how" elementId="adt.actionSet.lint" visible="false">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_b6TOQGXSEem457HedT6how" elementId="adt.actionSet.wizards">
+      <children xsi:type="menu:ToolBar" xmi:id="_b6TOQGXSEem457HedT6how" elementId="adt.actionSet.wizards" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_b68ugGXSEem457HedT6how" elementId="org.eclipse.debug.ui.launchActionSet">
@@ -685,7 +648,7 @@
       <children xsi:type="menu:ToolBar" xmi:id="_b6uFAGXSEem457HedT6how" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_jkXW8GXSEem457HedT6how" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
+      <children xsi:type="menu:ToolBar" xmi:id="_jkXW8GXSEem457HedT6how" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_bYxOgGXSEem457HedT6how" elementId="group.nav" toBeRendered="false">
@@ -694,10 +657,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_bYx1kGXSEem457HedT6how" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Da1kL3WIEemdb_or83ZPuQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_as18z2XSEem457HedT6how"/>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_MyG9IHTmEemx-8zsQhheVQ" elementId="org.eclipse.jdt.ui.CompilationUnitEditor" visible="false">
-        <tags>Draggable</tags>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_NtwNUIHcEemTMIJt91cTcQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_as18z2XSEem457HedT6how"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_bYzDsGXSEem457HedT6how" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -990,7 +950,6 @@
     <bindings xmi:id="_auEEpGXSEem457HedT6how" keySequence="ALT+SHIFT+Q T" command="_as1VtWXSEem457HedT6how">
       <parameters xmi:id="_auEEpWXSEem457HedT6how" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.jdt.ui.TypeHierarchy"/>
     </bindings>
-    <bindings xmi:id="_auEEp2XSEem457HedT6how" keySequence="ALT+SHIFT+A D" command="_as18oGXSEem457HedT6how"/>
     <bindings xmi:id="_auEEqGXSEem457HedT6how" keySequence="ALT+SHIFT+Q S" command="_as1VtWXSEem457HedT6how">
       <parameters xmi:id="_auEEqWXSEem457HedT6how" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.search.ui.views.SearchView"/>
     </bindings>
@@ -1000,10 +959,8 @@
     <bindings xmi:id="_auEErWXSEem457HedT6how" keySequence="CTRL+F7" command="_as0uhGXSEem457HedT6how"/>
     <bindings xmi:id="_auEErmXSEem457HedT6how" keySequence="CTRL+F8" command="_asySRGXSEem457HedT6how"/>
     <bindings xmi:id="_auEEsGXSEem457HedT6how" keySequence="CTRL+F9" command="_asxrQGXSEem457HedT6how"/>
-    <bindings xmi:id="_auEEsmXSEem457HedT6how" keySequence="ALT+SHIFT+A R" command="_asvO8WXSEem457HedT6how"/>
     <bindings xmi:id="_auEEtWXSEem457HedT6how" keySequence="CTRL+F11" command="_as2kF2XSEem457HedT6how"/>
     <bindings xmi:id="_auEEtmXSEem457HedT6how" keySequence="CTRL+F12" command="_asxrMGXSEem457HedT6how"/>
-    <bindings xmi:id="_auEEt2XSEem457HedT6how" keySequence="ALT+SHIFT+A S" command="_asy5eGXSEem457HedT6how"/>
   </bindingTables>
   <bindingTables xmi:id="_at6TqGXSEem457HedT6how" elementId="org.eclipse.ant.ui.AntEditorScope" bindingContext="_as7cUGXSEem457HedT6how">
     <bindings xmi:id="_at6TqWXSEem457HedT6how" keySequence="F3" command="_aswdEmXSEem457HedT6how"/>
@@ -1623,144 +1580,6 @@
     <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.wst.xml.ui"/>
     <tags>View</tags>
     <tags>categoryTag:XML</tags>
-  </descriptors>
-  <descriptors xmi:id="_a1rIgGXSEem457HedT6how" elementId="com.android.ide.eclipse.editors.resources.explorer.ResourceExplorerView" label="Resource Explorer" iconURI="platform:/plugin/com.android.ide.eclipse.adt/icons/draw9patch-16.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.adt.internal.ui.ResourceExplorerView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.adt"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a12HoGXSEem457HedT6how" elementId="com.android.ide.eclipse.adt.internal.lint.LintViewPart" label="Lint Warnings" iconURI="platform:/plugin/com.android.ide.eclipse.adt/icons/lintview.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.adt.internal.lint.LintViewPart"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.adt"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a12usGXSEem457HedT6how" elementId="com.android.ide.eclipse.ddms.views.DeviceView" label="Devices" iconURI="platform:/plugin/com.android.ide.eclipse.ddms/icons/device.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.ddms.views.DeviceView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.ddms"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a18OQGXSEem457HedT6how" elementId="com.android.ide.eclipse.ddms.views.OldLogCatView" label="LogCat (deprecated)" iconURI="platform:/plugin/com.android.ide.eclipse.ddms/icons/android.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.ddms.views.OldLogCatView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.ddms"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a181UGXSEem457HedT6how" elementId="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat" iconURI="platform:/plugin/com.android.ide.eclipse.ddms/icons/logcat.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.ddms.views.LogCatView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.ddms"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a19cYGXSEem457HedT6how" elementId="com.android.ide.eclipse.ddms.views.ThreadView" label="Threads" iconURI="platform:/plugin/com.android.ide.eclipse.ddms/icons/thread.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.ddms.views.ThreadView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.ddms"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a1-DcGXSEem457HedT6how" elementId="com.android.ide.eclipse.ddms.views.HeapView" label="Heap" iconURI="platform:/plugin/com.android.ide.eclipse.ddms/icons/heap.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.ddms.views.HeapView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.ddms"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a1-DcWXSEem457HedT6how" elementId="com.android.ide.eclipse.ddms.views.FileExplorerView" label="File Explorer" iconURI="platform:/plugin/com.android.ide.eclipse.ddms/icons/android.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.ddms.views.FileExplorerView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.ddms"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a1-qgGXSEem457HedT6how" elementId="com.android.ide.eclipse.ddms.views.EmulatorControlView" label="Emulator Control" iconURI="platform:/plugin/com.android.ide.eclipse.ddms/icons/emulator-16.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.ddms.views.EmulatorControlView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.ddms"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a1-qgWXSEem457HedT6how" elementId="com.android.ide.eclipse.ddms.views.AllocTrackerView" label="Allocation Tracker" iconURI="platform:/plugin/com.android.ide.eclipse.ddms/icons/heap.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.ddms.views.AllocTrackerView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.ddms"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a1_RkGXSEem457HedT6how" elementId="com.android.ide.eclipse.ddms.views.NetworkStatsView" label="Network Statistics" iconURI="platform:/plugin/com.android.ide.eclipse.ddms/icons/networkstats.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.ddms.views.NetworkStatisticsView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.ddms"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a1_RkWXSEem457HedT6how" elementId="com.android.ide.eclipse.ddms.views.SysInfoView" label="System Information" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.ddms.views.SysInfoView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.ddms"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a1_4oGXSEem457HedT6how" elementId="com.android.ide.eclipse.gltrace.views.FrameBuffer" label="Frame Summary" iconURI="platform:/plugin/com.android.ide.eclipse.gldebugger/icons/opengl.png" tooltip="" category="Tracer for OpenGL ES" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.gltrace.views.FrameSummaryView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.gldebugger"/>
-    <tags>View</tags>
-    <tags>categoryTag:Tracer for OpenGL ES</tags>
-  </descriptors>
-  <descriptors xmi:id="_a2ExIGXSEem457HedT6how" elementId="com.android.ide.eclipse.gltrace.views.State" label="GL State" iconURI="platform:/plugin/com.android.ide.eclipse.gldebugger/icons/opengl.png" tooltip="" category="Tracer for OpenGL ES" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.gltrace.views.StateView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.gldebugger"/>
-    <tags>View</tags>
-    <tags>categoryTag:Tracer for OpenGL ES</tags>
-  </descriptors>
-  <descriptors xmi:id="_a2FYMGXSEem457HedT6how" elementId="com.android.ide.eclipse.gltrace.views.Details" label="Details" iconURI="platform:/plugin/com.android.ide.eclipse.gldebugger/icons/opengl.png" tooltip="" category="Tracer for OpenGL ES" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.gltrace.views.detail.DetailsView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.gldebugger"/>
-    <tags>View</tags>
-    <tags>categoryTag:Tracer for OpenGL ES</tags>
-  </descriptors>
-  <descriptors xmi:id="_a2F_QGXSEem457HedT6how" elementId="com.android.ide.eclipse.hierarchyviewer.views.DeviceSelectorView" label="Windows" iconURI="platform:/plugin/com.android.ide.eclipse.hierarchyviewer/icons/device.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.hierarchyviewer.views.DeviceSelectorView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.hierarchyviewer"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a2JpoGXSEem457HedT6how" elementId="com.android.ide.eclipse.hierarchyviewer.views.PixelPerfectView" label="Pixel Perfect" iconURI="platform:/plugin/com.android.ide.eclipse.hierarchyviewer/icons/pixel-perfect.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.hierarchyviewer.views.PixelPerfectView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.hierarchyviewer"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a2KQsGXSEem457HedT6how" elementId="com.android.ide.eclipse.hierarchyviewer.views.PixelPerfectLoupeView" label="Pixel Perfect Loupe" iconURI="platform:/plugin/com.android.ide.eclipse.hierarchyviewer/icons/pixel-perfect.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.hierarchyviewer.views.PixelPerfectLoupeView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.hierarchyviewer"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a2KQsWXSEem457HedT6how" elementId="com.android.ide.eclipse.hierarchyviewer.views.PixelPerfectTreeView" label="Pixel Perfect Tree" iconURI="platform:/plugin/com.android.ide.eclipse.hierarchyviewer/icons/pixel-perfect.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.hierarchyviewer.views.PixelPerfectTreeView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.hierarchyviewer"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a2K3wGXSEem457HedT6how" elementId="com.android.ide.eclipse.hierarchyviewer.views.TreeViewView" label="Tree View" iconURI="platform:/plugin/com.android.ide.eclipse.hierarchyviewer/icons/tree-view.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.hierarchyviewer.views.TreeViewView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.hierarchyviewer"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a2K3wWXSEem457HedT6how" elementId="com.android.ide.eclipse.hierarchyviewer.views.PropertyView" label="View Properties" iconURI="platform:/plugin/com.android.ide.eclipse.hierarchyviewer/icons/tree-view.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.hierarchyviewer.views.PropertyView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.hierarchyviewer"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a2Le0GXSEem457HedT6how" elementId="com.android.ide.eclipse.hierarchyviewer.views.TreeOverviewView" label="Tree Overview" iconURI="platform:/plugin/com.android.ide.eclipse.hierarchyviewer/icons/tree-view.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.hierarchyviewer.views.TreeOverviewView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.hierarchyviewer"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
-  </descriptors>
-  <descriptors xmi:id="_a2MF4GXSEem457HedT6how" elementId="com.android.ide.eclipse.hierarchyviewer.views.LayoutView" label="Layout View" iconURI="platform:/plugin/com.android.ide.eclipse.hierarchyviewer/icons/tree-view.png" tooltip="" category="Android" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="com.android.ide.eclipse.hierarchyviewer.views.LayoutView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="com.android.ide.eclipse.hierarchyviewer"/>
-    <tags>View</tags>
-    <tags>categoryTag:Android</tags>
   </descriptors>
   <menuContributions xmi:id="_arGQOGXSEem457HedT6how" elementId="org.eclipse.ui.window.customizePerspective" contributorURI="platform:/plugin/org.eclipse.platform" positionInParent="popup:toolbar">
     <children xsi:type="menu:HandledMenuItem" xmi:id="_arGQOWXSEem457HedT6how" elementId="org.eclipse.ui.window.customizePerspective" contributorURI="platform:/plugin/org.eclipse.platform" label="%command.name.customize" command="_arGQOmXSEem457HedT6how"/>
@@ -2771,6 +2590,7 @@
   <commands xmi:id="_bSUBMGXSEem457HedT6how" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.tasks.ui.open.repositories.view" commandName="Show Task Repositories View" description="Show Task Repositories View" category="_asuoAmXSEem457HedT6how"/>
   <commands xmi:id="_bSUoQGXSEem457HedT6how" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.doc.legend.show.action" commandName="Show UI Legend" description="Show Tasks UI Legend" category="_asuoAmXSEem457HedT6how"/>
   <commands xmi:id="_bSV2YGXSEem457HedT6how" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.context.ui.actions.tasklist.focus" commandName="Focus on Workweek" description="Focus on Workweek" category="_asuoAmXSEem457HedT6how"/>
+  <commands xmi:id="_MReckYHcEemTMIJt91cTcQ" elementId="org.eclipse.egit.ui.RepositoriesViewShowInSystemExplorer" commandName="Show In System Explorer" category="_asun-2XSEem457HedT6how"/>
   <addons xmi:id="_arGQO2XSEem457HedT6how" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_arGQPGXSEem457HedT6how" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_arGQPWXSEem457HedT6how" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -2782,7 +2602,7 @@
   <addons xmi:id="_arGQQ2XSEem457HedT6how" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_arGQRGXSEem457HedT6how" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_arc1gGXSEem457HedT6how" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_MVTMoIHcEemTMIJt91cTcQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_asun4GXSEem457HedT6how" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_asun4WXSEem457HedT6how" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fab5c833-e93f-4ae6-80f9-49d21b0a161a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/tileshooter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.history/18/d0ccb3b08e75001915becacc751383d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.history/27/007b13aa8e75001915becacc751383d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.history/67/b01aef759275001915becacc751383d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.history/7/806704e09675001915becacc751383d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.history/76/b06e34d69875001915becacc751383d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.history/82/30b1fb0f9975001915becacc751383d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.history/99/f0e21ed19575001915becacc751383d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.history/b3/c00123539975001915becacc751383d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.history/b9/50f9371b9975001915becacc751383d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.history/d/8023056c8f75001915becacc751383d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.history/ea/00f1065f9875001915becacc751383d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.history/f2/80a49f6e8f75001915becacc751383d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.projects/ReminderAlarm/.indexes/e4/75/a/history.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.projects/dialogueExample/.indexes/a0/d6/history.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.projects/dialogueExample/.indexes/e4/3f/6e/history.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.root/45.tree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.core/2032208525.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.core/2680744939.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.core/3363550381.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.core/965377214.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mobile App/.metadata/version.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PyGameTemplate/PyGameTemplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PyGameTemplate/PyGameTemplate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../turfwar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../turfwar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,12 +12,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding>
                 <element signature="e#18#37#0" expanded="true" />
               </folding>
@@ -64,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sprites.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="163">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -74,10 +38,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/map.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -98,26 +71,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/PyGameTemplate.py" />
-        <option value="$PROJECT_DIR$/sprites.py" />
         <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/sprites.py" />
+        <option value="$PROJECT_DIR$/map.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/tileshooter.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/dictionaries/mofma.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
-    <option name="y" value="27" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="66" />
+    <option name="y" value="26" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -142,6 +105,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/PyGameTemplate.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/PyGameTemplate.py" />
@@ -200,56 +164,58 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="22" width="1400" height="784" extended-state="0" />
+    <frame x="53" y="21" width="1400" height="784" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25409836" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32924962" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32924962" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962743" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PyGameTemplate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PyGameTemplate.py" />
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sprites.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="163">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/map.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
             <element signature="e#18#37#0" expanded="true" />
           </folding>

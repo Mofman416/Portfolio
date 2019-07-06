@@ -37,18 +37,18 @@ class Player(pg.sprite.Sprite):
             hits = pg.sprite.spritecollide(self, self.game.walls, False, collide_hit_rect)
             if hits:
                 if self.vel.x > 0:
-                    self.pos.x = hits[0].rect.left - self.hit_rect.width / 2.0
+                    self.pos.x = hits[0].rect.left - self.hit_rect.width / 2
                 if self.vel.x < 0:
-                   self.pos.x = hits[0].rect.right + self.hit_rect.width / 2.0
+                   self.pos.x = hits[0].rect.right + self.hit_rect.width / 2
                 self.vel.x = 0
                 self.hit_rect.centerx = self.pos.x
         if dir == 'y':
             hits = pg.sprite.spritecollide(self, self.game.walls, False, collide_hit_rect)
             if hits:
                 if self.vel.y > 0:
-                    self.pos.y = hits[0].rect.top - self.hit_rect.height / 2.0
+                    self.pos.y = hits[0].rect.top - self.hit_rect.height / 2
                 if self.vel.y < 0:
-                    self.pos.y = hits[0].rect.bottom + self.hit_rect.height / 2.0
+                    self.pos.y = hits[0].rect.bottom + self.hit_rect.height / 2
                 self.vel.y = 0
                 self.hit_rect.centery = self.pos.y
 
@@ -67,13 +67,29 @@ class Player(pg.sprite.Sprite):
         self.rect.center = self.hit_rect.center
 
 
+class Mob(pg.sprite.Sprite):
+    def __init__(self, game, x, y):
+        self.groups = game.all_sprites, game.mobs
+        pg.sprite.Sprite.__init__(self, self.groups)
+        self.game = game
+        self.image = game.mob_img
+        self.rect = self.image.get_rect()
+        self.pos = vec(x, y) * TILESIZE
+        self.rect.center = self.pos
+        self.rot = 0
+
+    def update(self):
+        self.rot = (self.game.player.pos - self.pos).angle_to(vec(1, 0))
+        self.image = pg.transform.rotate(self.game.mob_img, self.rot)
+        self.rect = self.image.get_rect()
+        self.rect.center = self.pos
+
 class Wall(pg.sprite.Sprite):
     def __init__(self, game, x, y):
         self.groups = game.all_sprites, game.walls
         pg.sprite.Sprite.__init__(self, self.groups)
         self.game = game
-        self.image = pg.Surface((TILESIZE, TILESIZE))
-        self.image.fill(GREEN)
+        self.image = game.wall_img
         self.rect = self.image.get_rect()
         self.x = x
         self.y = y

@@ -2,6 +2,8 @@
 import java.util.Scanner;
 
 public class Conversations {
+	Integer int1;
+	Double double1;
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -9,7 +11,7 @@ public class Conversations {
 		System.out.print("Put in your name: ");
 		String name = input.nextLine();
 		
-		System.out.print("Type in a vowel: ");
+		System.out.print("Type in a noun: ");
 		String noun = input.next();
 		noun = input.nextLine();
 		
@@ -21,6 +23,7 @@ public class Conversations {
 		if ( input.hasNextInt() ) {
 			
 			int int1 = input.nextInt();
+			input.nextLine();
 		}
 		
 		else {

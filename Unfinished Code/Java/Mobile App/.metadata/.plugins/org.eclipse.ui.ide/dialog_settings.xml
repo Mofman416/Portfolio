@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\mofma\Desktop\Portfolio\Java\PizzaPlace"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\WhackAMole"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\WAMMerge"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\NoteKeeper"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\myproject"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\MyFirstProject"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\MyFirstApp"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\Interface Test"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\dialogueExample"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\Conversations"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\checkbuttons"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\Ch22Exe"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\Ch21Exe"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\Ch21Examples"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\ch20act"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\ch14 examples"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\ch13 examples"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\ch12 examples"/>
+		<item value="C:\Users\mofma\Desktop\Portfolio\Unfinished Code\Java\Mobile App\CarTester"/>
 		<item value="C:\Users\michael.freeman\Desktop\Portfolio\Unfinished Code\Java\Mobile App\ReminderAlarm"/>
 		<item value="C:\Users\michael.freeman\Desktop\Portfolio\Unfinished Code\Java\Mobile App\dialogueExample"/>
 		<item value="C:\Users\michael.freeman\Desktop\Portfolio\Unfinished Code\Java\Mobile App\Photo Album"/>
@@ -19,7 +38,7 @@
 		<item value="C:\Users\michael.freeman\Desktop\Portfolio\Unfinished Code\Java\Mobile App\CarTester"/>
 	</list>
 	<section name="NewWizardAction">
-		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.jdt.ui.java"/>
 		</list>

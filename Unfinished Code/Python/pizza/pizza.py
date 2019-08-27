@@ -7,7 +7,7 @@ class Pizza(Frame):
     def __init__(self, master):
         """This sets up the Pizza program"""
         super(Pizza, self).__init__(master)
-        self.grid()
+        self.grid() #This is absolutely vital for future GUI projects!
         self.create_widgets()
 
     def create_widgets(self):

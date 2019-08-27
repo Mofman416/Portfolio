@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fab5c833-e93f-4ae6-80f9-49d21b0a161a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tileshooter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tileshooter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pizza/pizza.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pizza/pizza.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tilemap.py" beforeDir="false" afterPath="$PROJECT_DIR$/tilemap.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pizza">
+  <component name="RunManager" selected="Python.main">
     <configuration name="calculator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tileshooter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,9 +114,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.pizza" />
         <item itemvalue="Python.calculator" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>

@@ -84,6 +84,12 @@ class Game:
         self.item_images = {}
         for item in ITEM_IMAGES:
             self.item_images[item] = pg.image.load(path.join(img_folder, ITEM_IMAGES[item])).convert_alpha()
+        # Lighting effect
+        self.fog = pg.Surface((WIDTH, HEIGHT))
+        self.fog.fill(NIGHT_COLOR)
+        self.light_mask = pg.image.load(path.join(img_folder, LIGHT_MASK)).convert_alpha()
+        self.light_mask = pg.transform.scale(self.light_mask, LIGHT_RADIUS)
+        self.light_rect = self.light_mask.get_rect()
         # Sound Loading
         pg.mixer.music.load(path.join(music_folder, BG_MUSIC))
         self.effects_sounds = {}
@@ -140,6 +146,7 @@ class Game:
         self.camera = Camera(self.map.width, self.map.height)
         self.draw_debug = False
         self.paused = False
+        self.night = False
         self.effects_sounds['level_start'].play()
 
     def run(self):
@@ -191,7 +198,7 @@ class Game:
         hits = pg.sprite.groupcollide(self.mobs, self.bullets, False, True)
         for mob in hits:
             # hit.health -= WEAPONS[self.player.weapon]['damage'] * len(hits[hit])
-            for bullet in hits[hit]:
+            for bullet in hits[mob]:
                 mob.health -= bullet.damage
             mob.vel = vec(0, 0)
 
@@ -200,6 +207,13 @@ class Game:
             pg.draw.line(self.screen, LIGHTGREY, (x, 0), (x, HEIGHT))
         for y in range(0, HEIGHT, TILESIZE):
             pg.draw.line(self.screen, LIGHTGREY, (0, y), (WIDTH, y))
+
+    def render_fog(self):
+        # draw the light mask (gradient) onto fog image
+        self.fog.fill(NIGHT_COLOR)
+        self.light_rect.center = self.camera.apply(self.player).center
+        self.fog.blit(self.light_mask, self.light_rect)
+        self.screen.blit(self.fog, (0, 0), special_flags=pg.BLEND_MULT)
 
     def draw(self):
         pg.display.set_caption("{:.2f}".format(self.clock.get_fps()))
@@ -216,6 +230,8 @@ class Game:
             for wall in self.walls:
                 pg.draw.rect(self.screen, CYAN, self.camera.apply_rect(wall.rect), 1)
         # pg.draw.rect(self.screen, WHITE, self.player.hit_rect, 2)
+        if self.night:
+            self.render_fog()
         # HUD Functions
         draw_player_health(self.screen, 10, 10, self.player.health / PLAYER_HEALTH)
         self.draw_text("Zombies: {}".format(len(self.mobs)), self.hud_font, 30, WHITE, WIDTH - 10,
@@ -237,6 +253,8 @@ class Game:
                     self.draw_debug = not self.draw_debug
                 if event.key == pg.K_p:
                     self.paused = not self.paused
+                if event.key == pg.K_n:
+                    self.night = not self.night
 
     def show_start_screen(self):
         pass

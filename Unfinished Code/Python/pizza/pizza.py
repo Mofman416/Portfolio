@@ -15,8 +15,13 @@ class Pizza(Frame):
         self.name = Label(self, text="Name: ", )
         self.name.grid(row=0, column=0)
 
+        # Adds text field for username entry
         self.entername = Text(self)
         self.entername.grid(row=0, column=1)
+
+        # Adds Radiobuttons for users to interact with
+        self.size = Radiobutton(self)
+        self.size.grid(row=1, column=1)
 
 
 root = Tk()

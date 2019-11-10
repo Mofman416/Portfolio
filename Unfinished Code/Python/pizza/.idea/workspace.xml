@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0944a6c1-62eb-4ee1-a8ba-7bf6f9a97498" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizza.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,16 +31,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
-  </component>
   <component name="ProjectId" id="1Rvdiq0KBWLI8gX3hKKhYNxbtLI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pizza.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Python/Calculator GUI/calculator.py" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -99,7 +94,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

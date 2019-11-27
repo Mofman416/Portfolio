@@ -47,7 +47,7 @@ public class PizzaPlace implements ActionListener {
 		
 		//Text field asking for the customer name.
 		JPanel tfield = new JPanel();
-		JLabel name1 = new JLabel("Custome Name:");
+		JLabel name1 = new JLabel("Customer Name:");
 		tfield.add(name1);
 		cname = new JTextField(20);
 		tfield.add(cname);

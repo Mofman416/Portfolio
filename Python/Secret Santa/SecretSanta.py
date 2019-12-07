@@ -1,62 +1,24 @@
 #Michael Freeman
 
-import sys
 import random
 
 names = []
 
-
-class Santa:
-    def __init__(self, names):
-        self.turns = names
-        self.people = []
-        for name in self.turns:
-            self.people.append(name)
-        self.final = []
-
-    def sort_names(self):
-        self.final = []
-        self.people = []
-        for name in self.turns:
-            self.people.append(name)
-        random.shuffle(self.people)
-        for name in self.turns:
-            pair = [name, random.choice(self.people)]
-            if pair[0] == pair[1]:
-                pair = (name, random.choice(self.people))
-            self.final.append(pair)
-            self.people.remove(pair[1])
-
-    def print_name(self):
-        input("\nNames are ready! Press Enter to show the names.")
-        print(self.final)
-
-
-def main():
+for _ in range(3):
     name = input("\nType in your name. ")
     names.append(name)
-    name = input("\nType in the next name. ")
-    names.append(name)
-    name = input("\nType in the next name. ")
-    names.append(name)
-    while True:
-        name = input("\nInput a name or press enter to scramble. ")
-        if name.upper() == "":
-            break
-        else:
-            names.insert(0, name)
 
-    print(names)
-    start = Santa(names)
+while True:
+    next = input("\nIs this everyone? Y/N ")
+    if next.upper() == 'Y':
+        break
+    elif next.upper() == 'N':
+        name = input("\nType in the next name. ")
+        names.insert(0, name)
+    else:
+        print("\nInvalid response. Please try again.")
+print(names)
 
-    while True:
-        start.sort_names()
-        start.print_name()
-        choice = input("\nDo you want to scramble again? ")
-        if choice.upper() == "N":
-            break
-    input("Press enter to close the program. ")
-    sys.exit()
-
-
-main()
+random.shuffle(names)
+pairs = [(first_person, second_person) for first_person, second_person in zip(names, names[1:] + [names[0]])]
+print(pairs)

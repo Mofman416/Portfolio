@@ -8,10 +8,11 @@ class Pizza(Frame):
         """This sets up the Pizza program"""
         super(Pizza, self).__init__(master)
         self.grid()  # This is absolutely vital for future GUI projects!
-        self.create_widgets()
         self.name = ""
-        self.size = StringVar
-        self.size.set(self, value="Small")
+        self.size = StringVar()
+        self.size.set(value="small")
+        self.create_widgets()
+
 
     def create_widgets(self):
         """This creates the input types"""
@@ -26,13 +27,13 @@ class Pizza(Frame):
         self.size_label = Label(self, text="Size:")
         self.size_label.grid(row=1, column=0)
 
-        self.size_sml = Radiobutton(self, variable=self.size, value="Small", text="Small")
+        self.size_sml = Radiobutton(self, variable=self.size, value="small", text="Small")
         self.size_sml.grid(row=1, column=1)
 
-        self.size_med = Radiobutton(self, variable=self.size, value="Medium", text="Medium")
+        self.size_med = Radiobutton(self, variable=self.size, value="medium", text="Medium")
         self.size_med.grid(row=1, column=2)
 
-        self.size_lrg = Radiobutton(self, variable=self.size, value="Large", text="Large")
+        self.size_lrg = Radiobutton(self, variable=self.size, value="large", text="Large")
         self.size_lrg.grid(row=1, column=3)
 
 

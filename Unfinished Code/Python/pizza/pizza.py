@@ -1,5 +1,7 @@
 # Michael Freeman
 from tkinter import *
+from tkinter.ttk import Combobox
+
 
 class Pizza(Frame):
     """Initialize the Pizza program"""
@@ -35,6 +37,30 @@ class Pizza(Frame):
 
         self.size_lrg = Radiobutton(self, variable=self.size, value="large", text="Large")
         self.size_lrg.grid(row=1, column=3)
+
+        # Adds ComboBox
+        self.crust_label = Label(self, text="Crust:")
+        self.crust_label.grid(row=2, column=0)
+
+        self.crust_selection = Combobox(self,
+                                        values=[
+                                            "Thin",
+                                            "Thick",
+                                            "Deep dish"
+                                        ])
+        self.crust_selection.grid(row=2, column=1, columnspan=3)
+
+        # Adds Listbox
+        self.toppings_label = Label(self, text="Toppings:")
+        self.toppings_label.grid(row=3, column=0)
+
+        self.toppings_selection = Listbox(self)
+        self.toppings_selection.grid(row=3, column=1)
+        self.toppings_selection.insert(1, "Pepperoni")
+        self.toppings_selection.insert(2, "Sausage")
+        self.toppings_selection.insert(3, "Green Peppers")
+        self.toppings_selection.insert(4, "Olives")
+        self.toppings_selection.insert(5, "Chicken")
 
 
 root = Tk()

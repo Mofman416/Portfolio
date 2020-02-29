@@ -1,6 +1,7 @@
 # Michael Freeman
 from tkinter import *
 from tkinter.ttk import Combobox
+from tkinter import messagebox as mb
 
 
 class Pizza(Frame):
@@ -12,7 +13,9 @@ class Pizza(Frame):
         self.grid()  # This is absolutely vital for future GUI projects!
         self.name = ""
         self.size = StringVar()
-        self.size.set(value="small")
+        self.size.set(value="Small")
+        self.create = StringVar()
+        self.create.set(value="None")
         self.create_widgets()
 
 
@@ -29,13 +32,13 @@ class Pizza(Frame):
         self.size_label = Label(self, text="Size:")
         self.size_label.grid(row=1, column=0)
 
-        self.size_sml = Radiobutton(self, variable=self.size, value="small", text="Small")
+        self.size_sml = Radiobutton(self, variable=self.size, value="Small", text="Small")
         self.size_sml.grid(row=1, column=1)
 
-        self.size_med = Radiobutton(self, variable=self.size, value="medium", text="Medium")
+        self.size_med = Radiobutton(self, variable=self.size, value="Medium", text="Medium")
         self.size_med.grid(row=1, column=2)
 
-        self.size_lrg = Radiobutton(self, variable=self.size, value="large", text="Large")
+        self.size_lrg = Radiobutton(self, variable=self.size, value="Large", text="Large")
         self.size_lrg.grid(row=1, column=3)
 
         # Adds ComboBox
@@ -54,13 +57,54 @@ class Pizza(Frame):
         self.toppings_label = Label(self, text="Toppings:")
         self.toppings_label.grid(row=3, column=0)
 
-        self.toppings_selection = Listbox(self)
-        self.toppings_selection.grid(row=3, column=1)
+        self.toppings_selection = Listbox(self, selectmode="multiple")
+        self.toppings_selection.grid(row=3, column=1, columnspan=3)
         self.toppings_selection.insert(1, "Pepperoni")
         self.toppings_selection.insert(2, "Sausage")
         self.toppings_selection.insert(3, "Green Peppers")
         self.toppings_selection.insert(4, "Olives")
         self.toppings_selection.insert(5, "Chicken")
+
+        # Adds Checkboxes
+        self.sides_label = Label(self, text="Sides:")
+        self.sides_label.grid(row=4, column=0)
+
+        self.sides_soda = Checkbutton(self, text="Soda")
+        self.sides_soda.grid(row=4, column=1)
+
+        self.sides_bread = Checkbutton(self, text="Bread Sticks")
+        self.sides_bread.grid(row=4, column=2)
+
+        self.sides_salad = Checkbutton(self, text="Salad")
+        self.sides_salad.grid(row=4, column=3)
+
+        # Adds order comments, which is a larger text field
+        self.comment_label = Label(self, text="Order Comments")
+        self.comment_label.grid(row=5, column=0)
+
+        self.comment = Text(self, width=35, height=5)
+        self.comment.grid(row=5, column=1, columnspan=3)
+
+        # Adds a confirmation or erasure button
+        self.confirm = Button(self, text="Confirm", width=7, command=self.confirmOrder)
+        self.confirm.grid(row=6, column=1)
+
+        self.deny = Button(self, text="Clear", width=7)
+        self.deny.grid(row=6, column=2)
+
+    def confirmOrder(self):
+        name = self.entername.get("1.0", "end-1c")
+        size = self.size.get()
+        crust = self.crust_selection.get()
+        #toppings = self.toppings_selection.get()
+        comment = self.comment.get("1.0", "end-1c")
+        mb.showinfo("Confirm", "Name: " + name + "\n" "Size: " + size + "\n" + "Crust Type: " + crust + "\n" +
+                    "Toppings: " + "Not Implemented!" + "\n" + "Sides: " + "Not Implemented!" +
+                    "\n" + "Order Comments: " + comment)
+
+    def clearOrder(self):
+        self.entername = ""
+        self.comment = ""
 
 
 root = Tk()

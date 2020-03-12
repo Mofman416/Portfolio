@@ -15,6 +15,9 @@ class Pizza(Frame):
         self.size = StringVar()
         self.size.set(value="Small")
         self.create = StringVar()
+        self.soda = IntVar()
+        self.bread = IntVar()
+        self.salad = IntVar()
         self.create.set(value="None")
         self.create_widgets()
 
@@ -69,13 +72,13 @@ class Pizza(Frame):
         self.sides_label = Label(self, text="Sides:")
         self.sides_label.grid(row=4, column=0)
 
-        self.sides_soda = Checkbutton(self, text="Soda")
+        self.sides_soda = Checkbutton(self, text="Soda", variable=self.soda)
         self.sides_soda.grid(row=4, column=1)
 
-        self.sides_bread = Checkbutton(self, text="Bread Sticks")
+        self.sides_bread = Checkbutton(self, text="Bread Sticks", variable=self.bread)
         self.sides_bread.grid(row=4, column=2)
 
-        self.sides_salad = Checkbutton(self, text="Salad")
+        self.sides_salad = Checkbutton(self, text="Salad", variable=self.salad)
         self.sides_salad.grid(row=4, column=3)
 
         # Adds order comments, which is a larger text field
@@ -93,13 +96,25 @@ class Pizza(Frame):
         self.deny.grid(row=6, column=2)
 
     def confirmOrder(self):
+        side = []
+        try:
+            toppings = self.toppings_selection.get(self.toppings_selection.curselection())
+        except TclError:
+            toppings = "Error! Please select only one topping."
         name = self.entername.get("1.0", "end-1c")
         size = self.size.get()
         crust = self.crust_selection.get()
-        #toppings = self.toppings_selection.get()
+        if self.soda.get() == 1:
+            side.insert(0, "Soda")
+        if self.bread.get() == 1:
+            side.insert(1, "Bread")
+        if self.salad.get() == 1:
+            side.insert(2, "Salad")
+        side_display = side
+        #side = self.sides.get()
         comment = self.comment.get("1.0", "end-1c")
         mb.showinfo("Confirm", "Name: " + name + "\n" "Size: " + size + "\n" + "Crust Type: " + crust + "\n" +
-                    "Toppings: " + "Not Implemented!" + "\n" + "Sides: " + "Not Implemented!" +
+                    "Toppings: " + toppings + "\n" + "Sides: " + side +
                     "\n" + "Order Comments: " + comment)
 
     def clearOrder(self):

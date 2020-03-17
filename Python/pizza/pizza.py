@@ -15,9 +15,8 @@ class Pizza(Frame):
         self.size = StringVar()
         self.size.set(value="Small")
         self.create = StringVar()
-        self.soda = IntVar()
-        self.bread = IntVar()
-        self.salad = IntVar()
+        self.side = StringVar()
+        self.side.set(value="Nothing")
         self.create.set(value="None")
         self.create_widgets()
 
@@ -60,7 +59,7 @@ class Pizza(Frame):
         self.toppings_label = Label(self, text="Toppings:")
         self.toppings_label.grid(row=3, column=0)
 
-        self.toppings_selection = Listbox(self, selectmode="multiple")
+        self.toppings_selection = Listbox(self)
         self.toppings_selection.grid(row=3, column=1, columnspan=3)
         self.toppings_selection.insert(1, "Pepperoni")
         self.toppings_selection.insert(2, "Sausage")
@@ -72,14 +71,14 @@ class Pizza(Frame):
         self.sides_label = Label(self, text="Sides:")
         self.sides_label.grid(row=4, column=0)
 
-        self.sides_soda = Checkbutton(self, text="Soda", variable=self.soda)
-        self.sides_soda.grid(row=4, column=1)
+        self.side_soda = Radiobutton(self, variable=self.size, value="Soda", text="Soda")
+        self.side_soda.grid(row=4, column=1)
 
-        self.sides_bread = Checkbutton(self, text="Bread Sticks", variable=self.bread)
-        self.sides_bread.grid(row=4, column=2)
+        self.side_bread = Radiobutton(self, variable=self.size, value="Bread", text="Bread")
+        self.side_bread.grid(row=4, column=2)
 
-        self.sides_salad = Checkbutton(self, text="Salad", variable=self.salad)
-        self.sides_salad.grid(row=4, column=3)
+        self.side_salad = Radiobutton(self, variable=self.size, value="Salad", text="Salad")
+        self.side_salad.grid(row=4, column=3)
 
         # Adds order comments, which is a larger text field
         self.comment_label = Label(self, text="Order Comments")
@@ -90,36 +89,24 @@ class Pizza(Frame):
 
         # Adds a confirmation or erasure button
         self.confirm = Button(self, text="Confirm", width=7, command=self.confirmOrder)
-        self.confirm.grid(row=6, column=1)
-
-        self.deny = Button(self, text="Clear", width=7)
-        self.deny.grid(row=6, column=2)
+        self.confirm.grid(row=6, column=2)
 
     def confirmOrder(self):
         side = []
         try:
             toppings = self.toppings_selection.get(self.toppings_selection.curselection())
         except TclError:
-            toppings = "Error! Please select only one topping."
+            toppings = "Error! Please  a topping."
         name = self.entername.get("1.0", "end-1c")
         size = self.size.get()
         crust = self.crust_selection.get()
-        if self.soda.get() == 1:
-            side.insert(0, "Soda")
-        if self.bread.get() == 1:
-            side.insert(1, "Bread")
-        if self.salad.get() == 1:
-            side.insert(2, "Salad")
+        side = self.side.get()
         side_display = side
         #side = self.sides.get()
         comment = self.comment.get("1.0", "end-1c")
         mb.showinfo("Confirm", "Name: " + name + "\n" "Size: " + size + "\n" + "Crust Type: " + crust + "\n" +
                     "Toppings: " + toppings + "\n" + "Sides: " + side +
                     "\n" + "Order Comments: " + comment)
-
-    def clearOrder(self):
-        self.entername = ""
-        self.comment = ""
 
 
 root = Tk()

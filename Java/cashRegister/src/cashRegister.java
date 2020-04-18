@@ -23,6 +23,8 @@ public class cashRegister implements ActionListener {
         JFrame cashFrame = new JFrame("Cash Register");
         cashFrame.setLayout(new FlowLayout());
         cashFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        cashFrame.pack();
+        cashFrame.setVisible(true);
 
         JPanel mainPanel = (JPanel)cashFrame.getContentPane();
         mainPanel.setLayout(new BoxLayout(mainPanel,BoxLayout.Y_AXIS));

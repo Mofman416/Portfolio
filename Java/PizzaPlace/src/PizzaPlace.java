@@ -134,15 +134,9 @@ public class PizzaPlace implements ActionListener {
 		mainPanel.add(conRes);
 		
 		//Implements ActionListener to handle button clicks.
+
 		
-		
-		
-		
-		
-		
-		
-		
-		
+		// Sets the GUI to be visible
 		pizzaFrame.pack();
 		pizzaFrame.setVisible(true);
 	}

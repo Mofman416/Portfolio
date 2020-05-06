@@ -10,8 +10,8 @@ import javax.swing.*;
 public class cashRegister implements ActionListener {
     JFrame cashFrame;
     JPanel mainPanel;
-    JTextField cname;
-
+    JButton logOn;
+    JButton reg;
 
     public static void main(String[] args) {
         new cashRegister();
@@ -29,14 +29,21 @@ public class cashRegister implements ActionListener {
         mainPanel.setLayout(new BoxLayout(mainPanel,BoxLayout.Y_AXIS));
         mainPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
-        // Text field test
-        //Text field asking for the customer name.
-        JPanel tfield = new JPanel();
-        JLabel name1 = new JLabel("Customer Name:");
-        tfield.add(name1);
-        cname = new JTextField(20);
-        tfield.add(cname);
-        mainPanel.add(tfield);
+        // The welcome message!
+        JPanel welcome = new JPanel();
+        JLabel hello = new JLabel("Welcome to the system!");
+        welcome.add(hello);
+        mainPanel.add(welcome);
+
+        // Button placements
+        JPanel logButtons = new JPanel();
+        logOn = new JButton("Log On");
+        logOn.addActionListener(this);
+        logButtons.add(logOn);
+        reg = new JButton("Register");
+        reg.addActionListener(this);
+        logButtons.add(reg);
+        mainPanel.add(logButtons);
 
         // Adjusts GUI size with contents and sets the entire GUI the be visible.
         cashFrame.pack();
@@ -45,6 +52,9 @@ public class cashRegister implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-
+        Object control = e.getSource();
+        if (control == reg) {
+            new logR();
+        }
     }
 }

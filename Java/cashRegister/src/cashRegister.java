@@ -12,6 +12,7 @@ public class cashRegister implements ActionListener {
     JPanel mainPanel;
     JButton logOn;
     JButton reg;
+    JButton exit;
 
     public static void main(String[] args) {
         new cashRegister();
@@ -23,11 +24,13 @@ public class cashRegister implements ActionListener {
         JFrame cashFrame = new JFrame("Cash Register");
         cashFrame.setLayout(new FlowLayout());
         cashFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        cashFrame.setLocationRelativeTo(null);
 
 
         JPanel mainPanel = (JPanel)cashFrame.getContentPane();
         mainPanel.setLayout(new BoxLayout(mainPanel,BoxLayout.Y_AXIS));
-        mainPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        mainPanel.setBorder(BorderFactory.createEmptyBorder(50, 50, 50, 50));
+        mainPanel.setLocation(100, 100);
 
         // The welcome message!
         JPanel welcome = new JPanel();
@@ -43,6 +46,9 @@ public class cashRegister implements ActionListener {
         reg = new JButton("Register");
         reg.addActionListener(this);
         logButtons.add(reg);
+        exit = new JButton("Exit");
+        exit.addActionListener(this);
+        logButtons.add(exit);
         mainPanel.add(logButtons);
 
         // Adjusts GUI size with contents and sets the entire GUI the be visible.
@@ -55,6 +61,9 @@ public class cashRegister implements ActionListener {
         Object control = e.getSource();
         if (control == reg) {
             new logR();
+        }
+        if (control == exit) {
+            System.exit(0);
         }
     }
 }

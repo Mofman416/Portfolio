@@ -11,6 +11,7 @@ for _ in range(3):
 while True:
     next = input("\nIs this everyone? Y/N ")
     if next.upper() == 'Y':
+        print("\n")
         break
     elif next.upper() == 'N':
         name = input("\nType in the next name. ")
@@ -22,3 +23,5 @@ print(names)
 random.shuffle(names)
 pairs = [(first_person, second_person) for first_person, second_person in zip(names, names[1:] + [names[0]])]
 print(pairs)
+
+input("Press any key to continue.")

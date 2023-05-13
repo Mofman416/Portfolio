@@ -1,1 +1,0 @@
-This is an example of GUIs that we are doing as a class.

@@ -1,1 +1,0 @@
-We went over more string functions including len, .find and .count.

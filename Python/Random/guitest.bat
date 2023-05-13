@@ -1,2 +1,0 @@
-guitest.py
-pause

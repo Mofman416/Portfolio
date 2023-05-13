@@ -1,3 +1,0 @@
-This is where we experiment with adding, removing and inserting values into a list.
-
-We've used .append(), .remove(), and .insert()

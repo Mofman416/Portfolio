@@ -1,1 +1,0 @@
-This is a continuation of indexing that me and my class did.

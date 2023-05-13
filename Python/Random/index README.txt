@@ -1,1 +1,0 @@
-This is a demonstration on indexing done with the class.

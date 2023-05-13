@@ -1,1 +1,0 @@
-I made another clock, this time it was a program that would update itself and keep at a constant rate. Had a bunch of fancy colors and added an alarm system.

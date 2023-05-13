@@ -1,1 +1,0 @@
-This is the program dump of the beginning of class. Highlights include a name printing program and a mad libs program.

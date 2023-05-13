@@ -1,1 +1,0 @@
-We tried out loops for the first time today and made a kind of program where the player defeats monsters.

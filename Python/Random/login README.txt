@@ -1,1 +1,0 @@
-Made a login program. The user defines the variable for their username and password with some special instructions to check if the password and username is equal to the requirements previously defined. Then we checked the login to see if it matched what was put in the username and password input.

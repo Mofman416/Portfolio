@@ -1,1 +1,0 @@
-This a python text based adventure game made for my class. It has at least 20 choices with some ASCII art. 

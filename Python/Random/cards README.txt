@@ -1,1 +1,0 @@
-We messed with lists and a whole bunch of other things that lead into making cards for the player to play with.

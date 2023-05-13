@@ -1,1 +1,0 @@
-This is a basic calculator program made in class.
